@@ -1,0 +1,45 @@
+/* SAR Style Sheet */
+
+.wid {
+    width: 1024px;
+}
+
+.pos {
+    position: relative;
+    top: 30px;
+}
+
+#nav-area {
+    position: absolute;
+    top: 0;
+    height: 30px;
+    width: 1024px;
+    background-color: #000000;
+    box-shadow: 0px 1px 2px #4a4a4a;
+    -moz-box-shadow: 0px 1px 2px #4a4a4a;
+    -webkit-box-shadow: 0px 1px 2px #4a4a4a;
+}
+
+#logo-area {
+    height: 150px;
+}
+
+#sar-ticker {
+    height: 55px;
+}
+
+#sar-all-lim {
+    height: 125px;
+}
+
+#sar-area {
+    height: 952px;
+}
+
+#sar-fm {
+    height: 150px;
+}
+
+#partners-area {
+    height: 150px;
+}

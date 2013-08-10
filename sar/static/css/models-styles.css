@@ -1,0 +1,44 @@
+/* Models Style Sheet */
+
+.wid {
+    width: 1024px;
+}
+
+.pos {
+    position: relative;
+    top: 30px;
+}
+
+#nav-area {
+    position: absolute;
+    top: 0;
+    height: 30px;
+    background-color: black;
+    box-shadow: 0px 1px 2px #4a4a4a;
+    -moz-box-shadow: 0px 1px 2px #4a4a4a;
+    -webkit-box-shadow: 0px 1px 2px #4a4a4a;
+}
+
+#logo-area {
+    height: 150px;
+}
+
+#models-ticker {
+    height: 60px;
+}
+
+#sel-model {
+    height: 72px;
+}
+
+#models-area {
+    height: 1610px;
+}
+
+#md-fm {
+    height: 150px;
+}
+
+#partners-area {
+    height: 150px;
+}

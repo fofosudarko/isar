@@ -1,0 +1,44 @@
+/* Styling for iSAR Direct */
+
+.wid {
+    width: 1024px;
+} 
+
+.pos {
+    position: relative;
+    top: 30px;
+}
+
+#nav-area {
+    position: absolute;
+    top: 0;
+    height: 30px;
+    background-color: #000000;
+    box-shadow: 0px 1px 2px #4a4a4a;
+    -moz-box-shadow: 0px 1px 2px #4a4a4a;
+    -webkit-box-shadow: 0px 1px 2px #4a4a4a;
+}
+
+#logo-area {
+    height: 150px;
+}
+
+#brands-ticker {
+    height: 60px;
+}
+
+#sel-brd {
+    height: 72px;
+}
+
+#brands-area {
+    height: 500px;
+}
+
+#dd-fm {
+    height: 150px;
+}
+
+#partners-area {
+    height: 150px;
+}

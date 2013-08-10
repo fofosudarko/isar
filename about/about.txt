@@ -1,0 +1,29 @@
+About iSAR Project
+
+1. Overview
+--------------
+
+The issue of electromagnetic radiations/emissions from cell towers and masts has been on the minds of health-conscious citizensfrom many parts of the world. Some believe that radiations from these Electromagnetic (EM) equipment are enough to cause genetic mutations cancers and other health-related disorders. The issue of electromagnetic (EM) radiations from the wireless device such as mobile handsets, which they use sometimes very close to parts of their body e.g. the ear region, is paid less attention to.
+
+The idea to start the iSAR project stemmed from the reasons given above. The project primarily is a database-driven SAR retrieval system where users of wireless devices especially mobile handsets' users can access to know their devices' approved SAR levels as per the radio fequency (RF) exposure guidelines stipulated by independent international scientific organizations e.g International Commission on Non-Ionizing Radiation Protection (ICNIRP).
+
+There is the Federal Communications Commission of the United States of America, CENELEC of the European Union, the National Communications Authority of the Republic of Ghana et al. These are telecommunications regulatory frameworks which are mandated by their jurisdictions to enforce the electromagnetic energy exposure guidelines.
+
+Objectives of iSAR Project
+---------------------------
+
+1. To manage a robust database-driven SAR retrieval system.
+2. This system must house the approved SAR levels of wireless devices manufactured by all wireless devices manufacturers e.g Samsung, Sony Ericsson et al.
+3. Be approved and accredited by international scientific organisations e.g ICNIRP and telecommunications regulatory bodies e.g. Federal Communications Commission of the United States of America.
+4. To develop a mobile application that computes the dynamic SAR levels of users' wireless devices as mobility of wireless devices vary.
+5. To be the number one in providing authentic Specific Absorption Rate information for wireless devices.
+
+Credits
+-------
+1. http://www.tawkon.com/
+2. http://www.sardatabase.com/
+3. http://www.mmfai.org/
+4. http://www.wikipedia.org/
+5. http://www.who.int/
+
+This project is pioneered by code.ricks.

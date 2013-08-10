@@ -1,0 +1,444 @@
+/* Nav CSS */
+
+#nav {
+    position: relative;
+    top: 1px;
+    height: 20px;
+    width: 1024px;
+}
+
+#nav-features {
+    position: relative;
+    height: 20px;
+    width: 700px;
+}
+
+.nav-features {
+    position: relative;
+    height: 20px;
+    width: 90px;
+    float: left;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.sony {
+    width: 120px;
+}
+
+.nav-features > a {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+.nav-features > a:hover {
+    text-decoration: none;
+    color: #ff0404 !important;
+}
+
+.nav-features > a span {
+    position: relative;
+    top: 7px;
+}
+
+#act-nav {
+    position: absolute;
+    height: 30px;
+    width: 324px;
+    left: 700px;
+    top: 0px;
+}
+
+.act-nav {
+    position: relative;
+    height: 30px;
+    width: 108px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.90em;
+}
+
+.act-nav > a {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+.act-nav > a:hover {
+    text-decoration: none;
+    color: #ff0404 !important;
+}
+
+.act-home > a span {
+    position: relative;
+    top: 5px;
+}
+
+.act-sar > a span {
+    position: relative;
+    top: 5px;
+}
+
+.act-about > a span {
+    position: relative;
+    top: 5px;
+}
+
+/* Logo CSS */
+
+#logo {
+    position: relative;
+    height: 130px;
+    width: 300px;
+    background-color: #ff0404;
+    border: solid #f9b9b9 0px;
+    top: 10px;
+    left: 355px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0px 1px 2px #000000;
+    -webkit-box-shadow: 0 1px 2px #000000;
+    box-shadow: 0 1px 2px #000000;
+}
+
+/* About CSS */
+.a-pos {
+    position: relative;
+}
+
+.ab-width {
+    width: 900px;
+    left: 52px;
+}
+
+#ab-area > div:first-child {
+    position: absolute;
+    height: 1362px;
+    width: 1000px;
+    top: 20px;
+    left: 12px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 0 1px 1px #4a4a4a;
+}
+
+#ab-area > div > div:first-of-type {
+    top: 10px;
+    height: 70px;
+}
+
+#ab-area > div > div:first-of-type > div {
+    position: relative;
+    width: 500px;
+    left: 195px;
+    height: inherit !important;
+    text-align: center;
+}
+
+#ab-area > div > div:first-of-type > div span {
+    font-size: 50px;
+    position: relative;
+    top: 3px;
+    color: #000000;
+    font-weight: 500px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+#ab-area > div > div:nth-of-type(2) {
+    height: 150px;
+    top: 20px;
+}
+
+#ab-area > div > div:nth-of-type(2) > div {
+    position: absolute;
+    top: 10px;
+    height: 130px;
+    width: 500px;
+    left: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#ab-area > div > div:nth-of-type(2) > div > div:first-of-type {
+    top: 10px;
+}
+
+#ab-area > div > div:nth-of-type(2) > div > div:nth-of-type(2) {
+    top: 20px;
+}
+
+.ov {
+    top: 2px;
+}
+
+.ov-pos {
+    left: 150px;
+    height: 30px;
+    width: 200px;
+}
+
+#ab-area > div > div:nth-of-type(2) > div > div:last-of-type {
+    top: 30px;
+}
+
+#ab-area > div > div:nth-of-type(3) {
+    height: 340px;
+    top: 30px;
+}
+
+div[title="overview"] {
+    height: 50px;
+    width: 300px;
+    top: 10px;
+    left: 300px;
+    text-align: center;    
+}
+
+.hd {
+    font-size: 40px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#overview-box {
+    top: 20px;
+    width: 800px;
+    left: 50px;
+    height: 260px;
+    font-size: 13px;
+}
+
+#overview-box > div div:first-of-type {
+    top: 10px;
+}
+
+#overview-box > div div:nth-of-type(2) {
+    top: 20px;
+}
+
+#overview-box > div div:nth-of-type(3) {
+    top: 30px;
+}
+
+.ov-left {
+    left: 10px;
+    text-align: justify;
+    width: 780px;
+}
+
+#ab-area > div > div:nth-of-type(4) {
+    height: 315px;
+    top: 40px;
+}
+
+
+div[title="Project Objectives"] {
+    top: 10px;
+    height: 50px;
+    width: 400px;
+    left: 250px;
+    text-align: center;
+    
+}
+
+#obj-box {
+    top: 10px;
+    left: 50px;
+    height: 230px;
+    width: 800px;
+    font-size: 13px;
+}
+
+#obj-box > div {
+    top: 10px;
+    left: 10px;
+    width: 780px
+}
+
+
+#ab-area > div > div:nth-of-type(5) {
+    height: 300px;
+    top: 50px;
+}
+
+#credits {
+    top: 10px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    left: 340px;     
+}
+
+#cred-box {
+    top: 30px;
+    height: 200px;
+    width: 300px;
+    left: 300px;
+}
+
+#cred-box > div ol li {
+    list-style-type: none;
+}
+
+#cred-box > div ol li a {
+    color: inherit !important;
+}
+
+#cred-box > div ol li a:hover {
+    color: #038bfd !important;
+}
+
+#cred-box div {
+    font-size: 13px;
+    top: 10px;
+    left: 10px;
+    width: 280px;
+}
+
+#ab-area > div > div:nth-of-type(6) {
+    height: 50px;
+    top: 80px; 
+}
+
+div[title="code.ricks"] {
+    height: 40px;
+    top: 5px;
+    width: 600px;
+    left: 150px;
+    text-align: center;    
+}
+
+div[title="code.ricks"] span {
+    font-family: "Helvetica" sans-serif;
+    font-size: 12px;
+    top: 7px;
+    font-weight: 600px;
+    font-style: normal;
+}
+
+div[title="code.ricks"] span address a {
+    color: inherit !important;
+}
+
+div[title="code.ricks"] span address a:hover {
+    color: #038bfd !important;
+} 
+
+/* Ticker CSS */
+
+#ab-ticker > div {
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    width: 850px;
+    left: 25px;
+}
+
+/* Partners CSS */
+
+#partners-area {
+    font-size: 12px;
+}
+
+#partners {
+    position: relative;
+    top: 5px;
+    left: 105px;
+    height: 40px;
+    width: 820px; 
+}
+
+.partners {
+    height: 40px;
+    width: 120px;
+}
+
+#part-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#part-2 {
+    position: absolute;
+    left: 140px;
+}
+
+#part-3 {
+    position: absolute;
+    left: 280px;
+}
+
+#part-4 {
+    position: absolute;
+    left: 420px;
+}
+
+#part-5 {
+    position: absolute;
+    left: 560px;
+}
+
+#part-6 {
+    position: absolute;
+    left: 700px;
+}
+
+/* Footer CSS */ 
+
+.copyright {
+    position: relative;
+    top: 12px;
+    font-size: 12px;
+}
+
+#site-map {
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+    height: 30px;
+    width: 600px;
+    float: right;
+    font-size: 12px;
+}
+
+.site-map {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    float: left;
+}
+
+.site-map > a {
+    position: relative;
+    top: 8px;
+    left: 30px;
+    color: inherit !important;
+    text-decoration: none; 
+}
+
+.site-map > a:hover {
+    color: #038bfd !important;
+}
+
+.home {
+    left: 200px;
+}
+
+.sar {
+    left: 200px;
+}
+
+.about {
+    left: 200px;
+}
+
+.help {
+    left: 200px;
+}

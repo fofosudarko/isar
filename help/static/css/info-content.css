@@ -1,0 +1,408 @@
+/* content stylesheet */
+
+/* Nav CSS */
+
+#nav {
+    position: relative;
+    top: 1px;
+    height: 20px;
+    width: 1024px;
+}
+
+#nav-features {
+    position: relative;
+    height: 20px;
+    width: 700px;
+}
+
+.nav-features {
+    position: relative;
+    height: 20px;
+    width: 90px;
+    float: left;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.sony {
+    width: 120px;
+}
+
+.nav-features > a {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+.nav-features > a:hover {
+    text-decoration: none;
+    color: #ff0404 !important;
+}
+
+.nav-features > a span {
+    position: relative;
+    top: 7px;
+}
+
+#act-nav {
+    position: absolute;
+    height: 30px;
+    width: 324px;
+    left: 700px;
+    top: 0px;
+}
+
+.act-nav {
+    position: relative;
+    height: 30px;
+    width: 108px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.90em;
+}
+
+.act-nav > a {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+.act-nav > a:hover {
+    text-decoration: none;
+    color: #ff0404 !important;
+}
+
+.act-home > a span {
+    position: relative;
+    top: 5px;
+}
+
+.act-sar > a span {
+    position: relative;
+    top: 5px;
+}
+
+.act-about > a span {
+    position: relative;
+    top: 5px;
+}
+
+/* Logo CSS */
+
+#logo {
+    position: relative;
+    height: 130px;
+    width: 300px;
+    background-color: #ff0404;
+    border: solid #f9b9b9 0px;
+    top: 10px;
+    left: 355px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: #000000 0px 1px 3px 0px;
+    -webkit-box-shadow: #000000 0px 1px 3px 0px;
+    box-shadow: #000000 0px 1px 3px 0px;
+}
+
+/* Ticker CSS */
+
+#ticker > div {
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    width: 850px;
+    left: 25px;
+    color: #a7a7a1;
+}
+
+/* Info CSS */
+
+.info-pos {
+    position: absolute;
+    height: 1312px;
+    top: 0;
+}
+#ad-1 {
+    width: 100px;
+    left: 0;
+}
+
+#info {
+    width: 824px;
+    left: 100px;
+}
+
+.inner {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 804px;
+    height: 1312px;
+}
+
+.inner-style {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: solid #f2f2f2 1px;
+    text-align: center;
+    color: #000000;
+    box-shadow: 0px 1px 2px #000000;
+	-webkit-box-shadow: 0 1px 2px #000000;
+	-moz-box-shadow: 0 1px 2px #000000;
+}
+.inner > div:first-child {
+    position: absolute;
+    height: 70px;
+    width: 794px;
+    top: 5px;
+    left: 5px;
+}
+
+.inner > div:first-child > div span {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 70px;
+    border-bottom-color: #0f0f0f;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.inner-pos {
+     position: relative;
+     left: 5px;
+     width: 794px;
+}
+
+.inner > div:nth-child(2) {
+    top: 85px;
+    height: 500px;
+}
+
+.inner > div:nth-child(2) > div {
+    text-align: justify;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 754px;
+}
+
+.div-1 > span:first-of-type {
+    position: absolute;
+    font-weight: 500;
+    font-size: 15px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.div-1 > span:nth-of-type(2) {
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.div-1 > span:nth-of-type(3) {
+    position: relative;
+    top: 40px;
+    font-size: 15px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.div-1 > span:nth-of-type(4) {
+    position: relative;
+    font-size: 10px;
+    top: 55px;
+}
+
+.div-1 > div:first-of-type {
+    position: relative;
+    top: 50px;
+    font-size: 10px;
+}
+
+.div-1 > span:nth-of-type(5) {
+    position: relative;
+    font-size: 15px;
+    top: 65px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.div-1 > span:nth-of-type(6) {
+    position: relative;
+    top: 70px;
+    font-size: 10px;
+}
+
+.div-1 > div:last-of-type {
+    position: relative;
+    top: 60px;
+    font-size: 10px;
+}
+
+.div-1 > span:nth-of-type(7) {
+    position: relative;
+    font-size: 15px;
+    top: 65px;
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.div-1 > span:last-of-type {
+    position: relative;
+    top: 70px;
+    font-size: 10px;
+}
+
+.inner > div:nth-child(3) {
+    top: 200px;
+    height: 70px;
+}
+
+.inner > div:nth-child(3) > span:first-of-type {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 70px;
+    border-bottom-color: #0f0f0f;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+} 
+
+.inner > div:nth-child(4) {
+    top: 210px;
+    height: 500px;
+}
+
+.inner > div:nth-child(4) > div:first-of-type {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 754px;
+    text-align: justify;
+}
+
+.inner > div:nth-child(4) > div:first-of-type > span:first-of-type {
+    font-size: 10px;
+}
+
+.inner > div:nth-child(4) > div:first-of-type > div:first-of-type {
+    font-size: 10px;
+}
+
+#ad-2 {
+    width: 100px;
+    left: 924px;
+}  
+
+/* Partners CSS */
+
+#partners-area {
+    font-size: 12px;
+}
+
+#partners {
+    position: relative;
+    top: 5px;
+    left: 105px;
+    height: 40px;
+    width: 820px; 
+}
+
+.partners {
+    height: 40px;
+    width: 120px;
+}
+
+#part-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#part-2 {
+    position: absolute;
+    left: 140px;
+}
+
+#part-3 {
+    position: absolute;
+    left: 280px;
+}
+
+#part-4 {
+    position: absolute;
+    left: 420px;
+}
+
+#part-5 {
+    position: absolute;
+    left: 560px;
+}
+
+#part-6 {
+    position: absolute;
+    left: 700px;
+}
+
+/* Footer CSS */
+
+.copyright {
+    position: relative;
+    top: 12px;
+    font-size: 12px;
+}
+
+#site-map {
+    margin: 0 auto;
+    position: relative;
+    top: -10px;
+    height: 30px;
+    width: 600px;
+    float: right;
+    font-size: 12px;
+}
+
+.site-map {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    float: left;
+}
+
+.site-map > a {
+    position: relative;
+    top: 8px;
+    left: 30px;
+    color: inherit !important;
+    text-decoration: none; 
+}
+
+.site-map > a:hover {
+    color: #038bfd !important;
+}
+
+.home {
+    left: 200px;
+}
+
+.sar {
+    left: 200px;
+}
+
+.about {
+    left: 200px;
+}
+
+.help {
+    left: 200px;
+}
+

@@ -1,0 +1,36 @@
+/* Inner styling for info.php */
+
+#nav-area {
+    position: absolute;
+    top: 0;
+    height: 30px;
+    width: 1024px;
+    background-color: #000000;
+    box-shadow: 0px 1px 2px #4a4a4a;
+    -moz-box-shadow: 0px 1px 2px #4a4a4a;
+    -webkit-box-shadow: 0px 1px 2px #4a4a4a;
+}
+
+.pos {
+    position: relative;
+    top: 30px;
+}
+
+#logo-area {
+    height: 150px;
+    width: 1024px;
+}
+
+#ticker-area {
+    height: 50px;
+}
+
+#info-area {
+    height: 1312px;
+}
+
+#partners-area {
+    height: 50px;
+}
+
+

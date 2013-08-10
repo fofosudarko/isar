@@ -1,0 +1,190 @@
+/* Styling for iSARDirect web application */
+
+#brands-select-menu {
+	height: 40px;
+	width: 700px;
+	font-size: 20px;
+}
+
+#brands-select-menu > option {
+	color: #000000;
+}
+
+div#brands-select-positioning {
+	position: absolute;
+	top: 120px;
+	left: 65px;
+}
+
+#brd-name {
+    position: relative;
+    height: 130px;
+    width: 450px;
+    background-color: #161616;
+    border: solid #161616 3px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-box-shadow: #4a4a4a 0px 1px 3px 0px;
+    -webkit-box-shadow: #4a4a4a 0px 1px 3px 0px;
+    -webkit-border-radius: #4a4a4a 0px 1px 3px 0px;
+    box-shadow: #4a4a4a 0px 1px 3px 0px;
+    border-radius: 30px;
+    top: 5px;
+    left: 175px;
+    text-align: center;
+    letter-spacing: -2px;
+}
+
+#brd-name > span {
+    position: relative;
+    color: #ffffff;
+    font-size: 60px;
+    top: 30px;
+}
+
+/*#brd-name:hover {
+    background-color: #9a1c1c;
+    border: solid #9a1c1c 3px;
+}*/
+
+#sel-md {
+    position: relative;
+    top: 5px;
+    height: 40px;
+    width: 750px;
+    left: 25px;
+}
+
+#sel-md > span {
+    position: relative;
+    color: #161616;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    left: 105px;
+    text-shadow: 1px 1px 1px #4a4a4a;
+    filter: progid:DXImageTransform.Microsoft.DropShadow(color="#4a4a4a", offX = 2, offY = 2, offZ = 3);        
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #070707;
+    letter-spacing: -1px;
+}
+
+/*#sel-md > span:hover {
+    color: #9a1c1c;
+}*/
+
+#md-area > div {
+    position: relative;
+    width: 750px;
+    height: inherit !important;
+    top: 10px;
+    left: 15px;
+}
+
+.md-sel-area {
+    position: relative;
+    height: 300px;
+    width: 720px;
+    border: solid #d0d0d0 0;
+    background-color: #eaeaea;
+    border-radius: 20px;
+    left: 25px;
+    top: 30px;
+	box-shadow: 0 1px 2px #000000;
+	-moz-box-shadow: 0 1px 2px #000000;
+	-webkit-box-shadow: 0 1px 2px #000000;
+}
+
+.header-content > h3 a {
+    font-weight: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-content > h3 a span {
+    position: relative;
+    font-size: 40px;
+    color: #fff;
+    top: -6px;
+}
+
+.app {
+    background-color: #ffffff; /*3d3d3d*/
+	color: #000000;
+	border: solid #bcbcbc 3px;
+	/*-moz-box-shadow: black 0 2px 2px 0;
+	-webkit-box-shadow: black 0 2px 2px 0;*/
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-family: "Arial";
+}
+
+.brands-option-style {
+    background-color: #ffffff;
+    height: 25px;
+}
+
+.model-select-positioning {
+    position: relative;
+    top: 85px;
+    left: 40px;
+}
+
+.models-option-style {
+    background-color: #ffffff; /*b5ff04*/
+    height: 25px;
+}
+
+.select-model {
+    font-size: 20px;
+    height: 40px;
+    width: 650px;
+}
+
+.models-content-box {
+    height: 500px;
+    width: 750px;
+    border: outset #0171ab 2px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: transparent; /*#d3fofd*/
+    position: relative;
+}
+
+.inline-button-style {
+    -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+	height: 60px; width: 200px; /*-moz-box-shadow: black 0 2px 2px 0; -webkit-box-shadow: black 0 2px 2px 0;*/
+	color: #969696; cursor: pointer; font-size: 25px; font-weight: bold; left: 0px; top: 0px;
+}
+
+.sub-button-position {
+    position: absolute;
+    top: 160px; left: 260px;
+}
+
+
+#submit-button {
+		background-color: #d2d2d2;
+		border: solid #bcbcbc 3px;
+	}
+
+	#submit-button:hover {
+		background-color: #dbdbdb;
+		border: solid #cdcdcd 3px;
+	}
+
+.header-box {
+    background-color: #727272; border: solid #727272 3px; -moz-border-radius: 15px; -webkit-border-radius: 15px;
+    box-shadow: #000000 0px 1px 2px 0;
+    -webkit-box-shadow: #000000 0px 1px 2px 0;
+    -moz-box-shadow: #000000 0px 1px 2px 0;
+    border-radius: 15px; position: relative; height: 70px; width: 200px; left: 280px; top: 20px;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.header-content {
+    text-align: center;
+}	
