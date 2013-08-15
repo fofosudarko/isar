@@ -326,7 +326,7 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
             <div id="lower-body">
                 <div>
                     <div class="copyright">
-                        <span>&copy;2012</span>&nbsp;
+                        <span>&copy;<?=date("Y");?></span>&nbsp;
                         <span>The iSAR Project</span>
                     </div>
                     <div id="site-map">
