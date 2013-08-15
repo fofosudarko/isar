@@ -69,7 +69,7 @@
 
 .act-nav > a:hover {
     text-decoration: none;
-    color: #ff0404 !important;
+    color: #ffffff !important;
 }
 
 .act-home > a span {
@@ -95,11 +95,7 @@
     border: solid #f9b9b9 0px;
     top: 10px;
     left: 355px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
     border-radius: 10px;
-    -moz-box-shadow: #000000 0px 1px 3px 0px;
-    -webkit-box-shadow: #000000 0px 1px 3px 0px;
     box-shadow: #000000 0px 1px 3px 0px;
 }
 
@@ -126,8 +122,6 @@
     width: 800px;
     background-color: #fff;
     left: 110px;
-    -moz-box-shadow: #4a4a4a 0px 1px 5px 0px;
-    -webkit-box-shadow: #4a4a4a 0px 1px 5px 0px;
     box-shadow: #4a4a4a 0px 1px 5px 0px; 
 }
 
@@ -135,11 +129,7 @@
     height: 100px;
     width: 200px;
     background-color: #727272;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
     border-radius: 10px;
-    -moz-box-shadow: #4a4a4a 0px 1px 4px 0px;
-    -webkit-box-shadow: #4a4a4a 0px 1px 4px 0px;
     box-shadow: #4a4a4a 0px 1px 4px 0px;
     border: solid #fff 2px;
     color: #fff;
