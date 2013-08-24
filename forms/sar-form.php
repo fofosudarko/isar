@@ -58,9 +58,9 @@
                             <div class="nav-features sony"><a href="./" target="_self" title="Sony Ericsson&reg;"><span>Sony Ericsson&reg;</span></a></div>
                         </div>-->
                         <div id="act-nav">
-                            <div class="act-nav act-home"><a href="./" target="_self" title="Home"><span>Home</span></a></div>
-                            <div class="act-nav act-sar"><a href="./sar/direct.php" target="_self" title="Specific Absorption Rate"><span>SAR</span></a></div>
-                            <div class="act-nav act-about"><a href="./about/" target="_self" title="About"><span>About</span></a></div>
+                            <div class="act-nav act-home"><a href="./../" target="_self" title="Home"><span>Home</span></a></div>
+                            <div class="act-nav act-sar"><a href="./../sar/direct.php" target="_self" title="Specific Absorption Rate"><span>SAR</span></a></div>
+                            <div class="act-nav act-about"><a href="./../about/" target="_self" title="About"><span>About</span></a></div>
                         </div>
                     </div>
                 </div>
