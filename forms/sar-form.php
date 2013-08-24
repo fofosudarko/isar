@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="keywords" content="">
-        <title>Forms Template</title>
+        <title>Fill&nbsp;SAR&nbsp;Form&nbsp;&ndash;&nbsp;iSAR!</title>
         <link rel="stylesheet" href="./../static/css/layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/content.css" type="text/css" media="screen">

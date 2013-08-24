@@ -4,7 +4,7 @@
     position: relative;
     top: 1px;
     height: 20px;
-    width: 1024px;
+    width: 1280px;
 }
 
 #nav-features {
@@ -46,7 +46,7 @@
     position: absolute;
     height: 30px;
     width: 324px;
-    left: 700px;
+    left: 950px;
     top: 0px;
 }
 
@@ -94,7 +94,7 @@
     background-color: #ff0404;
     border: solid #f9b9b9 0px;
     top: 10px;
-    left: 355px;
+    left: 500px;
     border-radius: 10px;
     box-shadow: 0 1px 2px #000000;
 }
@@ -114,7 +114,7 @@
     height: 1362px;
     width: 1000px;
     top: 20px;
-    left: 12px;
+    left: 130px;
     background-color: #f2f2f2;
     border-radius: 10px;
     box-shadow: 0 1px 1px #4a4a4a;
@@ -343,7 +343,7 @@ div[title="code.ricks"] span address a:hover {
 #partners {
     position: relative;
     top: 5px;
-    left: 105px;
+    left: 200px;
     height: 40px;
     width: 820px; 
 }

@@ -1,13 +1,16 @@
 /* Inner styles */
 
+.pos_f {
+	position: fixed;
+}
+
 #ac-nav-area {
-    position: fixed;
     top: 0;
     height: 30px;
-    width: 1024px;
+    width: 1280px;
     background-color: #000000;
     box-shadow: 0px 1px 2px #4a4a4a;
-	z-index: 2;
+   	z-index: 2;
 }
 
 .i-pos {
@@ -17,7 +20,7 @@
 
 #logo-area {
     height: 150px;
-    width: 1024px;
+    width: 1280px;
 }
 
 #ticker-area {

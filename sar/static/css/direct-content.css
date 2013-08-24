@@ -6,7 +6,7 @@
     position: relative;
     top: 1px;
     height: 20px;
-    width: 1024px;
+    width: 1280px;
 }
 
 #nav-features {
@@ -48,7 +48,7 @@
     position: absolute;
     height: 30px;
     width: 324px;
-    left: 700px;
+    left: 950px;
     top: 0px;
 }
 
@@ -102,7 +102,7 @@
 #app-logo {
     position: absolute;
     top: 12px;
-    left: 355px;
+    left: 475px;
     height: 140px;
     width: 320px;
     background-color: #f9a503;
@@ -125,7 +125,7 @@ img[title="Direct logo"] {
 #b-ticker {
     position: absolute;
     top: 10px;
-    left: 12px;
+    left: 90px;
     height: 40px;
     width: 1000px;
     margin: 0 auto;
@@ -146,7 +146,7 @@ img[title="Direct logo"] {
     font-size: 50px;
     text-transform: capitalize;
     text-align: center;
-    left: 80px;
+    left: 200px;
     text-shadow: 1px 1px 1px #000000;
     filter: progid:DXImageTransform.Microsoft.DropShadow(color="#4a4a4a", offX = 2, offY = 2, offZ = 3);        
     border-bottom-style: solid;
@@ -160,7 +160,7 @@ img[title="Direct logo"] {
     height: 450px;
     width: 1000px;
     top: 25px;
-    left: 12px;
+    left: 120px;
 }
 
 .fieldset {
@@ -179,12 +179,12 @@ img[title="Direct logo"] {
     position: relative;
     height: 110px;
     width: 600px;
-    left: 212px;
+    left: 320px;
     top: 2px;
     color: #fff;
     background-color: #727272;
-    border-radius: 20px;
-    box-shadow: 0px 1px 3px 0px #000000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px #000000;
     border: 2px solid #fff;
     text-align: center;
     text-transform: capitalize;
@@ -212,7 +212,7 @@ img[title="Direct logo"] {
     position: absolute;
     height: 130px;
     width: 1000px;
-    left: 12px;
+    left: 130px;
     top: 10px;
     font-size: 12px;
 }
