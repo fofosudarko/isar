@@ -47,7 +47,7 @@
     <body dir="ltr">
         <div id="body">
             <div id="upper-body">
-                <div id="ac-nav-area">
+                <div id="ac-nav-area" class="pos_f">
                     <div id="nav">
                         <!--<div id="nav-features">
                             <div class="nav-features"><a href="./" target="_self" title="Apple&reg;"><span>Apple&reg;</span></a></div>

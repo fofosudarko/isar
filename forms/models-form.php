@@ -1,20 +1,12 @@
-<?php
-session_start();
-
-include_once ("");
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="keywords" content="">
-        <title>Device&nbsp;Model&nbsp;Form&nbsp;&mdash;&nbsp;iSAR!</title>
+        <title>Fill&nbsp;Models&nbsp;Form&nbsp;&ndash;&nbsp;iSAR!</title>
         <link rel="stylesheet" href="./../static/css/layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/content.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./static/css/forms.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../sar/static/css/ticker-style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/default/default.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/nivo-slider.css" type="text/css" media="screen">
@@ -55,7 +47,7 @@ include_once ("");
     <body dir="ltr">
         <div id="body">
             <div id="upper-body">
-                <div id="ac-nav-area">
+                <div id="ac-nav-area" class="pos_f">
                     <div id="nav">
                         <!--<div id="nav-features">
                             <div class="nav-features"><a href="./" target="_self" title="Apple&reg;"><span>Apple&reg;</span></a></div>
@@ -98,7 +90,10 @@ include_once ("");
                         </div>
                     </div>
                 </div>
-                <div id="forms-area" class="i-pos">
+                <div id="img-area" class="i-pos theme-default">
+                    
+                </div>
+                <div id="nav-area" class="i-pos">
                     
                 </div>
                 <div id="partners-area" class="i-pos">
@@ -151,14 +146,14 @@ include_once ("");
             <div id="lower-body">
                 <div>
                     <div class="copyright">
-                        <span>&copy;<?=date("Y");?></span>&nbsp;
+                        <span>&copy;2012</span>&nbsp;
                         <span>The iSAR Project</span>
                     </div>
                     <div id="site-map">
                         <div>
-                                <div class="site-map home"><a href="./../" target="_self" title="Home">Home</a></div>
-                                <div class="site-map sar"><a href="./../sar/direct.php" target="_self" title="Go to SAR page">SAR</a></div>
-                                <div class="site-map about"><a href="./../about/" target="_self" title="About">About</a></div>
+                                <div class="site-map home"><a href="./" target="_self" title="Home">Home</a></div>
+                                <div class="site-map sar"><a href="./sar/direct.php" target="_self" title="Go to SAR page">SAR</a></div>
+                                <div class="site-map about"><a href="./about/" target="_self" title="About">About</a></div>
                                 <div class="site-map help"><a href="#" target="_self" title="Explains some acronyms">Help</a></div>                        
                         </div>
                     </div>
