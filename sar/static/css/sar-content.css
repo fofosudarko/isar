@@ -4,7 +4,7 @@
     position: relative;
     top: 1px;
     height: 20px;
-    width: 1024px;
+    width: 1280px;
 }
 
 #nav-features {
@@ -46,7 +46,7 @@
     position: absolute;
     height: 30px;
     width: 324px;
-    left: 700px;
+    left: 950px;
     top: 0px;
 }
 
@@ -100,7 +100,7 @@
 #app-logo {
     position: absolute;
     top: 12px;
-    left: 355px;
+    left: 475px;
     height: 140px;
     width: 320px;
     background-color: #f9a503;
@@ -125,7 +125,7 @@ img[title="Direct logo"] {
 #s-ticker {
     position: absolute;
     top: 10px;
-    left: 12px;
+    left: 90px;
     height: 40px;
     width: 1000px;
     margin: 0 auto;
@@ -137,13 +137,13 @@ img[title="Direct logo"] {
 .limit {
     height: 116px;
     width: 300px;
-    border-radius: 15px;
+    border-radius: 5px;
     text-align: center;
     color: #fff;
     text-shadow: #000000 0px 1px 1px;
     background-color: #727272;
-	border: solid #727272 1px;
-	box-shadow: 0 1px 3px #000000;
+	  border: solid #727272 1px;
+	  box-shadow: 0 0px 4px 0px #000000;
 }
 
 .fcc {
@@ -154,7 +154,7 @@ img[title="Direct logo"] {
 
 .cenelec {
     position: relative;
-    left: 710px;
+    left: 950px;
     top: 0;    
 }
 
@@ -174,7 +174,7 @@ img[title="Direct logo"] {
     position: relative;
     top: 0;
     width: 524px;
-    left: 250px;
+    left: 367px;
 }
 
 #brd-nm {
@@ -315,12 +315,12 @@ a[title="More Info on Recommendations"] > span:hover {
     position: relative;
     height: 110px;
     width: 600px;
-    left: 215px;
+    left: 330px;
     top: 0px;
     color: #fff;
     background-color: #727272;
-    border-radius: 20px;
-    box-shadow: 0px 1px 3px 0px #000000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px #000000;
     border: 2px solid #fff;
     text-align: center;
     text-transform: capitalize;
@@ -350,7 +350,7 @@ a[title="More Info on Recommendations"] > span:hover {
     position: absolute;
     height: 130px;
     width: 1000px;
-    left: 12px;
+    left: 130px;
     top: 10px;
     font-size: 12px;
 }

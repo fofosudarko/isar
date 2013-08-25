@@ -6,7 +6,7 @@
     position: relative;
     top: 1px;
     height: 20px;
-    width: 1024px;
+    width: 1280px;
 }
 
 #nav-features {
@@ -48,7 +48,7 @@
     position: absolute;
     height: 30px;
     width: 324px;
-    left: 700px;
+    left: 950px;
     top: 0px;
 }
 
@@ -94,7 +94,7 @@
     background-color: #ff0404;
     border: solid #f9b9b9 0px;
     top: 10px;
-    left: 355px;
+    left: 500px;
     border-radius: 10px;
     box-shadow: #000000 0px 1px 3px 0px;
 }
@@ -104,7 +104,7 @@
     height: 40px;
     top: 5px;
     width: 900px;
-    left: 55px;
+    left: 100px;
 }
 
 #ticker > div {
@@ -121,16 +121,17 @@
     height: 400px;
     width: 800px;
     background-color: #fff;
-    left: 110px;
+    left: 240px;
     box-shadow: #4a4a4a 0px 1px 5px 0px; 
+		z-index: 1;
 }
 
 .nav {
     height: 100px;
     width: 200px;
     background-color: #727272;
-    border-radius: 10px;
-    box-shadow: #4a4a4a 0px 1px 4px 0px;
+    border-radius: 5px;
+    box-shadow: #4a4a4a 0px 0px 4px 0px;
     border: solid #fff 2px;
     color: #fff;
     text-align: center;
@@ -147,12 +148,12 @@
 #features {
     position: relative;
     top: 5px;
-    left: 200px;    
+    left: 310px;    
 }
 
 #direct {
     position: relative;
-    left: 620px;
+    left: 770px;
     top: -100px;
 }
 
@@ -197,7 +198,7 @@ a[title="Click to browse SAR database!!!"] {
 #partners {
     position: relative;
     top: 5px;
-    left: 105px;
+    left: 200px;
     height: 40px;
     width: 820px; 
 }

@@ -6,7 +6,7 @@
     position: relative;
     top: 1px;
     height: 20px;
-    width: 1024px;
+    width: 1280px;
 }
 
 #nav-features {
@@ -48,7 +48,7 @@
     position: absolute;
     height: 30px;
     width: 324px;
-    left: 700px;
+    left: 950px;
     top: 0px;
 }
 
@@ -96,7 +96,7 @@
     background-color: #ff0404;
     border: solid #f9b9b9 0px;
     top: 10px;
-    left: 355px;
+    left: 475px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -112,7 +112,7 @@
     height: 30px;
     top: 5px;
     width: 850px;
-    left: 25px;
+    left: 90px;
     color: #a7a7a1;
 }
 
@@ -130,7 +130,7 @@
 
 #info {
     width: 824px;
-    left: 100px;
+    left: 205px;
 }
 
 .inner {
@@ -312,7 +312,7 @@
 #partners {
     position: relative;
     top: 5px;
-    left: 105px;
+    left: 200px;
     height: 40px;
     width: 820px; 
 }

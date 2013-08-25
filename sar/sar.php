@@ -1,11 +1,11 @@
 <?php
-session_name("sar info page");
-session_start();
+session_name ("sar info page");
+session_start ();
 
 // Create sar results page
 // Get hidden field value from input field
 
-$brandName = strval($_REQUEST["brand-name"]);
+$brandName = strval ($_REQUEST["brand-name"]);
 
 if ($brandName != "") {
 	switch ($brandName) {
