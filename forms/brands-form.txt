@@ -1,6 +1,0 @@
-POST brand name
-POST model of handset
-POST type of device
-POST serial number if possible
-POST IMEI
-POST SAR value of device if possible
