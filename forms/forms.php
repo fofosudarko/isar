@@ -139,9 +139,7 @@
             </div>
         </div>
         <!-- js: for faster webpage loading -->
-        <script type="language" src="./../static/js/prettify/prettify.min.js" type="text/javascript">
         <script language="javascript" src="./../static/js/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="./../static/js/twitter-bootstrap/bootstrap.min.js"></script>
         <script type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
         <script type="text/javascript" src="./../static/js/js.plugins/jquery.nivo.slider.pack.js" language="javascript"></script>
         <script type="text/javascript" language="javascript">
@@ -166,5 +164,8 @@
                 }
             );           
         </script>
+        <script type="text/javascript" src="./../static/js/twitter-bootstrap/bootstrap.min.js"></script>
+        <!-- Bootstrap js plugins -->
+        <script type="language" src="./../static/js/prettify/prettify.min.js" type="text/javascript">
     </body>
 </html>
