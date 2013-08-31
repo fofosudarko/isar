@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
         <title>iSAR! - your one-stop place to know your wireless devices' SAR values</title>
         <link rel="stylesheet" type="text/css" href="./static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./static/css/twitter-bootstrap/bootstrap-responsive.min.css">

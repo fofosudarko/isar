@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="" content>
+        <meta charset="utf-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
         <title>Device&nbsp;Safety&nbsp;Information</title>
         <link rel="stylesheet" href="./static/css/info-layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/info-styles.css" type="text/css" media="screen">
