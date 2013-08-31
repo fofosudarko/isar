@@ -136,7 +136,7 @@
 #ab-area > div > div:first-of-type > div span {
     font-size: 50px;
     position: relative;
-    top: 3px;
+    top: 15px;
     color: #000000;
     font-weight: 500px;
     border-bottom-color: #000000;
@@ -411,7 +411,7 @@ div[title="code.ricks"] span address a:hover {
 
 .site-map > a {
     position: relative;
-    top: 8px;
+    top: 4px;
     left: 30px;
     color: inherit !important;
     text-decoration: none; 

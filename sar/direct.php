@@ -92,7 +92,7 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                 <div id="dd-fm" class="wid pos">
                     <div>
                         <div>
-                            <a href="./../forms/brands-form.php" title="Fill Brands Form">
+                            <a href="./../forms/forms.php" title="Fill Brands Form">
                                 <span>
                                     device&nbsp;brand&nbsp;not&nbsp;found?
                                 </span>

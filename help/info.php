@@ -8,24 +8,8 @@
         <link rel="stylesheet" href="./static/css/info-styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/info-content.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/ticker-style.css" type="text/css" media="screen">
-        <script language="javascript" src="./../static/js/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
-        <script type="text/javascript" language="javascript">
-            $(
-                function()
-                {
-                    $("#js-news").ticker(
-                        {
-                            titleText: '',
-                            speed: 0.15,
-                            fadeInSpeed: 300,
-                            fadeOutSpeed: 300,
-                            controls: false,
-                        }
-                    );
-                }
-            );
-        </script>
+        <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
         <noscript>
             <meta http-equiv="Refresh" content="0; url='./../noscript.html'">
         </noscript>
@@ -103,7 +87,7 @@
                                             </span><br>
                                             <div>
                                             <ul style="list-style-type: none;">
-                                            <li>Precautionary measures:<br><br>
+                                            <li>Precautionary measures:<br><!--<br>-->
                                                 <ul style="list-style-type: none;">
                                                     <li>Present scientific information does not indicate the need for any special precautions for the use of mobile phones.</li>
                                                     <li>If individuals are concerned, they might choose to limit their own or their children's RF by limiting the length of calls, or using</li>
@@ -242,5 +226,22 @@
                 </div>
             </div>
         </div>
+        <!-- js: for faster webpage loading -->
+        <script type="text/javascript" src="./../static/js/jquery/jquery-1.7.1.min.js" language="javascript"></script>
+        <script type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
+        <script type="text/javascript" language="javascript">
+            $(
+                function ()
+                {
+                    $("#ab-ticker").ticker(
+                        titleText: '',
+                        controls: false,
+                    );
+                }
+            );
+		</script>
+                <script type="text/javascript" src="./../static/js/twitter-bootstrap/bootstrap.min.js"></script>
+        <!-- Bootstrap js plugins -->
+        <script type="text/javascript" src="./static/../js/prettify/prettify.min.js"></script>
     </body>
 </html>

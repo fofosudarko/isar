@@ -8,19 +8,8 @@
         <link rel="stylesheet" type="text/css" href="./static/css/about-styles.css" media="screen">
         <link rel="stylesheet" type="text/css" href="./static/css/about-content.css" media="screen">
         <link rel="stylesheet" type="text/css" href="./../static/css/ticker-style.css" media="screen">
-        <script type="text/javascript" src="./../static/js/jquery/jquery-1.7.1.min.js" language="javascript"></script>
-        <script type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
-        <script type="text/javascript" language="javascript">
-            $(
-                function ()
-                {
-                    $("#ab-ticker").ticker(
-                        titleText: '',
-                        controls: false,
-                    );
-                }
-            );
-		</script>
+        <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
 		<noscript>
 			<meta http-equiv="Refresh" content="0; url='./../noscript.html'">
 		</noscript>
@@ -267,5 +256,22 @@
                 </div>
             </div>
         </div>
+        <!-- js: for faster webpage loading -->
+        <script type="text/javascript" src="./../static/js/jquery/jquery-1.7.1.min.js" language="javascript"></script>
+        <script type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
+        <script type="text/javascript" language="javascript">
+            $(
+                function ()
+                {
+                    $("#ab-ticker").ticker(
+                        titleText: '',
+                        controls: false,
+                    );
+                }
+            );
+		</script>
+                <script type="text/javascript" src="./../static/js/twitter-bootstrap/bootstrap.min.js"></script>
+        <!-- Bootstrap js plugins -->
+        <script type="text/javascript" src="./static/../js/prettify/prettify.min.js"></script>
     </body>
 </html>
