@@ -104,7 +104,7 @@
     height: 40px;
     top: 5px;
     width: 900px;
-    left: 100px;
+    left: 150px;
 }
 
 #ticker > div {
@@ -154,7 +154,7 @@
 #direct {
     position: relative;
     left: 770px;
-    top: -100px;
+    top: -118px;
 }
 
 a[title="Click to see featured brands!!!"] {
@@ -264,7 +264,7 @@ a[title="Click to browse SAR database!!!"] {
 
 .site-map > a {
     position: relative;
-    top: 8px;
+    top: 3px;
     left: 30px;
     color: inherit !important;
     text-decoration: none; 

@@ -39,7 +39,7 @@ div#brands-select-positioning {
     position: relative;
     color: #ffffff;
     font-size: 60px;
-    top: 30px;
+    top: 52px;
 }
 
 /*#brd-name:hover {
@@ -88,12 +88,12 @@ div#brands-select-positioning {
     width: 720px;
     border: solid #d0d0d0 0;
     background-color: #eaeaea;
-    border-radius: 20px;
+    border-radius: 10px;
     left: 25px;
     top: 30px;
-	box-shadow: 0 1px 2px #000000;
-	-moz-box-shadow: 0 1px 2px #000000;
-	-webkit-box-shadow: 0 1px 2px #000000;
+	box-shadow: 0 1px 2px 0 #000000;
+	-moz-box-shadow: 0 1px 2px 0 #000000;
+	-webkit-box-shadow: 0 1px 2px 0 #000000;
 }
 
 .header-content > h3 a {
@@ -106,7 +106,7 @@ div#brands-select-positioning {
     position: relative;
     font-size: 40px;
     color: #fff;
-    top: -6px;
+    top: 20px;
 }
 
 .app {
@@ -154,9 +154,9 @@ div#brands-select-positioning {
     position: relative;
 }
 
-.inline-button-style {
+.inline-button {
     -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
-	height: 60px; width: 200px; /*-moz-box-shadow: black 0 2px 2px 0; -webkit-box-shadow: black 0 2px 2px 0;*/
+	/*-moz-box-shadow: black 0 2px 2px 0; -webkit-box-shadow: black 0 2px 2px 0;*/
 	color: #969696; cursor: pointer; font-size: 25px; font-weight: bold; left: 0px; top: 0px;
 }
 
@@ -171,7 +171,7 @@ div#brands-select-positioning {
 		border: solid #bcbcbc 3px;
 	}
 
-	#submit-button:hover {
+#submit-button:hover {
 		background-color: #dbdbdb;
 		border: solid #cdcdcd 3px;
 	}

@@ -67,7 +67,7 @@
 
 .act-nav > a:hover {
     text-decoration: none;
-    color: #ff0404 !important;
+    color: #ffffff !important;
 }
 
 .act-home > a span {
@@ -142,8 +142,9 @@ img[title="Direct logo"] {
     color: #fff;
     text-shadow: #000000 0px 1px 1px;
     background-color: #727272;
-	  border: solid #727272 1px;
-	  box-shadow: 0 0px 4px 0px #000000;
+    border: solid #727272 1px;
+    box-shadow: 0 0px 4px 0px #000000;
+    padding-top: 10px;
 }
 
 .fcc {
@@ -316,7 +317,7 @@ a[title="More Info on Recommendations"] > span:hover {
     height: 110px;
     width: 600px;
     left: 330px;
-    top: 0px;
+    top: 0;
     color: #fff;
     background-color: #727272;
     border-radius: 5px;
@@ -340,7 +341,7 @@ a[title="More Info on Recommendations"] > span:hover {
 #sar-fm > div:first-child > div:first-of-type a span {
     position: relative;
     font-size: 40px;
-    top: 32px;
+    top: 45px;
     text-shadow: 0px 1px 2px #000000;
 }
 
@@ -363,6 +364,7 @@ a[title="More Info on Recommendations"] > span:hover {
 #part-1 {
     position: absolute;
     left: 5px;
+    top: -20px;
 }
 
 #part-2 {
@@ -419,7 +421,7 @@ a[title="More Info on Recommendations"] > span:hover {
 
 .site-map > a {
     position: relative;
-    top: 8px;
+    top: 4px;
     left: 30px;
     color: inherit !important;
     text-decoration: none; 

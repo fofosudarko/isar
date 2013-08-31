@@ -66,24 +66,9 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
         <link rel="stylesheet" media="screen" href="./static/css/sar-styles.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./static/css/sar-content.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./static/css/ticker-style.css" type="text/css">
-        <script language="javascript" type="text/javascript" src="./static/js/jquery/jquery-1.7.1.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/js.plugins/jquery.ticker.js"></script>
-        <script type="text/javascript" language="javascript">
-            $(
-                function() {
-                    $("#js-news").ticker(
-                        {
-                            titleText: '',
-							speed: 0.08,
-							fadeInSpeed: 300,
-							fadeOutSpeed: 300,
-                            controls: false,
-                        }
-                    );
-                }
-            );
-		</script>
-		<noscript>
+        <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
+    <noscript>
 			<meta http-equiv="Refresh" content="0; url='./../noscript.html'">
 		</noscript>
     </head>
@@ -179,11 +164,11 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                                <?php
                                     if ($brandName == "Sony Ericsson")
                                     {
-                                        print "<span style='font-size: 60px; position: relative; top: 47px; line-height: 30px;'>".$brandName.'<sup style="font-size: 25px;">&reg;</sup></span>';
+                                        print "<span style='font-size: 60px; position: relative; top: 47px; line-height: 50px;'>".$brandName.'<sup style="font-size: 25px;">&reg;</sup></span>';
 									}
                                     else
                                     {
-                                        print "<span style='font-size: 80px; position: relative; top: 37px; line-height: 40px;'>".$brandName.'<sup style="font-size: 25px;">&reg;</sup></span>';
+                                        print "<span style='font-size: 80px; position: relative; top: 37px; line-height: 70px;'>".$brandName.'<sup style="font-size: 25px;">&reg;</sup></span>';
                                     }
                                     ?>
                             </div>
@@ -340,5 +325,27 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                 </div>
             </div>
         </div>
+        <!-- js: for faster webpage loading -->
+        <script language="javascript" src="./../static/js/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
+        <script type="text/javascript" language="javascript">
+            $(
+                function()
+                {
+                    $("#js-news").ticker(
+                        {
+                            titleText: '',
+                            fadeInSpeed: 300,
+                            fadeOutSpeed: 300,
+							controls: false,
+							speed: 0.08,
+                        	}
+                    );
+                }
+            );           
+        </script>
+        <script type="text/javascript" src="./../static/js/twitter-bootstrap/bootstrap.min.js"></script>
+        <!-- Bootstrap js plugins -->
+        <script type="text/javascript" src="./../static/js/prettify/prettify.min.js"></script>
     </body>
 </html>

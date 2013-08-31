@@ -1,40 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8">
         <meta name="keywords" content="">
-        <title>iSAR! - your one-stop place to know your wireless devices' SAR levels</title>
+        <title>iSAR! - your one-stop place to know your wireless devices' SAR values</title>
+        <link rel="stylesheet" type="text/css" href="./static/css/twitter-bootstrap/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./static/css/twitter-bootstrap/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="./static/css/layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/content.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./sar/static/css/ticker-style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/default/default.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./static/css/nivo-slider.css" type="text/css" media="screen">
-        <script language="javascript" src="./static/js/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
-        <script type="text/javascript" src="./static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
-        <script type="text/javascript" src="./static/js/js.plugins/jquery.nivo.slider.pack.js" language="javascript"></script>
-        <script type="text/javascript" language="javascript">
-            $(
-                function()
-                {
-                    $("#js-news").ticker(
-                        {
-                            titleText: '',
-                            fadeInSpeed: 300,
-                            fadeOutSpeed: 300,
-							controls: false,
-							speed: 0.08,
-                        	}
-                    );
-                    $("#slider").nivoSlider(
-                        {
-                            startSlide: 2,
-                            pauseTime: 3500,                
-                        }
-                    );
-                }
-            );           
-        </script>
+        <link rel="stylesheet" href="./static/css/nivo-slider.css" type="text/css" media="screen">        
         <noscript>
             <meta http-equiv="Refresh" content="0; url='./noscript.html'">
 		</noscript>
@@ -77,7 +54,7 @@
                             <!--Ticker Information on iSAR goes here-->
                             <ul id="js-news" type="none" class="js-hidden">
                                 <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What is iSAR?</li>
-                                <li class="news-item">&raquo;&nbsp;A project that seeks to create a centralized database system that keeps the <a href="http://en.wikipedia.org/wiki/Specific_absorption_rate" style="text-decoration: underline; color: inherit !important;" target="_blank">Specific Absorption Rate</a> (SAR) levels of wireless mobile devices</li>
+                                <li class="news-item">&raquo;&nbsp;A project that seeks to create a centralized data-driven system that keeps the <a href="http://en.wikipedia.org/wiki/Specific_absorption_rate" style="text-decoration: underline; color: inherit !important;" target="_blank">Specific Absorption Rate</a> (SAR) values of wireless mobile devices</li>
                                 <li class="news-item">&raquo;&nbsp;especially mobile handsets irrespective of a particular device brand such as Samsung&reg; and Nokia&reg;.</li>
                                 <li class="news-item">&raquo;&nbsp;This is essential because not all wireless devices' (mobile handsets) users are privy to this technical information which relates to their health.</li>
                                 <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What does iSAR need?</li>
@@ -201,5 +178,34 @@
                 </div>
             </div>
         </div>
+        <!-- js: for faster webpage loading -->
+        <script language="javascript" src="./static/js/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
+        <script type="text/javascript" src="./static/js/js.plugins/jquery.nivo.slider.pack.js" language="javascript"></script>
+        <script type="text/javascript" language="javascript">
+            $(
+                function()
+                {
+                    $("#js-news").ticker(
+                        {
+                            titleText: '',
+                            fadeInSpeed: 300,
+                            fadeOutSpeed: 300,
+							controls: false,
+							speed: 0.08,
+                        	}
+                    );
+                    $("#slider").nivoSlider(
+                        {
+                            startSlide: 2,
+                            pauseTime: 3500,                
+                        }
+                    );
+                }
+            );           
+        </script>
+        <script type="text/javascript" src="./static/js/twitter-bootstrap/bootstrap.min.js"></script>
+        <!-- Bootstrap js plugins -->
+        <script type="text/javascript" src="./static/js/prettify/prettify.min.js"></script>
     </body>
 </html>

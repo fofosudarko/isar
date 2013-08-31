@@ -2,7 +2,7 @@
 
 // Creating brandsForm function
 
-function brandsForm()
+function brandsForm ()
 {
 	// Including the brandsDropDownMenu
 	include_once ("/home/fod/www/projects/isar/sar/direct/brandsDropDownMenu.php");

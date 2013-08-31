@@ -17,24 +17,8 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
         <link rel="stylesheet" href="./static/css/direct-content.css" type="text/css" media="screen">
         <link rel="stylesheet" media="screen" type="text/css" href="./static/css/ticker-style.css">
         <link rel="stylesheet" href="./static/css/app.css" type="text/css" media="screen">
-        <script language="javascript" type="text/javascript" src="./static/js/jquery/jquery-1.7.1.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/js.plugins/jquery.ticker.js"></script>
-        <script type="text/javascript" language="javascript">
-            $(
-                function()
-                {
-                    $("#js-news").ticker(
-                        {
-                            titleText: '',
-                            speed: 0.08,
-                            fadeInSpeed: 300,
-                            fadeOutSpeed: 300,
-                            controls: false,
-                        }
-                    );
-                }
-            );
-		</script>
+        <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
 		<noscript>
 			<meta http-equiv="Refresh" content="0; url='./../noscript.html'">
 		</noscript>
@@ -168,5 +152,27 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                 </div>
             </div>
         </div>
+        <!-- js: for faster webpage loading -->
+        <script language="javascript" src="./../static/js/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
+        <script type="text/javascript" language="javascript">
+            $(
+                function()
+                {
+                    $("#js-news").ticker(
+                        {
+                            titleText: '',
+                            fadeInSpeed: 300,
+                            fadeOutSpeed: 300,
+							controls: false,
+							speed: 0.08,
+                        	}
+                    );
+                }
+            );           
+        </script>
+        <script type="text/javascript" src="./../static/js/twitter-bootstrap/bootstrap.min.js"></script>
+        <!-- Bootstrap js plugins -->
+        <script type="text/javascript" src="./../static/js/prettify/prettify.min.js"></script>
     </body>
 </html>

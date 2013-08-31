@@ -13,14 +13,14 @@ include_once ("/home/fod/www/projects/isar/sar/direct/submitButton.php");
 global $submit, $selectBrand;
 
 $chosenBrand = $_GET[$selectBrand];
-$brandName = base64_decode($chosenBrand);
+$brandName = base64_decode ($chosenBrand);
 
-$bid = brandIDlocater($brandName); // Get brand_id from brandIDlocater
-$models_db = models_db($brandName, $bid); // Get Array from models_db
+$bid = brandIDlocater ($brandName); // Get brand_id from brandIDlocater
+$models_db = models_db ($brandName, $bid); // Get Array from models_db
 
 # No arguments for Height Alter functions
 
-function appHeightAlter1()
+function appHeightAlter1 ()
 {
     // Alter height style for "Apple" Models
     $heightStyle = <<<EOF
@@ -48,7 +48,7 @@ EOF;
     return $heightStyle;
 }
 
-function doroHeightAlter()
+function doroHeightAlter ()
 {
     // Alter height style for "Apple" Models
     $heightStyle = <<<EOF
@@ -104,7 +104,7 @@ EOF;
     return $heightStyle;
 }
 
-function motorolaHeightAlter()
+function motorolaHeightAlter ()
 {
     $heightStyle = <<<EOF
     <style type="text/css">
@@ -131,19 +131,19 @@ EOF;
     return $heightStyle;
 }
 
-if (isset($brandName)) {
+if (isset ($brandName)) {
 	switch ($brandName) {
     	case "Doro":
-        	$style = doroHeightAlter();
+        	$style = doroHeightAlter ();
         	break;
     	case "Motorola":
-        	$style = motorolaHeightAlter();
+        	$style = motorolaHeightAlter ();
         	break;
     	default:
         	if (preg_match ("/(BlackBerry)|(Sonim)|(Apple)/", $brandName)) {
-            	$style = appHeightAlter1();
+            	$style = appHeightAlter1 ();
         	} else if (preg_match ("/(HTC)|(LG)|(Sony Ericsson)/", $brandName)) {
-            	$style = appHeightAlter2();
+            	$style = appHeightAlter2 ();
         	} else {
             	$style = null;
         }
@@ -163,31 +163,8 @@ if (isset($brandName)) {
         <link rel="stylesheet" media="screen" href="./static/css/ticker-style.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./static/css/app.css" type="text/css">        
         <?=$style."\n";?>
-        <script language="javascript" type="text/javascript" src="./static/js/jquery/jquery-1.7.1.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.core.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.widget.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.accordion.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/js.plugins/jquery.ticker.js"></script>
-        <script language="javascript" type="text/javascript">
-            $(
-                function() {
-                    $("#js-news").ticker(
-                        {
-                            titleText: '',
-                            speed: 0.12,
-                            fadeInSpeed: 300,
-                            fadeOutSpeed: 300,
-                            controls: false,
-                        }
-                    );
-                    $("#accordion").accordion(
-                        {
-                            collapsible : true,
-                        }
-                    );
-                }
-            );
-		</script>
+        <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
 		<noscript>
 			<meta http-equiv="Refresh" content="0; url='./../noscript.html'">
 		</noscript>
@@ -266,7 +243,7 @@ if (isset($brandName)) {
                                         print "<span style='left: 185px;'>know&nbsp;your&nbsp;device's&nbsp;SAR</span>";
                                         break;
                                     default:
-                                        print "<span>click&nbsp;label&nbsp;below&nbsp;to&nbsp;view&nbsp;content</span>";               
+                                        print "<span style='left: 125px;'>click&nbsp;label&nbsp;below&nbsp;to&nbsp;view&nbsp;content</span>";               
                                 }
                             ?>                                
                             </div>
@@ -374,5 +351,34 @@ if (isset($brandName)) {
                 </div>
             </div>            
         </div>
+        <!-- js: for faster webpage loading -->
+        <script language="javascript" type="text/javascript" src="./static/js/jquery/jquery-1.7.1.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.core.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.widget.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.accordion.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./static/js/js.plugins/jquery.ticker.js"></script>
+        <script language="javascript" type="text/javascript">
+            $(
+                function() {
+                    $("#js-news").ticker(
+                        {
+                            titleText: '',
+                            speed: 0.12,
+                            fadeInSpeed: 300,
+                            fadeOutSpeed: 300,
+                            controls: false,
+                        }
+                    );
+                    $("#accordion").accordion(
+                        {
+                            collapsible : true,
+                        }
+                    );
+                }
+            );
+		</script>
+        <script type="text/javascript" src="./../static/js/twitter-bootstrap/bootstrap.min.js"></script>
+        <!-- Bootstrap js plugins -->
+        <script type="text/javascript" src="./../static/js/prettify/prettify.min.js"></script>
     </body>
 </html>
