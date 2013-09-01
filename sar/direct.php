@@ -90,15 +90,17 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                     </div>
                 </div>
                 <div id="dd-fm" class="wid pos">
-                    <div>
-                        <div>
-                            <a href="./../forms/forms.php" title="Fill Brands Form">
-                                <span>
-                                    device&nbsp;brand&nbsp;not&nbsp;found?
-                                </span>
-                            </a>
-                        </div>    
-                    </div>
+                    <form method="post" action="./../forms/forms.php" title="Fill Brands Form">
+                      <input
+                        type="submit" 
+                        value="click&nbsp;if&nbsp;device&nbsp;brand&nbsp;not&nbsp;found?"
+                        name="submit"
+                      >
+                      <input
+                        type="hidden"
+                        name="brands"
+                      >
+                    </form>
                 </div>
                 <div id="partners-area" class="wid pos">
                     <div id="partners">

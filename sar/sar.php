@@ -263,15 +263,17 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                     <div id="last-column" class="ht"></div>
                 </div>
                 <div id="sar-fm" class="wid pos">
-                    <div>
-                        <div>
-                            <a href="./../forms/forms.php" target="_self" title="">
-                                <span>
-                                    SAR&nbsp;not&nbsp;found?
-                                </span>
-                            </a>
-                        </div>    
-                    </div>
+                    <form method="post" action="./../forms/forms.php" title="Fill&nbsp;SAR&nbsp;Form">
+                      <input
+                        type="submit"
+                        value="Click&nbsp;If&nbsp;<?=$brandName.'&nbsp;'.$model;?>&#39;s&nbsp;SAR&nbsp;Not&nbsp;Found?"
+                        name="submit"
+                      >
+                      <input
+                        type="hidden"
+                        name="sar"
+                      >
+                    </form>
                 </div>
                 <div id="partners-area" class="wid pos">
                     <div id="partners">

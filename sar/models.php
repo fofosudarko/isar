@@ -289,15 +289,17 @@ if (isset ($brandName)) {
                     <div id="ad-2"></div>
                 </div>
                 <div id="md-fm" class="wid pos">
-                    <div>
-                        <div>
-                            <a href="./../forms/forms.php" title="" target="_self">
-                                <span>
-                                    <?=$brandName."<sup style='font-size: 20px;'>&reg;</sup>&nbsp;model&nbsp;not&nbsp;found?";?>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
+                            <form method="post" action="./../forms/forms.php" title="Fill&nbsp;<?=$brandName?>&nbsp;Model&nbsp;Form" target="_self">
+                                <input
+                                    type="submit"
+                                    value="<?='click&nbsp;if&nbsp;'.$brandName.'&reg;&nbsp;device&nbsp;not&nbsp;found?';?>"
+                                    name="submit"
+                                >
+                                <input
+                                    type="hidden"
+                                    name="devices"
+                                >
+                            </form>
                 </div>
                 <div id="partners-area" class="wid pos">
                     <div id="partners">

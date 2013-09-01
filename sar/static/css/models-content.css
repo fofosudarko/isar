@@ -191,11 +191,11 @@ img[title="Direct logo"] {
     overflow-x: hidden;*/
 }
 
-#md-fm > div:first-of-type {
+#md-fm > form input[name="submit"] {
     position: relative;
     height: 110px;
     width: 600px;
-    left: 320px;
+    left: 325px;
     top: 0;
     color: #fff;
     background-color: #727272;
@@ -205,23 +205,13 @@ img[title="Direct logo"] {
     text-align: center;
     text-transform: capitalize;
     cursor: pointer;  
+    font-size: 28px;
+    text-shadow: 0px 1px 2px #000000;
 }
 
-#md-fm > div:first-child:hover {
+#md-fm > form input[name="submit"]:hover {
     background-color: #ababab;
     border: solid #9a9a9a 2px;
-} 
-
-#md-fm > div:first-child > div:first-of-type a {
-    color: inherit !important;
-    text-decoration: none;
-}
-
-#md-fm > div:first-child > div:first-of-type a span {
-    position: relative;
-    font-size: 32px;
-    top: 45px;
-    text-shadow: 0px 1px 2px #000000;
 }
 
 /* Partners CSS */

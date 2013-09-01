@@ -312,7 +312,7 @@ a[title="More Info on Recommendations"] > span:hover {
     left: 774px;
 }
 
-#sar-fm > div:first-of-type {
+#sar-fm > form input[name="submit"] {
     position: relative;
     height: 110px;
     width: 600px;
@@ -324,25 +324,16 @@ a[title="More Info on Recommendations"] > span:hover {
     box-shadow: 0px 0px 4px 0px #000000;
     border: 2px solid #fff;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: none;
     cursor: pointer;  
+    text-shadow: 0px 1px 2px #000000;
+    font-size: 21px;
+    word-wrap: break-word;
 }
 
-#sar-fm > div:first-child:hover {
+#sar-fm > form input[name="submit"]:hover {
     background-color: #ababab;
     border: solid #9a9a9a 2px;
-} 
-
-#sar-fm > div:first-child > div:first-of-type a {
-    color: inherit !important;
-    text-decoration: none;
-}
-
-#sar-fm > div:first-child > div:first-of-type a span {
-    position: relative;
-    font-size: 40px;
-    top: 45px;
-    text-shadow: 0px 1px 2px #000000;
 }
 
 /* Partners CSS */
