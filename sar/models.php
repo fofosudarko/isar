@@ -154,8 +154,10 @@ if (isset ($brandName)) {
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8">
         <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
         <title><?=$brandName."&reg;&nbsp;&ndash;&nbsp;Models&nbsp;Page&nbsp;&ndash;&nbsp;iSAR!";?></title>
         <link rel="stylesheet" media="screen" href="./static/css/models-layout.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./static/css/models-styles.css" type="text/css">
@@ -291,15 +293,17 @@ if (isset ($brandName)) {
                 <div id="md-fm" class="wid pos">
                             <form method="post" action="./../forms/forms.php" title="Fill&nbsp;<?=$brandName?>&nbsp;Model&nbsp;Form" target="_self">
                                 <input
+                                    type="hidden"
+                                    name="hidden"
+                                    value="devices"
+                                >
+                                <input type="hidden" name="brand" value="<?=$brandName.'&reg;';?>">
+                                <input
                                     type="submit"
                                     value="<?='click&nbsp;if&nbsp;'.$brandName.'&reg;&nbsp;device&nbsp;not&nbsp;found?';?>"
                                     name="submit"
                                 >
-                                <input
-                                    type="hidden"
-                                    name="devices"
-                                >
-                            </form>
+                                                 </form>
                 </div>
                 <div id="partners-area" class="wid pos">
                     <div id="partners">

@@ -9,7 +9,7 @@ include_once ("sar.php");
 include_once ("addInfo.php");
 
 print "\n";
-print "Device description: "; print deviceDescription(2);
+print "Device description: "; print show_device_description(2);
 print "\n\n";
 print "Brand: "; print brandName(1);
 
@@ -38,5 +38,10 @@ else
 }
 
 print "\n\n";
+
+list($devices_id, $devices_description) = show_all_device_descriptions ();
+print sizeof($devices_id); print "\n";
+print sizeof($devices_description); print "\n";
+
 
 ?>

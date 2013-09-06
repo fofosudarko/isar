@@ -1,3 +1,6 @@
+<?php
+	include_once ("/home/fod/www/projects/isar/sar/direct/globalvars.php")
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,6 +13,7 @@
         <link rel="stylesheet" href="./../static/css/layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/content.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./static/css/forms.css" media="screen">
         <link rel="stylesheet" href="./../sar/static/css/ticker-style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/default/default.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/nivo-slider.css" type="text/css" media="screen">       
@@ -20,6 +24,8 @@
 			.img-border {
 					border-width: 0;
 				}
+       body, div#body { height: 1200px; }
+       #upper-body { height: 1162px; }
 		</style>
     </head>
     <body dir="ltr">
@@ -68,11 +74,27 @@
                         </div>
                     </div>
                 </div>
-                <div id="img-area" class="i-pos theme-default">
-                    
-                </div>
-                <div id="nav-area" class="i-pos">
-                    
+                <div id="prompt-area" class="i-pos">
+									<?php
+										include_once ($PATH."forms/functions/show_banner.php");
+										if (isset ($_REQUEST["submit"])) {
+											show_banner ($_REQUEST["hidden"]);
+										} else {
+											show_banner ($_REQUEST["hidden"]);
+										}
+
+									?>
+								</div>
+                <div id="forms-area" class="i-pos">
+                   <?php
+                    include_once ("/home/fod/www/projects/isar/forms/functions/choose_form.php");
+                 
+                    if (isset ($_REQUEST["submit"])) {
+                      choose_form ($_REQUEST["hidden"], $_REQUEST["brand"], $_REQUEST["model"]);
+                    } else {
+                      choose_form ($_REQUEST["hidden"], $_REQUEST["brand"], $_REQUEST["model"]);
+                    }
+                   ?> 
                 </div>
                 <div id="partners-area" class="i-pos">
                     <div id="partners">

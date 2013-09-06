@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8">
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -85,13 +85,13 @@
                                 <div>
                                     <div class="a-pos ov-left">
                                         The issue of <b>electromagnetic (EM)</b> radiations/emissions from cell towers and masts has been on the minds of health-conscious citizens
-                                        from many parts of the world. Some believe that radiations from these Electromagnetic (EM) equipment are enough to cause genetic mutations
-                                        cancers and other health-related disorders. The issue of electromagnetic (EM) radiations from the wireless device
+                                        from many parts of the world. Some believe that radiations from these electromagnetic (EM) equipment are enough to cause genetic mutations,
+                                        cancers and other health-related disorders. The issue of electromagnetic (EM) radiations from wireless devices
                                         such as mobile handsets, which they use sometimes very close to parts of their body e.g. the ear region, is paid less attention to.
                                     </div>
                                     <div class="a-pos ov-left">
-                                        The idea to start the <b>iSAR</b> project stemmed from the reasons given above. The project primarily is a database-driven <b>SAR</b> retrieval system
-                                        where users of wireless devices especially mobile handsets' users can access to know their devices' approved SAR levels
+                                        The idea to start the <b>iSAR</b> project is stemmed from the reasons given above. The project primarily is a data-driven <b>SAR</b> retrieval system
+                                        where users of wireless devices especially mobile handsets' users can access their devices' approved SAR values
                                         as per the radio frequency (RF) exposure guidelines stipulated by independent international scientific organizations
                                         e.g <strong>International Commission on Non-Ionizing Radiation Protection (ICNIRP)</strong>.
                                     </div>
@@ -120,14 +120,14 @@
                             <div id="obj-box" class="a-pos" title="">
                                 <div class="a-pos">
                                     <ol>
-                                        <li>To manage a robust database-driven <strong>SAR</strong> retrieval system.<br><br></li>
-                                        <li>This system must house the approved <strong>SAR</strong> levels of wireless
-                                        devices manufactured by all wireless devices manufacturers e.g <b>Samsung<sup>&reg;</sup></b>, <b>Sony Ericsson<sup>&reg;</sup></b> et al.<br><br></li>
+                                        <li>To manage a robust data-driven <strong>SAR</strong> retrieval system.<br><br></li>
+                                        <li>This system must house the approved <strong>SAR</strong> values of wireless
+                                        devices marketed by all wireless devices manufacturers e.g <b>Samsung<sup>&reg;</sup></b>, <b>Sony Ericsson<sup>&reg;</sup></b> et al.<br><br></li>
                                         <li>Be approved and accredited by international scientific organisations e.g <b>ICNIRP</b> and telecommunications regulatory bodies
                                         e.g. <b>Federal Communications Commission (FCC)</b> of <b>the United States of America</b>.<br><br></li>
-                                        <li>To develop a mobile application that computes the dynamic <strong>SAR</strong> levels of users' wireless devices
+                                        <li>To develop a mobile application that computes the dynamic <strong>SAR</strong> values of users' wireless devices
                                         as mobility of wireless devices vary.<br><br></li>
-                                        <li>To be the number one in providing authentic <b>Specific Absorption Rate (SAR)</b> information to&nbsp;users in relation to wireless devices.<br><br></li>
+                                        <li>To be the number one in providing authentic <b>Specific Absorption Rate (SAR)</b> information to&nbsp;users.<br><br></li>
                                     </ol>
                                 </div>
                             </div>

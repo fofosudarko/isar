@@ -162,12 +162,9 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                         <div id="brd-nm" class="cm direct-brd">
                             <div>
                                <?php
-                                    if ($brandName == "Sony Ericsson")
-                                    {
+                                    if ($brandName == "Sony Ericsson") {
                                         print "<span style='font-size: 60px; position: relative; top: 47px; line-height: 50px;'>".$brandName.'<sup style="font-size: 25px;">&reg;</sup></span>';
-									}
-                                    else
-                                    {
+                                    } else {
                                         print "<span style='font-size: 80px; position: relative; top: 37px; line-height: 70px;'>".$brandName.'<sup style="font-size: 25px;">&reg;</sup></span>';
                                     }
                                     ?>
@@ -184,12 +181,9 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                             <div>
                                 <span>
                                     <?php
-                                        if (($addInfo == "") || ($addInfo == "None"))
-                                        {
+                                        if (($addInfo == "") || ($addInfo == "None")) {
                                             print "<span style='font-size: 25px;'>No Additional Information!!!</span>";
-                                        }
-                                        else
-                                        {
+                                        } else {
                                             print $addInfo;
                                         }
                                     ?>
@@ -200,15 +194,12 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                             <div>
                                 <span>
                                     <?php
-                                        if ($sar != 0.000)
-                                        {
+                                        if ($sar != 0.000) {
                                             print "<span style='position: absolute; top: 7px; left: 15px;'>SAR:</span>".
                                                 "<span class='s-pos' style='font-size: 80px;'>".
                                                 $sar.
                                                 "</span><span class='s-pos' style='left: 7px;'>W/kg</span>";
-                                        }
-                                        else
-                                        {
+                                        } else {
                                             print "<span style='position: absolute; top: 10px; left: 15px;'>SAR:</span>".
                                                 "<span class='s-pos' style='font-size: 40px;'>Not Available!!!</span>";
                                         }
@@ -264,14 +255,17 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                 </div>
                 <div id="sar-fm" class="wid pos">
                     <form method="post" action="./../forms/forms.php" title="Fill&nbsp;SAR&nbsp;Form">
+                                            <input
+                        type="hidden"
+                        name="hidden"
+                        value="sar"
+                      >
+                      <input type="hidden" name="brand" value="<?=$brandName.'&reg;';?>">
+                      <input type="hidden" name="model" value="<?=($addInfo == ""||$addInfo == "None")?$model:$model.'&nbsp;'.$addInfo;?>">
                       <input
                         type="submit"
                         value="Click&nbsp;If&nbsp;<?=$brandName.'&nbsp;'.$model;?>&#39;s&nbsp;SAR&nbsp;Not&nbsp;Found?"
                         name="submit"
-                      >
-                      <input
-                        type="hidden"
-                        name="sar"
                       >
                     </form>
                 </div>

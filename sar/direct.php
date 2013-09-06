@@ -91,14 +91,15 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                 </div>
                 <div id="dd-fm" class="wid pos">
                     <form method="post" action="./../forms/forms.php" title="Fill Brands Form">
+                                            <input
+                        type="hidden"
+                        name="hidden"
+                        value="brands"
+                      >
                       <input
                         type="submit" 
                         value="click&nbsp;if&nbsp;device&nbsp;brand&nbsp;not&nbsp;found?"
                         name="submit"
-                      >
-                      <input
-                        type="hidden"
-                        name="brands"
                       >
                     </form>
                 </div>
