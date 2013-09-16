@@ -257,7 +257,7 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                     <form method="post" action="./../forms/forms.php" title="Fill&nbsp;SAR&nbsp;Form">
                                             <input
                         type="hidden"
-                        name="hidden"
+                        name="forms"
                         value="sar"
                       >
                       <input type="hidden" name="brand" value="<?=$brandName.'&reg;';?>">

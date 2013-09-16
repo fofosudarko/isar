@@ -283,13 +283,9 @@ EOF;
 	print $div7ACHeader;
 	print $beginMdSelArea.' style="top: 35px;">';
 	print $start7ACModelSelect;
-	for ($a=0; $a<sizeof($htcModels["7 | A | C"]); $a++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($htcModelsID["7AC"]["category_id"][$a]);
-		print "'>";
-		print $htcModels["7 | A | C"][$a];
-		print "</option>";
-	}
+	for ($a=0; $a<sizeof($htcModels["7 | A | C"]); $a++) 
+		print "<option class='models-option-style' value='".base64_encode($htcModelsID["7AC"]["category_id"][$a])."'>".$htcModels["7 | A | C"][$a]."</option>";
+	
 	print $end7ACModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-7AC-model");
 	print $endMdSelArea;
@@ -302,13 +298,9 @@ EOF;
 	print $divDEFHeader;
 	print $beginMdSelArea.' style="top: 65px;">';
 	print $startDEFModelSelect;
-	for ($b=0; $b<sizeof($htcModels["D | E | F"]); $b++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($htcModelsID["DEF"]["category_id"][$b]);
-		print "'>";
-		print $htcModels["D | E | F"][$b];
-		print "</option>";
-	}
+	for ($b=0; $b<sizeof($htcModels["D | E | F"]); $b++) 
+		print "<option class='models-option-style' value='".base64_encode($htcModelsID["DEF"]["category_id"][$b])."'>".$htcModels["D | E | F"][$b]."</option>";
+	
 	print $endDEFModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-DEF-model");
 	print $endMdSelArea;
@@ -321,13 +313,9 @@ EOF;
 	print $divGHHeader;
 	print $beginMdSelArea.' style="top: 100px;">';
 	print $startGHModelSelect;
-	for ($c=0; $c<sizeof($htcModels["G | HD | Hero"]); $c++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($htcModelsID["GH"]["category_id"][$c]);
-		print "'>";
-		print $htcModels["G | HD | Hero"][$c];
-		print "</option>";
-	}
+	for ($c=0; $c<sizeof($htcModels["G | HD | Hero"]); $c++) 
+		print "<option class='models-option-style' value='".base64_encode($htcModelsID["GH"]["category_id"][$c])."'>".$htcModels["G | HD | Hero"][$c]."</option>";
+	
 	print $endGHModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-GH-model");
 	print $endMdSelArea;
@@ -340,13 +328,9 @@ EOF;
 	print $divILMHeader;
 	print $beginMdSelArea.' style="top: 130px;">';
 	print $startILMModelSelect;
-	for ($d=0; $d<sizeof($htcModels["I | L | M"]); $d++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($htcModelsID["ILM"]["category_id"][$d]);
-		print "'>";
-		print $htcModels["I | L | M"][$d];
-		print "</option>";
-	}
+	for ($d=0; $d<sizeof($htcModels["I | L | M"]); $d++) 
+		print "<option class='models-option-style' value='".base64_encode($htcModelsID["ILM"]["category_id"][$d])."'>".$htcModels["I | L | M"][$d]."</option>";
+	
 	print $endILMModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-ILM-model");
 	print $endMdSelArea;
@@ -359,13 +343,9 @@ EOF;
 	print $divPRHeader;
 	print $beginMdSelArea.'style="top: 160px;">';
 	print $startPRModelSelect;
-	for ($e=0; $e<sizeof($htcModels["P | R"]); $e++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($htcModelsID["PR"]["category_id"][$e]);
-		print "'>";
-		print $htcModels["P | R"][$e];
-		print "</option>";
-	}
+	for ($e=0; $e<sizeof($htcModels["P | R"]); $e++) 
+		print "<option class='models-option-style' value='".base64_encode($htcModelsID["PR"]["category_id"][$e])."'>".$htcModels["P | R"][$e]."</option>";
+	
 	print $endPRModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-PR-model");
 	print $endMdSelArea;
@@ -378,13 +358,9 @@ EOF;
 	print $divSHeader;
 	print $beginMdSelArea." style='top: 190px;'>";
 	print $startSModelSelect;
-	for ($f=0; $f<sizeof($htcModels["S"]); $f++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($htcModelsID["S"]["category_id"][$f]);
-		print "'>";
-		print $htcModels["S"][$f];
-		print "</option>";
-	}
+	for ($f=0; $f<sizeof($htcModels["S"]); $f++) 
+		print "<option class='models-option-style' value='".base64_encode($htcModelsID["S"]["category_id"][$f])."'>".$htcModels["S"][$f]."</option>";
+	
 	print $endSModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-S-model");
 	print $endMdSelArea;
@@ -397,13 +373,9 @@ EOF;
 	print $div_STHeader;
 	print $beginMdSelArea."style='top: 220px;'>";
 	print $start_STModelSelect;
-	for ($g=0; $g<sizeof($htcModels["Sa | Se | Sh | Sn | Ta | Ti"]); $g++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($htcModelsID["ST"]["category_id"][$g]);
-		print "'>";
-		print $htcModels["Sa | Se | Sh | Sn | Ta | Ti"][$g];
-		print "</option>";
-	}
+	for ($g=0; $g<sizeof($htcModels["Sa | Se | Sh | Sn | Ta | Ti"]); $g++) 
+		print "<option class='models-option-style' value='".base64_encode($htcModelsID["ST"]["category_id"][$g])."'>".$htcModels["Sa | Se | Sh | Sn | Ta | Ti"][$g]."</option>";
+	
 	print $end_STModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-ST-model");
 	print $endMdSelArea;
@@ -416,13 +388,9 @@ EOF;
 	print $divTouchHeader;
 	print $beginMdSelArea."style='top: 250px;'>";
 	print $startTouchModelSelect;
-	for ($h=0; $h<sizeof($htcModels["Touch"]); $h++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($htcModelsID["Touch"]["category_id"][$h]);
-		print "'>";
-		print $htcModels["Touch"][$h];
-		print "</option>";
-	}
+	for ($h=0; $h<sizeof($htcModels["Touch"]); $h++) 
+		print "<option class='models-option-style' value='".base64_encode($htcModelsID["Touch"]["category_id"][$h])."'>".$htcModels["Touch"][$h]."</option>";
+	
 	print $endTouchModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-Touch-model");
 	print $endMdSelArea;
@@ -435,13 +403,9 @@ EOF;
 	print $divTWHeader;
 	print $beginMdSelArea." style='top: 280px;'>";
 	print $startTWModelSelect;
-	for ($i=0; $i<sizeof($htcModels["TyTN | Wildfire"]); $i++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($htcModelsID["TW"]["category_id"][$i]);
-		print "'>";
-		print $htcModels["TyTN | Wildfire"][$i];
-		print "</option>";
-	}
+	for ($i=0; $i<sizeof($htcModels["TyTN | Wildfire"]); $i++) 
+		print "<option class='models-option-style' value='".base64_encode($htcModelsID["TW"]["category_id"][$i])."'>".$htcModels["TyTN | Wildfire"][$i]."</option>";
+	
 	print $endTWModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-TW-model");
 	print $endMdSelArea;

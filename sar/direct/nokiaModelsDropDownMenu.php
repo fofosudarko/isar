@@ -481,13 +481,9 @@ EOF;
 	print $div1000Header;
 	print $beginMdSelArea.' style="top: 10px;">';
 	print $start1000ModelSelect;
-	for ($a=0; $a<sizeof($nokiaModels["1000"]); $a++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["1000"]["category_id"][$a]);
-		print "'>";
-		print $nokiaModels["1000"][$a];
-		print "</option>";
-	}
+	for ($a=0; $a<sizeof($nokiaModels["1000"]); $a++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["1000"]["category_id"][$a])."'>".$nokiaModels["1000"][$a]."</option>";
+	
 	print $end1000ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-1000-model");
 	print $endMdSelArea;
@@ -500,13 +496,9 @@ EOF;
 	print $div2000Header;
 	print $beginMdSelArea.' style="top: 30px;">';
 	print $start2000ModelSelect;
-	for ($b=0; $b<sizeof($nokiaModels["2000"]); $b++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["2000"]["category_id"][$b]);
-		print "'>";
-		print $nokiaModels["2000"][$b];
-		print "</option>";
-	}
+	for ($b=0; $b<sizeof($nokiaModels["2000"]); $b++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["2000"]["category_id"][$b])."'>".$nokiaModels["2000"][$b]."</option>";
+	
 	print $end2000ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-2000-model");
 	print $endMdSelArea;
@@ -519,13 +511,9 @@ EOF;
 	print $div3000Header;
 	print $beginMdSelArea.' style="top: 50px;">';
 	print $start3000ModelSelect;
-	for ($c=0; $c<sizeof($nokiaModels["3000"]); $c++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["3000"]["category_id"][$c]);
-		print "'>";
-		print $nokiaModels["3000"][$c];
-		print "</option>";
-	}
+	for ($c=0; $c<sizeof($nokiaModels["3000"]); $c++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["3000"]["category_id"][$c])."'>".$nokiaModels["3000"][$c]."</option>";
+	
 	print $end3000ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-3000-model");
 	print $endMdSelArea;
@@ -538,13 +526,9 @@ EOF;
 	print $div5000Header;
 	print $beginMdSelArea.' style="top: 70px;">';
 	print $start5000ModelSelect;
-	for ($d=0; $d<sizeof($nokiaModels["5000"]); $d++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["5000"]["category_id"][$d]);
-		print "'>";
-		print $nokiaModels["5000"][$d];
-		print "</option>";
-	}
+	for ($d=0; $d<sizeof($nokiaModels["5000"]); $d++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["5000"]["category_id"][$d])."'>".$nokiaModels["5000"][$d]."</option>";
+	
 	print $end5000ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-5000-model");
 	print $endMdSelArea;
@@ -557,13 +541,9 @@ EOF;
 	print $div6000Header;
 	print $beginMdSelArea.' style="top: 90px;">';
 	print $start6000ModelSelect;
-	for ($e=0; $e<sizeof($nokiaModels["6000"]); $e++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["6000"]["category_id"][$e]);
-		print "'>";
-		print $nokiaModels["6000"][$e];
-		print "</option>";
-	}
+	for ($e=0; $e<sizeof($nokiaModels["6000"]); $e++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["6000"]["category_id"][$e])."'>".$nokiaModels["6000"][$e]."</option>";
+	
 	print $end6000ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-6000-model");
 	print $endMdSelArea;
@@ -576,13 +556,9 @@ EOF;
 	print $div7000Header;
 	print $beginMdSelArea.' style="top: 110px;">';
 	print $start7000ModelSelect;
-	for ($f=0; $f<sizeof($nokiaModels["7000"]); $f++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["7000"]["category_id"][$f]);
-		print "'>";
-		print $nokiaModels["7000"][$f];
-		print "</option>";
-	}
+	for ($f=0; $f<sizeof($nokiaModels["7000"]); $f++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["7000"]["category_id"][$f])."'>".$nokiaModels["7000"][$f]."</option>";
+	
 	print $end7000ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-7000-model");
 	print $endMdSelArea;
@@ -595,13 +571,9 @@ EOF;
 	print $div8000Header;
 	print $beginMdSelArea.' style="top: 130px;">';
 	print $start8000ModelSelect;
-	for ($g=0; $g<sizeof($nokiaModels["8000"]); $g++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["8000"]["category_id"][$g]);
-		print "'>";
-		print $nokiaModels["8000"][$g];
-		print "</option>";
-	}
+	for ($g=0; $g<sizeof($nokiaModels["8000"]); $g++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["8000"]["category_id"][$g])."'>".$nokiaModels["8000"][$g]."</option>";
+	
 	print $end8000ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-8000-model");
 	print $endMdSelArea;
@@ -614,13 +586,9 @@ EOF;
 	print $div9000Header;
 	print $beginMdSelArea.' style="top: 150px;">';
 	print $start9000ModelSelect;
-	for ($h=0; $h<sizeof($nokiaModels["9000"]); $h++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["9000"]["category_id"][$h]);
-		print "'>";
-		print $nokiaModels["9000"][$h];
-		print "</option>";
-	}
+	for ($h=0; $h<sizeof($nokiaModels["9000"]); $h++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["9000"]["category_id"][$h])."'>".$nokiaModels["9000"][$h]."</option>";
+	
 	print $end9000ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative" ,$submit="submit-9000-model");
 	print $endMdSelArea;
@@ -633,13 +601,9 @@ EOF;
 	print $divCHeader;
 	print $beginMdSelArea.' style="top: 170px;">';
 	print $startCModelSelect;
-	for ($i=0; $i<sizeof($nokiaModels["C"]); $i++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["C"]["category_id"][$i]);
-		print "'>";
-		print $nokiaModels["C"][$i];
-		print "</option>";
-	}
+	for ($i=0; $i<sizeof($nokiaModels["C"]); $i++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["C"]["category_id"][$i])."'>".$nokiaModels["C"][$i]."</option>";
+	
 	print $endCModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-C-model");
 	print $endMdSelArea;
@@ -652,13 +616,9 @@ EOF;
 	print $divEHeader;
 	print $beginMdSelArea.' style="top: 190px;">';
 	print $startEModelSelect;
-	for ($j=0; $j<sizeof($nokiaModels["E"]); $j++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["E"]["category_id"][$j]);
-		print "'>";
-		print $nokiaModels["E"][$j];
-		print "</option>";
-	}
+	for ($j=0; $j<sizeof($nokiaModels["E"]); $j++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["E"]["category_id"][$j])."'>".$nokiaModels["E"][$j]."</option>";
+	
 	print $endEModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-E-model");
 	print $endMdSelArea;
@@ -671,13 +631,9 @@ EOF;
 	print $divN_GageHeader;
 	print $beginMdSelArea.' style="top: 210px;">';
 	print $startN_GageModelSelect;
-	for ($k=0; $k<sizeof($nokiaModels["N-Gage"]); $k++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["N-Gage"]["category_id"][$k]);
-		print "'>";
-		print $nokiaModels["N-Gage"][$k];
-		print "</option>";
-	}
+	for ($k=0; $k<sizeof($nokiaModels["N-Gage"]); $k++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["N-Gage"]["category_id"][$k])."'>".$nokiaModels["N-Gage"][$k]."</option>";
+	
 	print $endN_GageModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-N-Gage-model");
 	print $endMdSelArea;
@@ -690,13 +646,9 @@ EOF;
 	print $divN7Header;
 	print $beginMdSelArea.' style="top: 230px;">';
 	print $startN7ModelSelect;
-	for ($l=0; $l<sizeof($nokiaModels["N7"]); $l++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["N7"]["category_id"][$l]);
-		print "'>";
-		print $nokiaModels["N7"][$l];
-		print "</option>";
-	}
+	for ($l=0; $l<sizeof($nokiaModels["N7"]); $l++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["N7"]["category_id"][$l])."'>".$nokiaModels["N7"][$l]."</option>";
+	
 	print $endN7ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-N7-model");
 	print $endMdSelArea;
@@ -709,13 +661,9 @@ EOF;
 	print $divN8Header;
 	print $beginMdSelArea.' style="top: 250px;">';
 	print $startN8ModelSelect;
-	for ($m=0; $m<sizeof($nokiaModels["N8"]); $m++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["N8"]["category_id"][$m]);
-		print "'>";
-		print $nokiaModels["N8"][$m];
-		print "</option>";
-	}
+	for ($m=0; $m<sizeof($nokiaModels["N8"]); $m++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["N8"]["category_id"][$m])."'>".$nokiaModels["N8"][$m]."</option>";
+	
 	print $endN8ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-N8-model");
 	print $endMdSelArea;
@@ -728,13 +676,9 @@ EOF;
 	print $divN9Header;
 	print $beginMdSelArea.' style="top: 270px;">';
 	print $startN9ModelSelect;
-	for ($n=0; $n<sizeof($nokiaModels["N9"]); $n++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["N9"]["category_id"][$n]);
-		print "'>";
-		print $nokiaModels["N9"][$n];
-		print "</option>";
-	}
+	for ($n=0; $n<sizeof($nokiaModels["N9"]); $n++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["N9"]["category_id"][$n])."'>".$nokiaModels["N9"][$n]."</option>";
+	
 	print $endN9ModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-N9-model");
 	print $endMdSelArea;
@@ -747,13 +691,9 @@ EOF;
 	print $divXHeader;
 	print $beginMdSelArea.' style="top: 290px;">';
 	print $startXModelSelect;
-	for ($o=0; $o<sizeof($nokiaModels["X"]); $o++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($nokiaModelsID["X"]["category_id"][$o]);
-		print "'>";
-		print $nokiaModels["X"][$o];
-		print "</option>";
-	}
+	for ($o=0; $o<sizeof($nokiaModels["X"]); $o++) 
+		print "<option class='models-option-style' value='".base64_encode($nokiaModelsID["X"]["category_id"][$o])."'>".$nokiaModels["X"][$o]."</option>";
+	
 	print $endXModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-X-model");
 	print $endMdSelArea;

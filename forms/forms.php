@@ -1,12 +1,23 @@
 <?php
-	include_once ("/home/fod/www/projects/isar/sar/direct/globalvars.php")
+  session_start();
+	include_once ("/home/fod/www/projects/isar/sar/direct/globalvars.php");
+  
+  if (isset ($_REQUEST["forms"]) && ($_REQUEST["forms"] == "brands")) {
+    $form_title = "Brand";
+  } else if (isset ($_REQUEST["forms"]) && ($_REQUEST["forms"] == "devices")) {
+    $form_title = $_REQUEST["brand"]."&nbsp;Model";  
+  } else if (isset ($_REQUEST["forms"]) && ($_REQUEST["forms"] == "sar")) {
+    $form_title = $_REQUEST["brand"]."&nbsp;".$_REQUEST["model"]."&nbsp;SAR";
+  } else {
+      header ("Location: ../index.php");
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="keywords" content="">
-        <title>Forms Template</title>
+        <title><?="Fill&nbsp;$form_title&nbsp;Form&nbsp;&ndash;&nbsp;iSAR!";?></title>
         <link rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
         <link type="text/css" rel="stylesheet" href="./../static/css/prettify/prettify.min.css">
@@ -78,21 +89,20 @@
 									<?php
 										include_once ($PATH."forms/functions/show_banner.php");
 										if (isset ($_REQUEST["submit"])) {
-											show_banner ($_REQUEST["hidden"]);
+											show_banner ($_REQUEST["forms"], $_REQUEST["brand"]);
 										} else {
-											show_banner ($_REQUEST["hidden"]);
+											show_banner ($_REQUEST["forms"], $_REQUEST["brand"]);
 										}
 
 									?>
 								</div>
                 <div id="forms-area" class="i-pos">
                    <?php
-                    include_once ("/home/fod/www/projects/isar/forms/functions/choose_form.php");
-                 
+                    include_once ("/home/fod/www/projects/isar/forms/functions/choose_form.php");                 
                     if (isset ($_REQUEST["submit"])) {
-                      choose_form ($_REQUEST["hidden"], $_REQUEST["brand"], $_REQUEST["model"]);
+                      choose_form ($_REQUEST["forms"], $_REQUEST["brand"], $_REQUEST["model"]);
                     } else {
-                      choose_form ($_REQUEST["hidden"], $_REQUEST["brand"], $_REQUEST["model"]);
+                      choose_form ($_REQUEST["forms"], $_REQUEST["brand"], $_REQUEST["model"]);
                     }
                    ?> 
                 </div>

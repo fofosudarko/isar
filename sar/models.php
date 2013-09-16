@@ -214,8 +214,8 @@ if (isset ($brandName)) {
                 </div>
                 <div id="sel-model" class="wid pos">
                     <div title="Select Device Model">
-                        <span>
-                            select&nbsp;your&nbsp;device's&nbsp;model
+                        <span style="<?=($brandName == 'Sony Ericsson') ? 'font-size: 40px; left: 130px;' :'';?><?=(preg_match ('/Samsung|BlackBerry|Motorola/', $brandName)) ? 'left: 80px;' : '' ?>">
+                            choose&nbsp;your&nbsp;<?=$brandName."&reg;";?>&nbsp;device&nbsp;model
                         </span>
                     </div>
                 </div>
@@ -294,7 +294,7 @@ if (isset ($brandName)) {
                             <form method="post" action="./../forms/forms.php" title="Fill&nbsp;<?=$brandName?>&nbsp;Model&nbsp;Form" target="_self">
                                 <input
                                     type="hidden"
-                                    name="hidden"
+                                    name="forms"
                                     value="devices"
                                 >
                                 <input type="hidden" name="brand" value="<?=$brandName.'&reg;';?>">
@@ -369,9 +369,9 @@ if (isset ($brandName)) {
                     $("#js-news").ticker(
                         {
                             titleText: '',
-                            speed: 0.12,
-                            fadeInSpeed: 300,
-                            fadeOutSpeed: 300,
+                            speed: 0.15,
+                            fadeInSpeed: 100,
+                            fadeOutSpeed: 100,
                             controls: false,
                         }
                     );

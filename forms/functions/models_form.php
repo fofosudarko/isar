@@ -39,7 +39,7 @@ function fill_models_form ($brand="Brand")
 		<tr>
 		<td class="span4 form-height"></td>
 		<td class="span5 form-height">
-		<span class="help-inline">NB&colon;&nbsp;Type *#06# to view device's IMEI (International Mobile Equipment Identity).</span>
+		<div class="alert alert-info">NB&colon;&nbsp;Type *#06# to view device's IMEI (International Mobile Equipment Identity).</div>
 		</td></tr>
 		<tr><td class="span4 form-height">
 		<!-- Type device's SAR value if available -->

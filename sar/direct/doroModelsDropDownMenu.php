@@ -134,13 +134,9 @@ EOF;
 	print $divHandleEasyHeader;
 	print $beginMdSelArea." style='top: 60px;'>";
 	print $startHandleEasyModelSelect;
-	for ($i=0; $i<sizeof($doroModels["HandleEasy"]); $i++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($doroModelsID["handleEasyID"]["category_id"][$i]);
-		print "'>";
-		print $doroModels["HandleEasy"][$i];
-		print "</option>";
-	}
+	for ($i=0; $i<sizeof($doroModels["HandleEasy"]); $i++)
+		print "<option class='models-option-style' value='".base64_encode($doroModelsID["handleEasyID"]["category_id"][$i])."'>".$doroModels["HandleEasy"][$i]."</option>";
+	
 	print $endHandleEasyModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-HandleEasy");
 	print $endMdSelArea;
@@ -151,13 +147,9 @@ EOF;
 	echo $divHandlePlusHeader;
 	print $beginMdSelArea." style='top: 120px;'>";
 	echo $startHandlePlusModelSelect;
-	for ($m=0; $m<sizeof($doroModels["HandlePlus"]); $m++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($doroModelsID["handlePlusID"]["category_id"][$m]);
-		print "'>";
-		print $doroModels["HandlePlus"][$m];
-		print "</option>";
-	}
+	for ($m=0; $m<sizeof($doroModels["HandlePlus"]); $m++) 
+		print "<option class='models-option-style' value='".base64_encode($doroModelsID["handlePlusID"]["category_id"][$m])."'>".$doroModels["HandlePlus"][$m]."</option>";
+	
 	echo $endHandlePlusModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-HandlePlus");
 	print $endMdSelArea;
@@ -168,13 +160,9 @@ EOF;
 	echo $divPhoneEasyHeader;
 	print $beginMdSelArea." style='top: 180px;'>";
 	echo $startPhoneEasyModelSelect;
-	for ($n=0; $n<sizeof($doroModels["PhoneEasy"]); $n++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($doroModelsID["phoneEasyID"]["category_id"][$n]);
-		print "'>";
-		print $doroModels["PhoneEasy"][$n];
-		print "</option>";
-	}
+	for ($n=0; $n<sizeof($doroModels["PhoneEasy"]); $n++) 
+		print "<option class='models-option-style' value='".base64_encode($doroModelsID["phoneEasyID"]["category_id"][$n])."'>".$doroModels["PhoneEasy"][$n]."</option>";
+	
 	echo $endPhoneEasyModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-PhoneEasy");
 	print $endMdSelArea;

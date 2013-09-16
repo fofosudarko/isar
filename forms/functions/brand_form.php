@@ -7,6 +7,7 @@ function fill_brands_form ()
     global $PATH;    
     include_once ($PATH."forms/functions/device_description_menu.php");
     
+		// start brand form
     $STARTFORM=<<<EOF
     <section>
       <!-- fill device brand form -->
@@ -20,12 +21,21 @@ function fill_brands_form ()
 		<!-- Type your device's brand e.g HTC -->
 		<label for="brand-name">Enter device's brand name&colon;&nbsp;</label></td>
 			<td class="span5 form-height"><input class="span5" placeholder="type device's brand name..." pattern="^[A-Z][A-Za-z]+$" type="text" name="brand" required></td>
-		</tr><tr><td class="span4 form-height">
+		</tr><!--<tr><td class="span4 form-height"></td>
+    <td class="span5 form-height">
+      <div class="alert alert-info">
+				<strong class="alert-heading">Info&colon;&nbsp;</strong>
+				String must start with uppercase letter followed by either lowercase or uppercase letters without whitespace separation and no digits allowed.
+			</div>
+    </td>
+    </tr>-->
+    <tr><td class="span4 form-height">
 		<!-- Select your device's description -->
 		<label for="device-description">Which best describes your device?: </label></td>
 		<td class="span5 form-height">
 EOF;
-
+	 
+	  // end brand form
     $ENDFORM=<<<EOF
     </td>
 			</tr>
@@ -46,7 +56,8 @@ EOF;
 		<tr>
 		<td class="span4 form-height"></td>
 		<td class="span5 form-height">
-		<span class="help-inline">NB&colon;&nbsp;Type *#06# to view device's IMEI (International Mobile Equipment Identity).</span>
+		<div class="alert alert-info"><strong>NB</strong>&colon;&nbsp;Type *#06# to view device's IMEI (International Mobile Equipment Identity)
+		</div>
 		</td></tr>
 		<tr><td class="span4 form-height">
 		<!-- Type device's SAR value if available -->

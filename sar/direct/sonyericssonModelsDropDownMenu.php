@@ -341,13 +341,9 @@ EOF;
 	print $divACEHeader;
 	print $beginMdSelArea.' style="top: 10px;">';
 	print $startACEModelSelect;
-	for ($a=0; $a<sizeof($sonyericssonModels["A | C | E"]); $a++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["ACE"]["category_id"][$a]);
-		print "'>";
-		print $sonyericssonModels["A | C | E"][$a];
-		print "</option>";
-	}
+	for ($a=0; $a<sizeof($sonyericssonModels["A | C | E"]); $a++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["ACE"]["category_id"][$a])."'>".$sonyericssonModels["A | C | E"][$a]."</option>";
+	
 	print $endACEModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-ACE-model");
 	print $endMdSelArea;
@@ -357,13 +353,9 @@ EOF;
 	print $divFGHHeader;
 	print $beginMdSelArea.' style="top: 30px;">';
 	print $startFGHModelSelect;
-	for ($b=0; $b<sizeof($sonyericssonModels["F | G | H"]); $b++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["FGH"]["category_id"][$b]);
-		print "'>";
-		print $sonyericssonModels["F | G | H"][$b];
-		print "</option>";
-	}
+	for ($b=0; $b<sizeof($sonyericssonModels["F | G | H"]); $b++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["FGH"]["category_id"][$b])."'>".$sonyericssonModels["F | G | H"][$b]."</option>";
+	
 	print $endFGHModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-FGH-model");
 	print $endMdSelArea;
@@ -373,13 +365,9 @@ EOF;
 	print $divJHeader;
 	print $beginMdSelArea.' style="top: 50px;">';
 	print $startJModelSelect;
-	for ($c=0; $c<sizeof($sonyericssonModels["J"]); $c++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["J"]["category_id"][$c]);
-		print "'>";
-		print $sonyericssonModels["J"][$c];
-		print "</option>";
-	}
+	for ($c=0; $c<sizeof($sonyericssonModels["J"]); $c++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["J"]["category_id"][$c])."'>".$sonyericssonModels["J"][$c]."</option>";
+	
 	print $endJModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-J-model");
 	print $endMdSelArea;
@@ -389,13 +377,9 @@ EOF;
 	print $divKHeader;
 	print $beginMdSelArea.' style="top: 70px;">';
 	print $startKModelSelect;
-	for ($d=0; $d<sizeof($sonyericssonModels["K"]); $d++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["K"]["category_id"][$d]);
-		print "'>";
-		print $sonyericssonModels["K"][$d];
-		print "</option>";
-	}
+	for ($d=0; $d<sizeof($sonyericssonModels["K"]); $d++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["K"]["category_id"][$d])."'>".$sonyericssonModels["K"][$d]."</option>";
+	
 	print $endKModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-K-model");
 	print $endMdSelArea;
@@ -405,13 +389,9 @@ EOF;
 	print $divLMNPHeader;
 	print $beginMdSelArea.' style="top: 90px;">';
 	print $startLMNPModelSelect;
-	for ($e=0; $e<sizeof($sonyericssonModels["L | M | N | P"]); $e++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["LMNP"]["category_id"][$e]);
-		print "'>";
-		print $sonyericssonModels["L | M | N | P"][$e];
-		print "</option>";
-	}
+	for ($e=0; $e<sizeof($sonyericssonModels["L | M | N | P"]); $e++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["LMNP"]["category_id"][$e])."'>".$sonyericssonModels["L | M | N | P"][$e]."</option>";
+	
 	print $endLMNPModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-LMNP-model");
 	print $endMdSelArea;
@@ -422,13 +402,9 @@ EOF;
 	print $divRSHeader;
 	print $beginMdSelArea.' style="top: 110px;">';
 	print $startRSModelSelect;
-	for ($f=0; $f<sizeof($sonyericssonModels["R | S"]); $f++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["RS"]["category_id"][$f]);
-		print "'>";
-		print $sonyericssonModels["R | S"][$f];
-		print "</option>";
-	}
+	for ($f=0; $f<sizeof($sonyericssonModels["R | S"]); $f++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["RS"]["category_id"][$f])."'>".$sonyericssonModels["R | S"][$f]."</option>";
+	
 	print $endRSModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-RS-model");
 	print $endMdSelArea;
@@ -438,13 +414,9 @@ EOF;
 	print $divTVHeader;
 	print $beginMdSelArea.' style="top: 130px;">';
 	print $startTVModelSelect;
-	for ($g=0; $g<sizeof($sonyericssonModels["T | V"]); $g++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["TV"]["category_id"][$g]);
-		print "'>";
-		print $sonyericssonModels["T | V"][$g];
-		print "</option>";
-	}
+	for ($g=0; $g<sizeof($sonyericssonModels["T | V"]); $g++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["TV"]["category_id"][$g])."'>".$sonyericssonModels["T | V"][$g]."</option>";
+	
 	print $endTVModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-TV-model");
 	print $endMdSelArea;
@@ -454,13 +426,9 @@ EOF;
 	print $divWHeader;
 	print $beginMdSelArea.' style="top: 150px;">';
 	print $startWModelSelect;
-	for ($h=0; $h<sizeof($sonyericssonModels["W"]); $h++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["W"]["category_id"][$h]);
-		print "'>";
-		print $sonyericssonModels["W"][$h];
-		print "</option>";
-	}
+	for ($h=0; $h<sizeof($sonyericssonModels["W"]); $h++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["W"]["category_id"][$h])."'>".$sonyericssonModels["W"][$h]."</option>";
+	
 	print $endWModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-W-model");
 	print $endMdSelArea;
@@ -470,13 +438,9 @@ EOF;
 	print $divXYHeader;
 	print $beginMdSelArea.' style="top: 170px;">';
 	print $startXYModelSelect;
-	for ($i=0; $i<sizeof($sonyericssonModels["X | Y"]); $i++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["XY"]["category_id"][$i]);
-		print "'>";
-		print $sonyericssonModels["X | Y"][$i];
-		print "</option>";
-	}
+	for ($i=0; $i<sizeof($sonyericssonModels["X | Y"]); $i++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["XY"]["category_id"][$i])."'>".$sonyericssonModels["X | Y"][$i]."</option>";
+	
 	print $endXYModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-XY-model");
 	print $endMdSelArea;
@@ -486,13 +450,9 @@ EOF;
 	print $divZHeader;
 	print $beginMdSelArea.' style="top: 190px;">';
 	print $startZModelSelect;
-	for ($j=0; $j<sizeof($sonyericssonModels["Z"]); $j++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($sonyericssonModelsID["Z"]["category_id"][$j]);
-		print "'>";
-		print $sonyericssonModels["Z"][$j];
-		print "</option>";
-	}
+	for ($j=0; $j<sizeof($sonyericssonModels["Z"]); $j++) 
+		print "<option class='models-option-style' value='".base64_encode($sonyericssonModelsID["Z"]["category_id"][$j])."'>".$sonyericssonModels["Z"][$j]."</option>";
+	
 	print $endZModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-Z-model");
 	print $endMdSelArea;

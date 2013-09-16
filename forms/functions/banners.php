@@ -35,14 +35,14 @@ EOF;
 	return;
 }
 
-function sar_banner ()
+function sar_banner ($value="Brand")
 {
     	$BANNER=<<<EOF
 	<section id="banner">
 		<div id="container" style="width: 1000px; margin: 0 auto; top: 10px; height: 80px;">
 			<div class="span12" style="width: inherit; text-align: center;">
 				<span id="banner" class="pos_r banner">
-					fill&nbsp;model&nbsp;SAR&nbsp;form
+					fill&nbsp;$value&nbsp;model&nbsp;SAR&nbsp;form
 				</span>
 		</div>
 	</section>

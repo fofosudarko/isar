@@ -52,7 +52,7 @@ div#brands-select-positioning {
     top: 5px;
     height: 40px;
     width: 750px;
-    left: 25px;
+    left: 48px;
 }
 
 #sel-md > span {
@@ -60,14 +60,11 @@ div#brands-select-positioning {
     color: #161616;
     font-size: 30px;
     text-transform: capitalize;
+    text-decoration: underline;
     text-align: center;
-    left: 105px;
     text-shadow: 1px 1px 1px #4a4a4a;
     filter: progid:DXImageTransform.Microsoft.DropShadow(color="#4a4a4a", offX = 2, offY = 2, offZ = 3);        
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #070707;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
 }
 
 /*#sel-md > span:hover {

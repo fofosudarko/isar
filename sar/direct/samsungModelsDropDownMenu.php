@@ -445,13 +445,9 @@ EOF;
 	print $divBCEHeader;
 	print $beginMdSelArea.' style="top: 10px;">';
 	print $startBCEModelSelect;
-	for ($a=0; $a<sizeof($samsungModels["B | C | E"]); $a++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["BCE"]["category_id"][$a]);
-		print "'>";
-		print $samsungModels["B | C | E"][$a];
-		print "</option>";
-	}
+	for ($a=0; $a<sizeof($samsungModels["B | C | E"]); $a++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["BCE"]["category_id"][$a])."'>".$samsungModels["B | C | E"][$a]."</option>";
+	
 	print $endBCEModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-BCE-model");
 	print $endMdSelArea;
@@ -464,13 +460,9 @@ EOF;
 	print $divGT_BCHeader;
 	print $beginMdSelArea.' style="top: 30px;">';
 	print $startGT_BCModelSelect;
-	for ($b=0; $b<sizeof($samsungModels["GT-B | GT-C"]); $b++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["GTBC"]["category_id"][$b]);
-		print "'>";
-		print $samsungModels["GT-B | GT-C"][$b];
-		print "</option>";
-	}
+	for ($b=0; $b<sizeof($samsungModels["GT-B | GT-C"]); $b++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["GTBC"]["category_id"][$b])."'>".$samsungModels["GT-B | GT-C"][$b]."</option>";
+	
 	print $endGT_BCModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-GTBC-model");
 	print $endMdSelArea;
@@ -483,13 +475,9 @@ EOF;
 	print $divGT_EIHeader;
 	print $beginMdSelArea.' style="top: 50px;">';
 	print $startGT_EIModelSelect;
-	for ($c=0; $c<sizeof($samsungModels["GT-E | GT-I"]); $c++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["GTEI"]["category_id"][$c]);
-		print "'>";
-		print $samsungModels["GT-E | GT-I"][$c];
-		print "</option>";
-	}
+	for ($c=0; $c<sizeof($samsungModels["GT-E | GT-I"]); $c++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["GTEI"]["category_id"][$c])."'>".$samsungModels["GT-E | GT-I"][$c]."</option>";
+	
 	print $endGT_EIModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-GTEI-model");
 	print $endMdSelArea;
@@ -502,13 +490,9 @@ EOF;
 	print $divGT_MPSHeader;
 	print $beginMdSelArea.' style="top: 70px;">';
 	print $startGT_MPSModelSelect;
-	for ($d=0; $d<sizeof($samsungModels["GT-M | GT-P | GT-S"]); $d++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["GTMPS"]["category_id"][$d]);
-		print "'>";
-		print $samsungModels["GT-M | GT-P | GT-S"][$d];
-		print "</option>";
-	}
+	for ($d=0; $d<sizeof($samsungModels["GT-M | GT-P | GT-S"]); $d++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["GTMPS"]["category_id"][$d])."'>".$samsungModels["GT-M | GT-P | GT-S"][$d]."</option>";
+	
 	print $endGT_MPSModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-GTMPS-model");
 	print $endMdSelArea;
@@ -521,13 +505,9 @@ EOF;
 	print $divIJetMSHeader;
 	print $beginMdSelArea.' style="top: 90px;">';
 	print $startIJetMSModelSelect;
-	for ($e=0; $e<sizeof($samsungModels["I | Jet | M | S"]); $e++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["IJMS"]["category_id"][$e]);
-		print "'>";
-		print $samsungModels["I | Jet | M | S"][$e];
-		print "</option>";
-	}
+	for ($e=0; $e<sizeof($samsungModels["I | Jet | M | S"]); $e++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["IJMS"]["category_id"][$e])."'>".$samsungModels["I | Jet | M | S"][$e]."</option>";
+	
 	print $endIJetMSModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-IJMS-model");
 	print $endMdSelArea;
@@ -540,13 +520,9 @@ EOF;
 	print $divSGH_ABCHeader;
 	print $beginMdSelArea.' style="top: 110px;">';
 	print $startSGH_ABCModelSelect;
-	for ($f=0; $f<sizeof($samsungModels["SGH-A | SGH-B | SGH-C"]); $f++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["SGHABC"]["category_id"][$f]);
-		print "'>";
-		print $samsungModels["SGH-A | SGH-B | SGH-C"][$f];
-		print "</option>";
-	}
+	for ($f=0; $f<sizeof($samsungModels["SGH-A | SGH-B | SGH-C"]); $f++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["SGHABC"]["category_id"][$f])."'>".$samsungModels["SGH-A | SGH-B | SGH-C"][$f]."</option>";
+	
 	print $endSGH_ABCModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-SABC-model");
 	print $endMdSelArea;
@@ -559,13 +535,9 @@ EOF;
 	print $divSGH_DHeader;
 	print $beginMdSelArea.' style="top: 130px;">';
 	print $startSGH_DModelSelect;
-	for ($g=0; $g<sizeof($samsungModels["SGH-D"]); $g++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["SGHD"]["category_id"][$g]);
-		print "'>";
-		print $samsungModels["SGH-D"][$g];
-		print "</option>";
-	}
+	for ($g=0; $g<sizeof($samsungModels["SGH-D"]); $g++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["SGHD"]["category_id"][$g])."'>".$samsungModels["SGH-D"][$g]."</option>";
+	
 	print $endSGH_DModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-SD-model");
 	print $endMdSelArea;
@@ -578,13 +550,9 @@ EOF;
 	print $divSGH_EHeader;
 	print $beginMdSelArea.' style="top: 150px;">';
 	print $startSGH_EModelSelect;
-	for ($h=0; $h<sizeof($samsungModels["SGH-E"]); $h++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["SGHE"]["category_id"][$h]);
-		print "'>";
-		print $samsungModels["SGH-E"][$h];
-		print "</option>";
-	}
+	for ($h=0; $h<sizeof($samsungModels["SGH-E"]); $h++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["SGHE"]["category_id"][$h])."'>".$samsungModels["SGH-E"][$h]."</option>";
+	
 	print $endSGH_EModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-SE-model");
 	print $endMdSelArea;
@@ -597,13 +565,9 @@ EOF;
 	print $divSGH_FGHeader;
 	print $beginMdSelArea.' style="top: 170px;">';
 	print $startSGH_FGModelSelect;
-	for ($i=0; $i<sizeof($samsungModels["SGH-F | SGH-G"]); $i++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["SGHFG"]["category_id"][$i]);
-		print "'>";
-		print $samsungModels["SGH-F | SGH-G"][$i];
-		print "</option>";
-	}
+	for ($i=0; $i<sizeof($samsungModels["SGH-F | SGH-G"]); $i++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["SGHFG"]["category_id"][$i])."'>".$samsungModels["SGH-F | SGH-G"][$i]."</option>";
+	
 	print $endSGH_FGModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-SFG-model");
 	print $endMdSelArea;
@@ -616,13 +580,9 @@ EOF;
 	print $divSGH_IJHeader;
 	print $beginMdSelArea.' style="top: 190px;">';
 	print $startSGH_IJModelSelect;
-	for ($j=0; $j<sizeof($samsungModels["SGH-I | SGH-J"]); $j++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["SGHIJ"]["category_id"][$j]);
-		print "'>";
-		print $samsungModels["SGH-I | SGH-J"][$j];
-		print "</option>";
-	}
+	for ($j=0; $j<sizeof($samsungModels["SGH-I | SGH-J"]); $j++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["SGHIJ"]["category_id"][$j])."'>".$samsungModels["SGH-I | SGH-J"][$j]."</option>";
+	
 	print $endSGH_IJModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-SIJ-model");
 	print $endMdSelArea;
@@ -635,13 +595,9 @@ EOF;
 	print $divSGH_LMHeader;
 	print $beginMdSelArea.' style="top: 210px;">';
 	print $startSGH_LMModelSelect;
-	for ($k=0; $k<sizeof($samsungModels["SGH-L | SGH-M"]); $k++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["SGHLM"]["category_id"][$k]);
-		print "'>";
-		print $samsungModels["SGH-L | SGH-M"][$k];
-		print "</option>";
-	}
+	for ($k=0; $k<sizeof($samsungModels["SGH-L | SGH-M"]); $k++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["SGHLM"]["category_id"][$k])."'>".$samsungModels["SGH-L | SGH-M"][$k]."</option>";
+	
 	print $endSGH_LMModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-SLM-model");
 	print $endMdSelArea;
@@ -654,13 +610,9 @@ EOF;
 	print $divSGH_PSUVHeader;
 	print $beginMdSelArea.' style="top: 230px;">';
 	print $startSGH_PSUVModelSelect;
-	for ($l=0; $l<sizeof($samsungModels["SGH-P | SGH-S | SGH-U | SGH-V"]); $l++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["SGHPSUV"]["category_id"][$l]);
-		print "'>";
-		print $samsungModels["SGH-P | SGH-S | SGH-U | SGH-V"][$l];
-		print "</option>";
-	}
+	for ($l=0; $l<sizeof($samsungModels["SGH-P | SGH-S | SGH-U | SGH-V"]); $l++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["SGHPSUV"]["category_id"][$l])."'>".$samsungModels["SGH-P | SGH-S | SGH-U | SGH-V"][$l]."</option>";
+	
 	print $endSGH_PSUVModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-SPSUV-model");
 	print $endMdSelArea;
@@ -673,13 +625,9 @@ EOF;
 	print $divSGH_XHeader;
 	print $beginMdSelArea.' style="top: 250px;">';
 	print $startSGH_XModelSelect;
-	for ($m=0; $m<sizeof($samsungModels["SGH-X"]); $m++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["SGHX"]["category_id"][$m]);
-		print "'>";
-		print $samsungModels["SGH-X"][$m];
-		print "</option>";
-	}
+	for ($m=0; $m<sizeof($samsungModels["SGH-X"]); $m++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["SGHX"]["category_id"][$m])."'>".$samsungModels["SGH-X"][$m]."</option>";
+	
 	print $endSGH_XModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-SX-model");
 	print $endMdSelArea;
@@ -692,13 +640,9 @@ EOF;
 	print $divSGH_ZHeader;
 	print $beginMdSelArea.' style="top: 270px;">';
 	print $startSGH_ZModelSelect;
-	for ($n=0; $n<sizeof($samsungModels["SGH-Z"]); $n++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["SGHZ"]["category_id"][$n]);
-		print "'>";
-		print $samsungModels["SGH-Z"][$n];
-		print "</option>";
-	}
+	for ($n=0; $n<sizeof($samsungModels["SGH-Z"]); $n++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["SGHZ"]["category_id"][$n])."'>".$samsungModels["SGH-Z"][$n]."</option>";
+	
 	print $endSGH_ZModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-SZ-model");
 	print $endMdSelArea;
@@ -709,13 +653,9 @@ EOF;
 	print $divUltraHeader;
 	print $beginMdSelArea.' style="top: 290px;">';
 	print $startUltraModelSelect;
-	for ($o=0; $o<sizeof($samsungModels["Ultra"]); $o++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($samsungModelsID["Ultra"]["category_id"][$o]);
-		print "'>";
-		print $samsungModels["Ultra"][$o];
-		print "</option>";
-	}
+	for ($o=0; $o<sizeof($samsungModels["Ultra"]); $o++) 
+		print "<option class='models-option-style' value='".base64_encode($samsungModelsID["Ultra"]["category_id"][$o])."'>".$samsungModels["Ultra"][$o]."</option>";
+	
 	print $endUltraModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-Ultra-model");
 	print $endMdSelArea;

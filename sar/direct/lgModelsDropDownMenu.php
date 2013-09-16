@@ -322,13 +322,9 @@ EOF;
 	print $divBCHeader;
 	print $beginMdSelArea.' style="">';
 	print $startBCModelSelect;
-	for ($a=0; $a<sizeof($lgModels["B | C"]); $a++)	{
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["BC"]["category_id"][$a]);
-		print "'>";
-		print $lgModels["B | C"][$a];
-		print "</option>";
-	}
+	for ($a=0; $a<sizeof($lgModels["B | C"]); $a++)	
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["BC"]["category_id"][$a])."'>".$lgModels["B | C"][$a]."</option>";
+	
 	print $endBCModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-BC-model");
 	print $endMdSelArea;
@@ -341,13 +337,9 @@ EOF;
 	print $divFGHeader;
 	print $beginMdSelArea.' style="top: 50px;">';
 	print $startFGModelSelect;
-	for ($b=0; $b<sizeof($lgModels["F | G"]); $b++)	{
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["FG"]["category_id"][$b]);
-		print "'>";
-		print $lgModels["F | G"][$b];
-		print "</option>";
-	}
+	for ($b=0; $b<sizeof($lgModels["F | G"]); $b++)	
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["FG"]["category_id"][$b])."'>".$lgModels["F | G"][$b]."</option>";
+	
 	print $endFGModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-FG-model");
 	print $endMdSelArea;
@@ -360,13 +352,9 @@ EOF;
 	print $divGB_GD_GSHeader;
 	print $beginMdSelArea.' style=" top: 70px;">';
 	print $startGB_GD_GSModelSelect;
-	for ($c=0; $c<sizeof($lgModels["GB | GD | GS"]); $c++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["GBDS"]["category_id"][$c]);
-		print "'>";
-		print $lgModels["GB | GD | GS"][$c];
-		print "</option>";
-	}
+	for ($c=0; $c<sizeof($lgModels["GB | GD | GS"]); $c++) 
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["GBDS"]["category_id"][$c])."'>".$lgModels["GB | GD | GS"][$c]."</option>";
+	
 	print $endGB_GD_GSModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-GBDS-model");
 	print $endMdSelArea;
@@ -379,13 +367,9 @@ EOF;
 	print $divGT_GU_GWHeader;
 	print $beginMdSelArea.' style=" top: 90px;">';
 	print $startGT_GU_GWModelSelect;
-	for ($d=0; $d<sizeof($lgModels["GT | GU | GW"]); $d++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["GTUW"]["category_id"][$d]);
-		print "'>";
-		print $lgModels["GT | GU | GW"][$d];
-		print "</option>";
-	}
+	for ($d=0; $d<sizeof($lgModels["GT | GU | GW"]); $d++) 
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["GTUW"]["category_id"][$d])."'>".$lgModels["GT | GU | GW"][$d]."</option>";
+	
 	print $endGT_GU_GWModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-GTUW-model");
 	print $endMdSelArea;
@@ -398,13 +382,9 @@ EOF;
 	print $divKC_KE_KFHeader;
 	print $beginMdSelArea.' style=" top: 110px;">';
 	print $startKC_KE_KFModelSelect;
-	for ($e=0; $e<sizeof($lgModels["KC | KE | KF"]); $e++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["KCEF"]["category_id"][$e]);
-		print "'>";
-		print $lgModels["KC | KE | KF"][$e];
-		print "</option>";
-	}
+	for ($e=0; $e<sizeof($lgModels["KC | KE | KF"]); $e++) 
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["KCEF"]["category_id"][$e])."'>".$lgModels["KC | KE | KF"][$e]."</option>";
+	
 	print $endKC_KE_KFModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-KCEF-model");
 	print $endMdSelArea;
@@ -417,13 +397,9 @@ EOF;
 	print $divKG_KM_KPHeader;
 	print $beginMdSelArea.' style=" top: 130px;">';
 	print $startKG_KM_KPModelSelect;
-	for ($f=0; $f<sizeof($lgModels["KG | KM | KP"]); $f++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["KGMP"]["category_id"][$f]);
-		print "'>";
-		print $lgModels["KG | KM | KP"][$f];
-		print "</option>";
-	}
+	for ($f=0; $f<sizeof($lgModels["KG | KM | KP"]); $f++) 
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["KGMP"]["category_id"][$f])."'>".$lgModels["KG | KM | KP"][$f]."</option>";
+	
 	print $endKG_KM_KPModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-KGMP-model");
 	print $endMdSelArea;
@@ -436,13 +412,9 @@ EOF;
 	print $divKS_KUHeader;
 	print $beginMdSelArea.' style=" top: 150px;">';
 	print $startKS_KUModelSelect;
-	for ($g=0; $g<sizeof($lgModels["KS | KU"]); $g++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["KSU"]["category_id"][$g]);
-		print "'>";
-		print $lgModels["KS | KU"][$g];
-		print "</option>";
-	}
+	for ($g=0; $g<sizeof($lgModels["KS | KU"]); $g++) 
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["KSU"]["category_id"][$g])."'>".$lgModels["KS | KU"][$g]."</option>";
+	
 	print $endKS_KUModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-KSU-model");
 	print $endMdSelArea;
@@ -455,13 +427,9 @@ EOF;
 	print $divLMHeader;
 	print $beginMdSelArea.' style=" top: 170px;">';
 	print $startLMModelSelect;
-	for ($h=0; $h<sizeof($lgModels["L | M"]); $h++)	{
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["LM"]["category_id"][$h]);
-		print "'>";
-		print $lgModels["L | M"][$h];
-		print "</option>";
-	}
+	for ($h=0; $h<sizeof($lgModels["L | M"]); $h++)	
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["LM"]["category_id"][$h])."'>".$lgModels["L | M"][$h]."</option>";
+	
 	print $endLMModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-LM-model");
 	print $endMdSelArea;
@@ -474,13 +442,9 @@ EOF;
 	print $divPSHeader;
 	print $beginMdSelArea.' style=" top: 190px;">';
 	print $startPSModelSelect;
-	for ($i=0; $i<sizeof($lgModels["P | S"]); $i++)	{
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["PS"]["category_id"][$i]);
-		print "'>";
-		print $lgModels["P | S"][$i];
-		print "</option>";
-	}
+	for ($i=0; $i<sizeof($lgModels["P | S"]); $i++)	
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["PS"]["category_id"][$i])."'>".$lgModels["P | S"][$i]."</option>";
+	
 	print $endPSModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-PS-model");
 	print $endMdSelArea;
@@ -493,13 +457,9 @@ EOF;
 	print $divTUHeader;
 	print $beginMdSelArea.' style=" top: 210px;">';
 	print $startTUModelSelect;
-	for ($j=0; $j<sizeof($lgModels["T | U"]); $j++)	{
-		print "<option class='models-option-style' value='";
-		print base64_encode($lgModelsID["TU"]["category_id"][$j]);
-		print "'>";
-		print $lgModels["T | U"][$j];
-		print "</option>";
-	}
+	for ($j=0; $j<sizeof($lgModels["T | U"]); $j++)	
+		print "<option class='models-option-style' value='".base64_encode($lgModelsID["TU"]["category_id"][$j])."'>".$lgModels["T | U"][$j]."</option>";
+	
 	print $endTUModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-TU-model");
 	print $endMdSelArea;

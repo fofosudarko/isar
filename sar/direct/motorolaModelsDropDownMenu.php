@@ -260,13 +260,9 @@ EOF;
 	print $divAHeader;
 	print $beginMdSelArea.' style="">';
 	print $startAModelSelect;
-	for ($a=0; $a<sizeof($motorolaModels["A"]); $a++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($motorolaModelsID["A"]["category_id"][$a]);
-		print "'>";
-		print $motorolaModels["A"][$a];
-		print "</option>";
-	}
+	for ($a=0; $a<sizeof($motorolaModels["A"]); $a++) 
+		print "<option class='models-option-style' value='".base64_encode($motorolaModelsID["A"]["category_id"][$a])."'>".$motorolaModels["A"][$a]."</option>";
+	
 	print $endAModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-A-model");
 	print $endMdSelArea;
@@ -279,13 +275,9 @@ EOF;
 	print $divCHeader;
 	print $beginMdSelArea.' style="top: 50px;">';
 	print $startCModelSelect;
-	for ($b=0; $b<sizeof($motorolaModels["C"]); $b++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($motorolaModelsID["C"]["category_id"][$b]);
-		print "'>";
-		print $motorolaModels["C"][$b];
-		print "</option>";
-	}
+	for ($b=0; $b<sizeof($motorolaModels["C"]); $b++) 
+		print "<option class='models-option-style' value='".base64_encode($motorolaModelsID["C"]["category_id"][$b])."'>".$motorolaModels["C"][$b]."</option>";
+	
 	print $endCModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-C-model");
 	print $endMdSelArea;
@@ -298,13 +290,9 @@ EOF;
 	print $divDEFY_EHeader;
 	print $beginMdSelArea.' style="top: 70px;">';
 	print $startDEFY_EModelSelect;
-	for ($c=0; $c<sizeof($motorolaModels["DEFY | E"]); $c++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($motorolaModelsID["DEFY_E"]["category_id"][$c]);
-		print "'>";
-		print $motorolaModels["DEFY | E"][$c];
-		print "</option>";
-	}
+	for ($c=0; $c<sizeof($motorolaModels["DEFY | E"]); $c++) 
+		print "<option class='models-option-style' value='".base64_encode($motorolaModelsID["DEFY_E"]["category_id"][$c])."'>".$motorolaModels["DEFY | E"][$c]."</option>";
+	
 	print $endDEFY_EModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-DEFY_E-model");
 	print $endMdSelArea;
@@ -317,13 +305,9 @@ EOF;
 	print $divMOTO_KRZR_PEBLHeader;
 	print $beginMdSelArea.' style="top: 90px; left: 35px;">';
 	print $startMOTO_KRZR_PEBLModelSelect;
-	for ($d=0; $d<sizeof($motorolaModels["MOTO | MOTOKRZR | MOTOPEBL"]); $d++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($motorolaModelsID["MOTO-KRZR-PEBL"]["category_id"][$d]);
-		print "'>";
-		print $motorolaModels["MOTO | MOTOKRZR | MOTOPEBL"][$d];
-		print "</option>";
-	}
+	for ($d=0; $d<sizeof($motorolaModels["MOTO | MOTOKRZR | MOTOPEBL"]); $d++) 
+		print "<option class='models-option-style' value='".base64_encode($motorolaModelsID["MOTO-KRZR-PEBL"]["category_id"][$d])."'>".$motorolaModels["MOTO | MOTOKRZR | MOTOPEBL"][$d]."</option>";
+	
 	print $endMOTO_KRZR_PEBLModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-MOTO_KRZR_PEBL-model");
 	print $endMdSelArea;
@@ -336,13 +320,9 @@ EOF;
 	print $divRAZRHeader;
 	print $beginMdSelArea.' style="top: 110px;">';
 	print $startRAZRModelSelect;
-	for ($e=0; $e<sizeof($motorolaModels["MOTORAZR"]); $e++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($motorolaModelsID["RAZR"]["category_id"][$e]);
-		print "'>";
-		print $motorolaModels["MOTORAZR"][$e];
-		print "</option>";
-	}
+	for ($e=0; $e<sizeof($motorolaModels["MOTORAZR"]); $e++) 
+		print "<option class='models-option-style' value='".base64_encode($motorolaModelsID["RAZR"]["category_id"][$e])."'>".$motorolaModels["MOTORAZR"][$e]."</option>";
+	
 	print $endRAZRModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-RAZR-model");
 	print $endMdSelArea;
@@ -355,13 +335,9 @@ EOF;
 	print $divRIZR_ROKR_MP_SLVRHeader;
 	print $beginMdSelArea.' style="top: 130px; left: 40px;">';
 	print $startRIZR_ROKR_MP_SLVRModelSelect;
-	for ($f=0; $f<sizeof($motorolaModels["MOTORIZR | MOTOROKR | MP | SLVR"]); $f++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($motorolaModelsID["RIZR-ROKR-MP-SLVR"]["category_id"][$f]);
-		print "'>";
-		print $motorolaModels["MOTORIZR | MOTOROKR | MP | SLVR"][$f];
-		print "</option>";
-	}
+	for ($f=0; $f<sizeof($motorolaModels["MOTORIZR | MOTOROKR | MP | SLVR"]); $f++) 
+		print "<option class='models-option-style' value='".base64_encode($motorolaModelsID["RIZR-ROKR-MP-SLVR"]["category_id"][$f])."'>".$motorolaModels["MOTORIZR | MOTOROKR | MP | SLVR"][$f]."</option>";
+	
 	print $endRIZR_ROKR_MP_SLVRModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-RIZR-model");
 	print $endMdSelArea;
@@ -374,13 +350,9 @@ EOF;
 	print $divVHeader;
 	print $beginMdSelArea.' style="top: 150px;">';
 	print $startVModelSelect;
-	for ($g=0; $g<sizeof($motorolaModels["V"]); $g++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($motorolaModelsID["V"]["category_id"][$g]);
-		print "'>";
-		print $motorolaModels["V"][$g];
-		print "</option>";
-	}
+	for ($g=0; $g<sizeof($motorolaModels["V"]); $g++) 
+		print "<option class='models-option-style' value='".base64_encode($motorolaModelsID["V"]["category_id"][$g])."'>".$motorolaModels["V"][$g]."</option>";
+	
 	print $endVModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-V-model");
 	print $endMdSelArea;
@@ -393,13 +365,9 @@ EOF;
 	print $divWHeader;
 	print $beginMdSelArea.' style="top: 170px;">';
 	print $startWModelSelect;
-	for ($h=0; $h<sizeof($motorolaModels["W"]); $h++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($motorolaModelsID["W"]["category_id"][$h]);
-		print "'>";
-		print $motorolaModels["W"][$h];
-		print "</option>";
-	}
+	for ($h=0; $h<sizeof($motorolaModels["W"]); $h++) 
+		print "<option class='models-option-style' value='".base64_encode($motorolaModelsID["W"]["category_id"][$h])."'>".$motorolaModels["W"][$h]."</option>";
+	
 	print $endWModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-W-model");
 	print $endMdSelArea;

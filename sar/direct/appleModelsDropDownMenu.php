@@ -130,13 +130,9 @@ EOF;
 	print $diviPadHeader;
 	print $beginMdSelArea." style='top: 50px;'>";
 	print $startiPadModelSelect;
-	for ($i=0; $i<sizeof($appleModels["iPad"]); $i++) {
-		print "<option class='models-option-style' value='";
-		print base64_encode($appleModelsID["iPadID"]["category_id"][$i]);
-		print "'>";
-		print $appleModels["iPad"][$i];
-		print "</option>";
-	}
+	for ($i=0; $i<sizeof($appleModels["iPad"]); $i++)
+		print "<option class='models-option-style' value='".base64_encode($appleModelsID["iPadID"]["category_id"][$i])."'>".$appleModels["iPad"][$i]."</option>";
+	
 	print $endiPadModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-ipad");
 	print $endMdSelArea;
@@ -146,13 +142,9 @@ EOF;
 	echo $diviPhoneHeader;
 	print $beginMdSelArea."style='top: 130px;'>";
 	print $startiPhoneModelSelect;
-	for ($m=0; $m<sizeof($appleModels["iPhone"]); $m++)	{
-		print "<option class='models-option-style' value='";
-		print base64_encode($appleModelsID["iPhoneID"]["category_id"][$m]);
-		print "'>";
-		print $appleModels["iPhone"][$m];
-		print "</option>";
-	}
+	for ($m=0; $m<sizeof($appleModels["iPhone"]); $m++)
+		print "<option class='models-option-style' value='".base64_encode($appleModelsID["iPhoneID"]["category_id"][$m])."'>".$appleModels["iPhone"][$m]."</option>";
+	
 	print $endiPhoneModelSelect;
 	print submitButton($faceText="find&raquo;", $style="" ,$pos="relative", $submit="submit-iphone");
 	print $endMdSelArea;

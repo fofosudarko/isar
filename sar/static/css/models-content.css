@@ -147,13 +147,14 @@ img[title="Direct logo"] {
     color: #161616;
     font-size: 50px;
     text-transform: capitalize;
+    text-decoration: underline;
     text-align: center;
-    left: 200px;
+    left: 130px;
     text-shadow: 1px 1px 1px #4a4a4a;
     filter: progid:DXImageTransform.Microsoft.DropShadow(color="#4a4a4a", offX = 1, offY = 1, offZ = 1);        
-    border-bottom-style: solid;
+    /*border-bottom-style: solid;
     border-bottom-width: 1px;;
-    border-bottom-color: #070707;
+    border-bottom-color: #070707;*/
     letter-spacing: -2px;
 }
 

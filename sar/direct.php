@@ -60,15 +60,14 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                         <div>
                             <!--Ticker information on Brands -->
 		                    <ul id="js-news" type="none" class="js-hidden">
-		                    <!--<li class="news-item">&raquo;&raquo;&raquo;&nbsp;What is Brand?</li>
-                                <li class="news-item">&raquo;&nbsp;The <span style="text-decoration: underline;">American Marketing Association</span> defines a <em>brand</em> as a &quot;Name, term, design, symbol, or any other feature that identifies one seller's good or service as</li>
-                                <li class="news-item">&raquo;&nbsp;distinct from those of other sellers.&quot; A <em>brand</em> is thus a product or service whose dimensions differentiate it in some ways from other products or services</li>
-                                <li class="news-item">&raquo;&nbsp;designed to satisfy the same need. A brand can take many forms, including a <em>name</em>, <em>sign</em>, <em>symbol</em>, <em>color combination</em>&nbsp;or&nbsp;<em>slogan.</em></li>
-                                <li class="news-item">&raquo;&nbsp;The word <em>brand</em> has continued to evolve to encompass identity&mdash;it affects the personality of a product, company or service. It is defined by a perception, good or bad, that</li>
-                                <li class="news-item">&raquo;&nbsp;your customers or prospects have about you.</li>
-                                <li class="news-item">&raquo;&nbsp;<a style="color: inherit !important;" href="http://en.wikipedia.org/wiki/Brand" target="_blank" title="Read more"><em>Click this link to read more&nbsp;&raquo;&raquo;&raquo;</em></a></li>
-                           -->
-			                    <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What&nbsp;is&nbsp;iSAR&nbsp;Direct&trade;?</li>
+		                      <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What is Brand?</li>
+                          <li class="news-item">&raquo;&nbsp;The <span style="text-decoration: underline;">American Marketing Association</span> defines a <em>brand</em> as a &quot;Name, term, design, symbol, or any other feature that identifies one seller's good or service as</li>
+                          <li class="news-item">&raquo;&nbsp;distinct from those of other sellers.&quot; A <em>brand</em> is thus a product or service whose dimensions differentiate it in some ways from other products or services</li>
+                          <li class="news-item">&raquo;&nbsp;designed to satisfy the same need. A brand can take many forms, including a <em>name</em>, <em>sign</em>, <em>symbol</em>, <em>color combination</em>&nbsp;or&nbsp;<em>slogan.</em></li>
+                          <li class="news-item">&raquo;&nbsp;The word <em>brand</em> has continued to evolve to encompass identity&mdash;it affects the personality of a product, company or service. It is defined by a perception, good or bad, that</li>
+                          <li class="news-item">&raquo;&nbsp;your customers or prospects have about you.</li>
+                          <li class="news-item">&raquo;&nbsp;<a style="color: inherit !important;" href="http://en.wikipedia.org/wiki/Brand" target="_blank" title="Read more"><em>Click this link to read more&nbsp;&raquo;&raquo;&raquo;</em></a></li>
+                          <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What&nbsp;is&nbsp;iSAR&nbsp;Direct&trade;?</li>
 			                    <li class="news-item">&raquo;&nbsp;A simple and interactive standalone database application that wireless mobile devices' users can access/use to know and monitor the dynamic <a style="color: inherit !important;" href="http://en.wikipedia.org/wiki/Specific_absorption_rate"><b><em>Specific Absorption Rate</em></b></a></li>
 			                    <li class="news-item">&raquo;&nbsp; (SAR) levels of their electronic devices anywhere and at any time.</li>
 		                    </ul>
@@ -78,7 +77,7 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                 <div id="sel-brd" class="wid pos">
                     <div title="Select device brand">
                         <span>
-                            select&nbsp;your&nbsp;device's&nbsp;brand
+                            choose&nbsp;your&nbsp;device&nbsp;brand
                         </span>
                     </div>
                 </div>
@@ -93,7 +92,7 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                     <form method="post" action="./../forms/forms.php" title="Fill Brands Form">
                                             <input
                         type="hidden"
-                        name="hidden"
+                        name="forms"
                         value="brands"
                       >
                       <input
@@ -165,6 +164,7 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                     $("#js-news").ticker(
                         {
                             titleText: '',
+                            speed: 0.15,
                             fadeInSpeed: 300,
                             fadeOutSpeed: 300,
 							controls: false,

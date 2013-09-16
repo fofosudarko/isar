@@ -59,13 +59,9 @@ EOF;
     print $beginMdSelArea." style='top: 100px; padding-top: 400px;'>";
     print $startModelsSelect;
 
-    for ($counter=0; $counter<sizeof($modelName); $counter++) {
-        print "<option class='models-option-style' value='";
-        print base64_encode($category_id[$counter]);
-        print "'>";
-        print $brandName."&nbsp;".$modelName[$counter]."&nbsp;".$modelCategory[$counter];
-        print "</option>";
-    }
+    for ($counter=0; $counter<sizeof($modelName); $counter++) 
+        print "<option class='models-option-style' value='".base64_encode($category_id[$counter])."'>".$brandName."&nbsp;".$modelName[$counter]."&nbsp;".$modelCategory[$counter]."</option>";
+    
 
     print $endModelsSelect;
     print "<div style='position: absolute; top: 300px;'>";
