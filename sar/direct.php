@@ -9,7 +9,7 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8">
         <meta name="" content="">
         <title>Welcome&nbsp;to&nbsp;iSAR&nbsp;Direct&nbsp;&ndash;&nbsp;iSAR</title>
         <link rel="stylesheet" href="./static/css/direct-layout.css" type="text/css" media="screen">

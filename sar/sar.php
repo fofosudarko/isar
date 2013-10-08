@@ -59,7 +59,7 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8">
         <meta name="keywords" content="">
         <title><?="&nbsp;$model&nbsp;&ndash;&nbsp;$brandName&reg;&nbsp;&ndash;&nbsp;SAR&nbsp;Result&nbsp;&ndash;&nbsp;iSAR";?></title>
         <link rel="stylesheet" media="screen" href="./static/css/sar-layout.css" type="text/css">
