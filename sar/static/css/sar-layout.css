@@ -6,21 +6,21 @@
 
 body {
     margin: 0 auto;
-    height: 1650px;
+    height: 1550px;
     width: 1280px;
     background-color: #fff;
 }
 
 div#body {
     margin: 0 auto;
-    height: 1650px;
+    height: 1550px;
     width: 1280px;
     background-color: #fff;    
 }
 
 #upper-body {
     top: 0;
-    height: 1612px;
+    height: 1512px;
     background-color: #fff;
 }
 

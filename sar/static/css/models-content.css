@@ -87,24 +87,13 @@
 
 /* Logo CSS */
 
-#logo {
-    position: relative;
-    top: 12px;
-    height: 90px;
-    width: 120px;
-    background-color: #ff0404;
-    border-radius: 5px;
-    box-shadow: #000000 0px 1px 3px 0px; 
-}
-
 #app-logo {
     position: absolute;
-    top: 12px;
-    left: 475px;
-    height: 140px;
-    width: 320px;
-    background-color: #f9a503;
-    /* border: solid #f9b9b9 0px; */
+    top: 15px;
+    left: 482px;
+    height: 130px;
+    width: 300px;
+    background-color: #ff0404;
     border-radius: 10px;
     box-shadow: #000000 0px 1px 3px 0px;
 }
@@ -219,56 +208,52 @@ img[title="Direct logo"] {
 
 #partners {
     position: absolute;
-    height: 130px;
-    width: 1000px;
-    left: 130px;
-    top: 10px;
-    font-size: 12px;
+    height: 40px;
+    width: 820px;
+    left: 215px;
+		top: 0;
 }
 
 .partners {
-    height: 130px;
-    width: 160px;
+    height: 40px;
+    width: 120px;
 }
 
 #part-1 {
     position: absolute;
-    left: 5px;
-    top: -20px;
+    left: 0;
 }
 
 #part-2 {
     position: absolute;
-    left: 170px;
-    padding-top: 20px; 
+    left: 140px; 
 }
 
 #part-3 {
     position: absolute;
-    left: 335px;
+    left: 280px;
 }
 
 #part-4 {
     position: absolute;
-    left: 500px;
+    left: 420px;
 }
 
 #part-5 {
     position: absolute;
-    left: 665px;
+    left: 560px;
 }
 
 #part-6 {
     position: absolute;
-    left: 830px;
-    text-align: center;
+    left: 700px;
 }
 
 /* Footer CSS */ 
 
 .copyright {
     position: relative;
-    top: 12px;
+    top: 13px;
     font-size: 12px;
 }
 

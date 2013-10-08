@@ -5,7 +5,7 @@
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Device&nbsp;Safety&nbsp;Information</title>
+        <title>Device&nbsp;Safety&nbsp;Information&nbsp;&ndash;&nbsp;iSAR</title>
         <link rel="stylesheet" href="./static/css/info-layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/info-styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/info-content.css" type="text/css" media="screen">

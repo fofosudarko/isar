@@ -11,7 +11,7 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="" content="">
-        <title>Welcome&nbsp;to&nbsp;iSAR&nbsp;Direct&nbsp;&ndash;&nbsp;iSAR!</title>
+        <title>Welcome&nbsp;to&nbsp;iSAR&nbsp;Direct&nbsp;&ndash;&nbsp;iSAR</title>
         <link rel="stylesheet" href="./static/css/direct-layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/direct-styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/direct-content.css" type="text/css" media="screen">
@@ -44,14 +44,9 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                     </div>
                 </div>
                 <div id="logo-area" class="wid pos">
-                    <!--<div id="logo">
-                        <div>
-                            <img alt="company logo" src="./static/img/logos/scaledLogo.gif" title="iSAR logo" style="">
-                        </div>
-                    </div>-->
                     <div id="app-logo">
                         <div>
-                            <img alt="app logo" src="./static/img/logos/app-logo.gif" title="Direct logo" style="">
+                            <img alt="iSAR&nbsp;logo" src="./../static/img/logos/isarLogo.gif" title="iSAR logo" style="position: relative; top: 7px; left: 10px;">
                         </div>
                     </div>
                 </div>
@@ -60,24 +55,24 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                         <div>
                             <!--Ticker information on Brands -->
 		                    <ul id="js-news" type="none" class="js-hidden">
+                          <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What&nbsp;is&nbsp;iSAR&nbsp;Direct&trade;?</li>
+			                    <li class="news-item">&raquo;&nbsp;A simple and interactive database application that wireless mobile devices' users can access/use to know and monitor <a style="color: inherit !important;" href="http://en.wikipedia.org/wiki/Specific_absorption_rate"><b><em>Specific Absorption Rate</em></b></a></li>
+			                    <li class="news-item">&raquo;&nbsp; (SAR) values of their electronic devices anywhere and at any time.</li>
 		                      <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What is Brand?</li>
                           <li class="news-item">&raquo;&nbsp;The <span style="text-decoration: underline;">American Marketing Association</span> defines a <em>brand</em> as a &quot;Name, term, design, symbol, or any other feature that identifies one seller's good or service as</li>
-                          <li class="news-item">&raquo;&nbsp;distinct from those of other sellers.&quot; A <em>brand</em> is thus a product or service whose dimensions differentiate it in some ways from other products or services</li>
-                          <li class="news-item">&raquo;&nbsp;designed to satisfy the same need. A brand can take many forms, including a <em>name</em>, <em>sign</em>, <em>symbol</em>, <em>color combination</em>&nbsp;or&nbsp;<em>slogan.</em></li>
-                          <li class="news-item">&raquo;&nbsp;The word <em>brand</em> has continued to evolve to encompass identity&mdash;it affects the personality of a product, company or service. It is defined by a perception, good or bad, that</li>
-                          <li class="news-item">&raquo;&nbsp;your customers or prospects have about you.</li>
-                          <li class="news-item">&raquo;&nbsp;<a style="color: inherit !important;" href="http://en.wikipedia.org/wiki/Brand" target="_blank" title="Read more"><em>Click this link to read more&nbsp;&raquo;&raquo;&raquo;</em></a></li>
-                          <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What&nbsp;is&nbsp;iSAR&nbsp;Direct&trade;?</li>
-			                    <li class="news-item">&raquo;&nbsp;A simple and interactive standalone database application that wireless mobile devices' users can access/use to know and monitor the dynamic <a style="color: inherit !important;" href="http://en.wikipedia.org/wiki/Specific_absorption_rate"><b><em>Specific Absorption Rate</em></b></a></li>
-			                    <li class="news-item">&raquo;&nbsp; (SAR) levels of their electronic devices anywhere and at any time.</li>
-		                    </ul>
+													                          <li class="news-item">&raquo;&nbsp;distinct from those of other sellers.&quot; A <em>brand</em> is thus a product or service whose dimensions differentiate it in some ways from other products or services</li>
+													                          <li class="news-item">&raquo;&nbsp;designed to satisfy the same need. A brand can take many forms, including a <em>name</em>, <em>sign</em>, <em>symbol</em>, <em>color combination</em>&nbsp;or&nbsp;<em>slogan.</em></li>
+													                          <li class="news-item">&raquo;&nbsp;The word <em>brand</em> has continued to evolve to encompass identity&mdash;it affects the personality of a product, company or service. It is defined by a perception,&nbsp;</li>
+													                          <li class="news-item">&raquo;&nbsp;good or bad, that your customers or prospects have about you.</li>
+													                          <li class="news-item">&raquo;&nbsp;<a style="color: inherit !important;" href="http://en.wikipedia.org/wiki/Brand" target="_blank" title="Read more"><em>Click this link to read more&nbsp;&raquo;&raquo;&raquo;</em></a></li>												
+													</ul>
                         </div>
                     </div>
                 </div>
                 <div id="sel-brd" class="wid pos">
                     <div title="Select device brand">
                         <span>
-                            choose&nbsp;your&nbsp;device&nbsp;brand
+                            select&nbsp;your&nbsp;device's&nbsp;brand
                         </span>
                     </div>
                 </div>
@@ -89,49 +84,41 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                     </div>
                 </div>
                 <div id="dd-fm" class="wid pos">
-                    <form method="post" action="./../forms/forms.php" title="Fill Brands Form">
-                                            <input
-                        type="hidden"
-                        name="forms"
-                        value="brands"
-                      >
-                      <input
-                        type="submit" 
-                        value="click&nbsp;if&nbsp;device&nbsp;brand&nbsp;not&nbsp;found?"
-                        name="submit"
-                      >
+                    <form method="post" action="#" title="Fill Brands Form">
+                      <input type="hidden" name="forms" value="brands">
+                      <input type="submit" value="click&nbsp;if&nbsp;device&nbsp;brand&nbsp;not&nbsp;found?" name="submit">
                     </form>
                 </div>
                 <div id="partners-area" class="wid pos">
                     <div id="partners">
                         <div class="partners" id="part-1">
-                            <a href="http://www.lubuntu.net/" title="Go to Lubuntu&reg; site" target="_blank">
-                                <img alt="Lubuntu&reg; logo" src="./static/img/logos/partners/lubuntu.jpg" title="Lubuntu&reg; logo" height="130" width="160">
+                            <a href="http://www.apache.org/" title="Go to Apache&reg;&nbsp;site" target="_blank">
+                                <img alt="Apache&reg;&nbsp;logo" src="./../static/img/logos/partners/apache.jpg" title="Apache&reg;&nbsp;logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-2">
                             <a href="http://www.php.net/" title="Go to PHP&reg; site" target="_blank">
-                                <img alt="PHP&reg; logo" src="./static/img/logos/partners/php.png" title="PHP&reg; logo" height="90" width="160">
+                                <img alt="PHP&reg; logo" src="./../static/img/logos/partners/php.png" title="PHP&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-3">
                             <a href="http://www.mysql.com/" title="Go to MySQL&reg; site" target="_blank">
-                                <img alt="MySQL&reg; logo" src="./static/img/logos/partners/mysql.png" title="MySQL&reg; logo" height="130" width="160">
+                                <img alt="MySQL&reg; logo" src="./../static/img/logos/partners/mysql.png" title="MySQL&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-4">
                             <a href="http://www.python.org/" title="Go to Python&reg; site" target="_blank">
-                                <img alt="Python&reg; logo" src="./static/img/logos/partners/python.png" title="Python&reg; logo" height="130" width="160">
+                                <img alt="Python&reg; logo" src="./../static/img/logos/partners/python.png" title="Python&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-5">
                             <a href="http://www.jquery.com/" title="Go to jQuery&reg; site" target="_blank">
-                                <img alt="jQuery&reg; logo" src="./static/img/logos/partners/jquery.png" title="jQuery&reg; logo" height="90" width="160">
+                                <img alt="jQuery&reg; logo" src="./../static/img/logos/partners/jquery.png" title="jQuery&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-6">
                             <a href="http://www.knust.edu.gh/" title="Go to KNUST site" target="_blank">
-                                <img alt="KNUST logo" src="./static/img/logos/partners/Knust.jpg" title="KNUST logo" height="130" width="120">
+                                <img alt="Free Web Hosting" src="./../static/img/logos/partners/worldhost.jpeg" title="Free Web Hosting" height="40" width="120">
                             </a>
                         </div>
                     </div>

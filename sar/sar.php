@@ -11,45 +11,45 @@ if ($brandName != "") {
 	switch ($brandName) {
     	case "Apple":
         	include_once ("/home/fod/www/projects/isar/sar/direct/appleModelsArbiter.php");
-        	$resultsArray = appleModelsArbiter($brandName);
+        	$results_arr = appleModelsArbiter($brandName);
         	break;
     	case "Doro":
         	include_once ("/home/fod/www/projects/isar/sar/direct/doroModelsArbiter.php");
-        	$resultsArray = doroModelsArbiter($brandName);
+        	$results_arr = doroModelsArbiter($brandName);
         	break;
     	case "HTC":
         	include_once ("/home/fod/www/projects/isar/sar/direct/htcModelsArbiter.php");
-        	$resultsArray = htcModelsArbiter($brandName);
+        	$results_arr = htcModelsArbiter($brandName);
         	break;
     	case "LG":
         	include_once ("/home/fod/www/projects/isar/sar/direct/lgModelsArbiter.php");
-        	$resultsArray = lgModelsArbiter($brandName);
+        	$results_arr = lgModelsArbiter($brandName);
         	break;
     	case "Motorola":
         	include_once ("/home/fod/www/projects/isar/sar/direct/motorolaModelsArbiter.php");
-        	$resultsArray = motorolaModelsArbiter($brandName);
+        	$results_arr = motorolaModelsArbiter($brandName);
         	break;
     	case "Nokia":
         	include_once ("/home/fod/www/projects/isar/sar/direct/nokiaModelsArbiter.php");
-        	$resultsArray = nokiaModelsArbiter($brandName);
+        	$results_arr = nokiaModelsArbiter($brandName);
         	break;
     	case "Samsung":
         	include_once ("/home/fod/www/projects/isar/sar/direct/samsungModelsArbiter.php");
-        	$resultsArray = samsungModelsArbiter($brandName);
+        	$results_arr = samsungModelsArbiter($brandName);
         	break;
     	case "Sony Ericsson": 
         	include_once ("/home/fod/www/projects/isar/sar/direct/sonyericssonModelsArbiter.php");                           
-        	$resultsArray = sonyericssonModelsArbiter($brandName);
+        	$results_arr = sonyericssonModelsArbiter($brandName);
         	break;
     	default:
         	include_once ("/home/fod/www/projects/isar/sar/direct/otherModelsArbiter.php");
-    	    $resultsArray = otherModelsArbiter($brandName);   
+    	    $results_arr = otherModelsArbiter($brandName);   
 	}
 } else {
 	header("Location: ../index.php");
 }
 
-list ($modelName, $modelCategory, $sar, $addInfo) = $resultsArray;
+list ($modelName, $modelCategory, $sar, $addInfo) = $results_arr;
 
 include_once ("/home/fod/www/projects/isar/sar/direct/concatModelName.php");
 
@@ -61,7 +61,7 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="keywords" content="">
-        <title><?="&nbsp;".$model."&nbsp;&ndash;&nbsp;".$brandName."&reg;&nbsp;&ndash;&nbsp;SAR&nbsp;Result&nbsp;&ndash;&nbsp;iSAR!";?></title>
+        <title><?="&nbsp;$model&nbsp;&ndash;&nbsp;$brandName&reg;&nbsp;&ndash;&nbsp;SAR&nbsp;Result&nbsp;&ndash;&nbsp;iSAR";?></title>
         <link rel="stylesheet" media="screen" href="./static/css/sar-layout.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./static/css/sar-styles.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./static/css/sar-content.css" type="text/css">
@@ -93,14 +93,9 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                     </div>
                 </div>
                 <div id="logo-area" class="wid pos">
-                    <!--<div id="logo">
-                        <div>
-                            <img alt="company logo" src="./static/img/logos/scaledLogo.gif" title="iSAR logo" style="">
-                        </div>
-                    </div>-->
                     <div id="app-logo">
                         <div>
-                            <img alt="app logo" src="./static/img/logos/app-logo.gif" title="Direct logo" style="">
+                            <img alt="iSAR&nbsp;logo" src="./../static/img/logos/isarLogo.gif" title="iSAR&nbsp;logo" style="position: relative; top: 7px; left: 10px;">
                         </div>
                     </div>
                 </div>
@@ -110,17 +105,17 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                         <div>
                             <ul class="js-hidden" id="js-news" type="none">
                                 <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What&nbsp;is&nbsp;SAR?</li>
-                                <li class="news-item">&raquo;&nbsp;<em>Specific Absorption Rate</em> (SAR) is a measure of the rate at which energy is absorbed by the body when exposed to a <i>radio frequency</i> (RF); although, it can also refer to</li><li class="news-item">&raquo;&nbsp;absorption of other forms of energy by tissue, including ultrasound.</li>
+                                <li class="news-item">&raquo;&nbsp;<em>Specific Absorption Rate</em> (SAR) is a measure of the rate at which energy is absorbed by the body when exposed to a <i>radio frequency</i> (RF);</li><li class="news-item">&raquo;&nbsp;Although, it can also refer to absorption of other forms of energy by tissue, including ultrasound.</li>
                                 <li class="news-item">&raquo;&nbsp;It is defined as the <i>power</i> absorbed per <i>mass</i> of <i>body tissue</i> and has the units of <em>watts</em> per <em>kilogram</em> (W/kg).</li>
-                                <li class="news-item"></li>
-                                <li class="news-item"></li>
+                                <!--<li class="news-item"></li>
+                                <li class="news-item"></li>-->
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div id="sar-all-lim" class="wid pos">
                     <div class="limit fcc">
-                        <div style="position: relative; top: 0px;">
+                        <div style="position: relative; top: 9px;">
                             <a href="http://www.fcc.gov/" target="_blank" style="color: inherit !important; text-decoration: none; cursor: pointer;">
                                 <span title="Federal Communications Commission" style="text-decoration: underline; font-size: 20px;">
                                     FCC&nbsp;(USA)
@@ -254,51 +249,43 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                     <div id="last-column" class="ht"></div>
                 </div>
                 <div id="sar-fm" class="wid pos">
-                    <form method="post" action="./../forms/forms.php" title="Fill&nbsp;SAR&nbsp;Form">
-                                            <input
-                        type="hidden"
-                        name="forms"
-                        value="sar"
-                      >
+                    <form method="post" action="#" title="Fill&nbsp;SAR&nbsp;Form">
+                      <input type="hidden" name="forms" value="sar">
                       <input type="hidden" name="brand" value="<?=$brandName.'&reg;';?>">
                       <input type="hidden" name="model" value="<?=($addInfo == ""||$addInfo == "None")?$model:$model.'&nbsp;'.$addInfo;?>">
-                      <input
-                        type="submit"
-                        value="Click&nbsp;If&nbsp;<?=$brandName.'&nbsp;'.$model;?>&#39;s&nbsp;SAR&nbsp;Not&nbsp;Found?"
-                        name="submit"
-                      >
+                      <input type="submit" value="Click&nbsp;If&nbsp;<?=$brandName.'&nbsp;'.$model;?>&#39;s&nbsp;SAR&nbsp;Not&nbsp;Found?" name="submit">
                     </form>
                 </div>
                 <div id="partners-area" class="wid pos">
                     <div id="partners">
                         <div class="partners" id="part-1">
-                            <a href="http://www.lubuntu.net/" title="Go to Lubuntu&reg; site" target="_blank">
-                                <img alt="Lubuntu&reg; logo" src="./static/img/logos/partners/lubuntu.jpg" title="Lubuntu&reg; logo" height="130" width="160">
+                            <a href="http://www.apache.org/" title="Go to Apache&reg; site" target="_blank">
+                                <img alt="Apache&reg; logo" src="./../static/img/logos/partners/apache.jpg" title="Apache&reg;&nbsp;logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-2">
                             <a href="http://www.php.net/" title="Go to PHP&reg; site" target="_blank">
-                                <img alt="PHP&reg; logo" src="./static/img/logos/partners/php.png" title="PHP&reg; logo" height="90" width="160">
+                                <img alt="PHP&reg; logo" src="./../static/img/logos/partners/php.png" title="PHP&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-3">
                             <a href="http://www.mysql.com/" title="Go to MySQL&reg; site" target="_blank">
-                                <img alt="MySQL&reg; logo" src="./static/img/logos/partners/mysql.png" title="MySQL&reg; logo" height="130" width="160">
+                                <img alt="MySQL&reg; logo" src="./../static/img/logos/partners/mysql.png" title="MySQL&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-4">
                             <a href="http://www.python.org/" title="Go to Python&reg; site" target="_blank">
-                                <img alt="Python&reg; logo" src="./static/img/logos/partners/python.png" title="Python&reg; logo" height="130" width="160">
+                                <img alt="Python&reg; logo" src="./../static/img/logos/partners/python.png" title="Python&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-5">
                             <a href="http://www.jquery.com/" title="Go to jQuery&reg; site" target="_blank">
-                                <img alt="jQuery&reg; logo" src="./static/img/logos/partners/jquery.png" title="jQuery&reg; logo" height="90" width="160">
+                                <img alt="jQuery&reg; logo" src="./../static/img/logos/partners/jquery.png" title="jQuery&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-6">
                             <a href="http://www.knust.edu.gh/" title="Go to KNUST site" target="_blank">
-                                <img alt="KNUST logo" src="./static/img/logos/partners/Knust.jpg" title="KNUST logo" height="130" width="120">
+                                <img alt="KNUST logo" src="./../static/img/logos/partners/worldhost.jpeg" title="KNUST logo" height="40" width="120">
                             </a>
                         </div>
                     </div>

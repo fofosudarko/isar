@@ -1,22 +1,27 @@
 /* content stylesheet */
 
+#nav, #nav-features, .nav-features, .nav-features > a span,
+.act-nav, .act-home > a span, .act-sar > a span, .act-about > a span,
+#logo, #img-box, #features, #direct, a[title="Click to see featured brands!!!"],
+a[title="Click to browse SAR database!!!"], #partners, #copyright, #site-map, .site-map, .site-map > a { position: relative; }
+
+#act-nav, #ticker, #ticker > div, #img-box > div:first-of-type,
+.img-pos, #part-1, #part-2, #part-3, #part-4, #part-5, #part-6 { position: absolute; }
+
 /* Nav CSS */
 
 #nav {
-    position: relative;
     top: 1px;
     height: 20px;
     width: 1280px;
 }
 
 #nav-features {
-    position: relative;
     height: 20px;
     width: 700px;
 }
 
 .nav-features {
-    position: relative;
     height: 20px;
     width: 90px;
     float: left;
@@ -40,12 +45,10 @@
 }
 
 .nav-features > a span {
-    position: relative;
     top: 7px;
 }
 
 #act-nav {
-    position: absolute;
     height: 30px;
     width: 324px;
     left: 950px;
@@ -53,7 +56,6 @@
 }
 
 .act-nav {
-    position: relative;
     height: 30px;
     width: 108px;
     float: left;
@@ -72,35 +74,20 @@
     color: #ffffff !important;
 }
 
-.act-home > a span {
-    position: relative;
-    top: 5px;
-}
-
-.act-sar > a span {
-    position: relative;
-    top: 5px;
-}
-
-.act-about > a span {
-    position: relative;
-    top: 5px;
-}
+.act-home > a span, .act-sar > a span, .act-about > a span { top: 5px; }
 
 #logo {
-    position: relative;
     height: 130px;
     width: 300px;
     background-color: #ff0404;
     border: solid #f9b9b9 0px;
-    top: 10px;
+    top: 15px;
     left: 500px;
     border-radius: 10px;
     box-shadow: #000000 0px 1px 3px 0px;
 }
 
 #ticker {
-    position: absolute;
     height: 40px;
     top: 5px;
     width: 900px;
@@ -108,7 +95,6 @@
 }
 
 #ticker > div {
-    position: absolute;
     height: 30px;
     top: 5px;
     width: 850px;
@@ -116,7 +102,6 @@
 }
 
 #img-box {
-    position: relative;
     top: 25px;
     height: 400px;
     width: 800px;
@@ -146,13 +131,11 @@
 }
 
 #features {
-    position: relative;
     top: 5px;
     left: 310px;    
 }
 
 #direct {
-    position: relative;
     left: 770px;
     top: -118px;
 }
@@ -162,7 +145,6 @@ a[title="Click to see featured brands!!!"] {
     color: inherit !important;
     font-size: 30px;
     line-height: 30px;
-    position: relative;
     top: 20px;
 }
 
@@ -172,13 +154,11 @@ a[title="Click to browse SAR database!!!"] {
     font-size: 30px;
     line-height: 30px;
     top: 20px;
-    position: relative;
 }
 
 /* Nivo Image Slider CSS */
 
 #img-box > div:first-of-type {
-    position: absolute;
     top: 10px;
     bottom: 10px;
     left: 10px;
@@ -187,18 +167,13 @@ a[title="Click to browse SAR database!!!"] {
     width: 780px;
 }
 
-.img-pos {
-    position: absolute;
-}
-
 #partners-area {
     font-size: 12px;
 }
 
 #partners {
-    position: relative;
-    top: 5px;
-    left: 200px;
+    top: 0;
+    left: 215px;
     height: 40px;
     width: 820px; 
 }
@@ -208,46 +183,25 @@ a[title="Click to browse SAR database!!!"] {
     width: 120px;
 }
 
-#part-1 {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
+#part-1 { left: 0; }
 
-#part-2 {
-    position: absolute;
-    left: 140px;
-}
+#part-2 { left: 140px; }
 
-#part-3 {
-    position: absolute;
-    left: 280px;
-}
+#part-3 { left: 280px; }
 
-#part-4 {
-    position: absolute;
-    left: 420px;
-}
+#part-4 { left: 420px; }
 
-#part-5 {
-    position: absolute;
-    left: 560px;
-}
+#part-5 { left: 560px; }
 
-#part-6 {
-    position: absolute;
-    left: 700px;
-}
+#part-6 { left: 700px; }
 
-.copyright {
-    position: relative;
+#copyright {
     top: 13px;
     font-size: 12px;
 }
 
 #site-map {
     margin: 0 auto;
-    position: relative;
     top: -10px;
     height: 30px;
     width: 600px;
@@ -258,12 +212,10 @@ a[title="Click to browse SAR database!!!"] {
 .site-map {
     height: 30px;
     width: 100px;
-    position: relative;
     float: left;
 }
 
 .site-map > a {
-    position: relative;
     top: 3px;
     left: 30px;
     color: inherit !important;
@@ -274,19 +226,4 @@ a[title="Click to browse SAR database!!!"] {
     color: #038bfd !important;
 }
 
-.home {
-    left: 200px;
-}
-
-.sar {
-    left: 200px;
-}
-
-.about {
-    left: 200px;
-}
-
-.help {
-    left: 200px;
-}
-
+.home, .sar, .about, .help { left: 200px; }

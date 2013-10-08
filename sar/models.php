@@ -23,112 +23,64 @@ $models_db = models_db ($brandName, $bid); // Get Array from models_db
 function appHeightAlter1 ()
 {
     // Alter height style for "Apple" Models
-    $heightStyle = <<<EOF
+    $height_style = <<<EOF
     <style type="text/css">
-        body {
-            height: 1810px !important;
-        }
-        #body {
-            height: 1810px !important;
-        }
-        #upper-body {
-            height: 1772px !important;
-        }
-        #models-area {
-            height: 1160px !important;
-        }
-        #m-area {
-            height: 1140px !important;
-        }
-        #md-area {
-            height: 940px !important;
-        }
+        body { height: 1710px !important; }
+        #body { height: 1710px !important; }
+        #upper-body { height: 1672px !important; }
+        #models-area { height: 1160px !important; }
+        #m-area { height: 1140px !important; }
+        #md-area { height: 940px !important; }
     </style>
 EOF;
-    return $heightStyle;
+    return $height_style;
 }
 
 function doroHeightAlter ()
 {
     // Alter height style for "Apple" Models
-    $heightStyle = <<<EOF
+    $height_style = <<<EOF
     <style type="text/css">
-        body {
-            height: 2210px !important;
-        }
-        #body {
-            height: 2210px !important;
-        }
-        #upper-body {
-            height: 2172px !important;
-        }
-        #models-area {
-            height: 1560px !important;
-        }
-        #m-area {
-            height: 1540px !important;
-        }
-        #md-area {
-            height: 1340px !important;
-        }
+        body { height: 2110px !important; }
+        #body { height: 2110px !important; }
+        #upper-body { height: 2072px !important; }
+        #models-area { height: 1560px !important; }
+        #m-area { height: 1540px !important; }
+        #md-area { height: 1340px !important; }
     </style>
 EOF;
-    return $heightStyle;
+    return $height_style;
 }
 
 function appHeightAlter2()
 {
     // Alter height style for "Apple" Models
-    $heightStyle = <<<EOF
+    $height_style = <<<EOF
     <style type="text/css">
-        body {
-            height: 2160px !important;
-        }
-        #body {
-            height: 2160px !important;
-        }
-        #upper-body {
-            height: 2122px !important;
-        }
-        #models-area {
-            height: 1510px !important;
-        }
-        #m-area {
-            height: 1490px !important;
-        }
-        #md-area {
-            height: 1290px !important;
-        }
+        body { height: 2060px !important; }
+        #body { height: 2060px !important; }
+        #upper-body { height: 2022px !important; }
+        #models-area { height: 1510px !important; }
+        #m-area { height: 1490px !important; }
+        #md-area { height: 1290px !important; }
     </style>
 EOF;
-    return $heightStyle;
+    return $height_style;
 }
 
 function motorolaHeightAlter ()
 {
-    $heightStyle = <<<EOF
+    $height_style = <<<EOF
     <style type="text/css">
-        body {
-            height: 1970px !important;
-        }
-        #body {
-            height: 1970px !important;
-        }
-        #upper-body {
-            height: 1932px !important;
-        }
-        #models-area {
-            height: 1320px !important;
-        }
-        #m-area {
-            height: 1300px !important;
-        }
-        #md-area {
-            height: 1100px !important;
-        }
+        body { height: 1870px !important; }
+        #body { height: 1870px !important; }
+        #upper-body { height: 1832px !important; }
+        #models-area { height: 1320px !important; }
+        #m-area { height: 1300px !important; }
+        #md-area { height: 1100px !important; }
     </style>
 EOF;
-    return $heightStyle;
+    return $height_style;
 }
 
 if (isset ($brandName)) {
@@ -158,7 +110,7 @@ if (isset ($brandName)) {
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title><?=$brandName."&reg;&nbsp;&ndash;&nbsp;Models&nbsp;Page&nbsp;&ndash;&nbsp;iSAR!";?></title>
+        <title><?="$brandName&reg;&nbsp;&ndash;&nbsp;Models&nbsp;Page&nbsp;&ndash;&nbsp;iSAR";?></title>
         <link rel="stylesheet" media="screen" href="./static/css/models-layout.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./static/css/models-styles.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./static/css/models-content.css" type="text/css">
@@ -192,14 +144,9 @@ if (isset ($brandName)) {
                     </div>
                 </div>
                 <div id="logo-area" class="wid pos">
-                    <!--<div id="logo">
-                        <div>
-                            <img alt="company logo" src="./static/img/logos/scaledLogo.gif" title="iSAR logo" style="">
-                        </div>
-                    </div>-->
                     <div id="app-logo">
                         <div>
-                            <img alt="app logo" src="./static/img/logos/app-logo.gif" title="Direct logo" style="">
+                            <img alt="iSAR&nbsp;logo" src="./../static/img/logos/isarLogo.gif" title="iSAR logo" style="position: relative; top: 7px; left: 10px;">
                         </div>
                     </div>
                 </div>
@@ -215,7 +162,7 @@ if (isset ($brandName)) {
                 <div id="sel-model" class="wid pos">
                     <div title="Select Device Model">
                         <span style="<?=($brandName == 'Sony Ericsson') ? 'font-size: 40px; left: 130px;' :'';?><?=(preg_match ('/Samsung|BlackBerry|Motorola/', $brandName)) ? 'left: 80px;' : '' ?>">
-                            choose&nbsp;your&nbsp;<?=$brandName."&reg;";?>&nbsp;device&nbsp;model
+                            select&nbsp;your&nbsp;<?=$brandName."&reg;";?>&nbsp;device's&nbsp;model
                         </span>
                     </div>
                 </div>
@@ -233,19 +180,19 @@ if (isset ($brandName)) {
                                 switch ($brandName)
                                 {
                                     case "Apple":
-                                        print "<span style='left: 185px;'>know&nbsp;your&nbsp;device's&nbsp;SAR</span>";
+                                        print "<span style='left: 170px;'>know&nbsp;your&nbsp;device's&nbsp;SAR</span>";
                                         break;
                                     case "BlackBerry":
-                                        print "<span style='left: 185px;'>know&nbsp;your&nbsp;device's&nbsp;SAR</span>";
+                                        print "<span style='left: 170px;'>know&nbsp;your&nbsp;device's&nbsp;SAR</span>";
                                         break;
                                     case "Doro":
-                                        print "<span style='left: 185px;'>know&nbsp;your&nbsp;device's&nbsp;SAR</span>";
+                                        print "<span style='left: 170px;'>know&nbsp;your&nbsp;device's&nbsp;SAR</span>";
                                         break;
                                     case "Sonim":
-                                        print "<span style='left: 185px;'>know&nbsp;your&nbsp;device's&nbsp;SAR</span>";
+                                        print "<span style='left: 170px;'>know&nbsp;your&nbsp;device's&nbsp;SAR</span>";
                                         break;
                                     default:
-                                        print "<span style='left: 125px;'>click&nbsp;label&nbsp;below&nbsp;to&nbsp;view&nbsp;content</span>";               
+                                        print "<span style='left: 122px;'>click&nbsp;label&nbsp;below&nbsp;to&nbsp;view&nbsp;content</span>";               
                                 }
                             ?>                                
                             </div>
@@ -291,50 +238,43 @@ if (isset ($brandName)) {
                     <div id="ad-2"></div>
                 </div>
                 <div id="md-fm" class="wid pos">
-                            <form method="post" action="./../forms/forms.php" title="Fill&nbsp;<?=$brandName?>&nbsp;Model&nbsp;Form" target="_self">
-                                <input
-                                    type="hidden"
-                                    name="forms"
-                                    value="devices"
-                                >
+                            <form method="post" action="#" title="Fill&nbsp;<?=$brandName?>&nbsp;Model&nbsp;Form" target="_self">
+                                <input type="hidden" name="forms" value="devices">
                                 <input type="hidden" name="brand" value="<?=$brandName.'&reg;';?>">
-                                <input
-                                    type="submit"
-                                    value="<?='click&nbsp;if&nbsp;'.$brandName.'&reg;&nbsp;device&nbsp;not&nbsp;found?';?>"
-                                    name="submit"
-                                >
-                                                 </form>
+                                <input type="submit" value="<?='click&nbsp;if&nbsp;'.$brandName.'&reg;&nbsp;device&nbsp;not&nbsp;found?';?>" name="submit"
+																style="<?=(preg_match( '/Sony Ericsson/', $brandName ))? 'font-size: 26px;' : ''?>">
+                            </form>
                 </div>
                 <div id="partners-area" class="wid pos">
                     <div id="partners">
                         <div class="partners" id="part-1">
-                            <a href="http://www.lubuntu.net/" title="Go to Lubuntu&reg; site" target="_blank">
-                                <img alt="Lubuntu&reg; logo" src="./static/img/logos/partners/lubuntu.jpg" title="Linux&reg; logo" height="130" width="160">
+                            <a href="http://www.apache.org/" title="Go to Apache&reg; site" target="_blank">
+                                <img alt="Apache&reg;&nbsp;logo" src="./../static/img/logos/partners/apache.jpg" title="Apache&reg;&nbsp;logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-2">
                             <a href="http://www.php.net/" title="Go to PHP&reg; site" target="_blank">
-                                <img alt="PHP&reg; logo" src="./static/img/logos/partners/php.png" title="PHP&reg; logo" height="90" width="160">
+                                <img alt="PHP&reg;&nbsp;logo" src="./../static/img/logos/partners/php.png" title="PHP&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-3">
                             <a href="http://www.mysql.com/" title="Go to MySQL&reg; site" target="_blank">
-                                <img alt="MySQL&reg; logo" src="./static/img/logos/partners/mysql.png" title="MySQL&reg; logo" height="130" width="160">
+                                <img alt="MySQL&reg;&nbsp;logo" src="./../static/img/logos/partners/mysql.png" title="MySQL&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-4">
                             <a href="http://www.python.org/" title="Go to Python&reg; site" target="_blank">
-                                <img alt="Python&reg; logo" src="./static/img/logos/partners/python.png" title="Python&reg; logo" height="130" width="160">
+                                <img alt="Python&reg;&nbsp;logo" src="./../static/img/logos/partners/python.png" title="Python&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-5">
                             <a href="http://www.jquery.com/" title="Go to jQuery&reg; site" target="_blank">
-                                <img alt="jQuery&reg; logo" src="./static/img/logos/partners/jquery.png" title="jQuery&reg; logo" height="90" width="160">
+                                <img alt="jQuery&reg;&nbsp;logo" src="./../static/img/logos/partners/jquery.png" title="jQuery&reg; logo" height="40" width="120">
                             </a>
                         </div>
                         <div class="partners" id="part-6">
-                            <a href="http://www.knust.edu.gh/" title="Go to KNUST site" target="_blank">
-                                <img alt="KNUST logo" src="./static/img/logos/partners/Knust.jpg" title="KNUST logo" height="130" width="120">
+                            <a href="http://www.nivacity.com/" title="Go to KNUST site" target="_blank">
+                                <img alt="KNUST logo" src="./../static/img/logos/partners/worldhost.jpeg" title="KNUST logo" height="40" width="120">
                             </a>
                         </div>
                     </div>
@@ -358,11 +298,11 @@ if (isset ($brandName)) {
             </div>            
         </div>
         <!-- js: for faster webpage loading -->
-        <script language="javascript" type="text/javascript" src="./static/js/jquery/jquery-1.7.1.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./../static/js/jquery/jquery-1.7.1.min.js"></script>
         <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.core.min.js"></script>
         <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.widget.min.js"></script>
         <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.accordion.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/js.plugins/jquery.ticker.js"></script>
+        <script language="javascript" type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js"></script>
         <script language="javascript" type="text/javascript">
             $(
                 function() {

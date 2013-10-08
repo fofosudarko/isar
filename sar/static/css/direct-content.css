@@ -89,26 +89,15 @@
 
 /* Logo CSS */
 
-#logo {
-    position: relative;
-    top: 5px;
-    height: 90px;
-    width: 120px;
-    background-color: #ff0404;
-    border-radius: 5px;
-    box-shadow: #000000 0px 1px 3px 0px; 
-}
-
 #app-logo {
     position: absolute;
-    top: 12px;
-    left: 475px;
-    height: 140px;
-    width: 320px;
-    background-color: #f9a503;
-    /* border: solid #f9b9b9 0px; */
+    top: 15px;
+    left: 500px;
+    height: 130px;
+    width: 300px;
+		background-color: #ff0404;
     border-radius: 10px;
-    box-shadow: #4a4a4a 0px 1px 3px 0px;
+    box-shadow: #000000 0px 1px 3px 0px;
 }
 
 img[title="iSAR logo" ] {
@@ -147,7 +136,7 @@ img[title="Direct logo"] {
     text-transform: capitalize;
     text-decoration: underline;
     text-align: center;
-    left: 212px;
+    left: 220px;
     text-shadow: 1px 1px 1px #000000;
     filter: progid:DXImageTransform.Microsoft.DropShadow(color="#4a4a4a", offX = 2, offY = 2, offZ = 3);        
     letter-spacing: -2px;
@@ -166,7 +155,7 @@ img[title="Direct logo"] {
     height: 400px;
     width: 800px;
     top: 15px;
-    left: 110px;
+    left: 125px;
     border-radius: 10px;
     border: solid #d0d0d0 0px;
     background-color: #eaeaea;
@@ -197,49 +186,46 @@ img[title="Direct logo"] {
 } 
 
 #partners {
-    position: absolute;
-    height: 130px;
-    width: 1000px;
-    left: 130px;
-    top: 10px;
-    font-size: 12px;
+    position: relative;
+    height: 40px;
+    width: 820px;
+    left: 215px;
+    top: 0;
 }
 
 .partners {
-    height: 130px;
-    width: 160px;
+    height: 40px;
+    width: 120px;
 }
 
 #part-1 {
     position: absolute;
-    left: 5px;
-    top: -20px;
+    left: 0;
 }
 
 #part-2 {
     position: absolute;
-    left: 170px;
-    padding-top: 20px; 
+    left: 140px; 
 }
 
 #part-3 {
     position: absolute;
-    left: 335px;
+    left: 280px;
 }
 
 #part-4 {
     position: absolute;
-    left: 500px;
+    left: 420px;
 }
 
 #part-5 {
     position: absolute;
-    left: 665px;
+    left: 560px;
 }
 
 #part-6 {
     position: absolute;
-    left: 830px;
+    left: 700px;
     text-align: center;
 }
 

@@ -5,7 +5,7 @@
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>iSAR! - your one-stop place to know your wireless devices' SAR values</title>
+        <title>iSAR - your one-stop place to know your wireless devices' SAR values</title>
         <link rel="stylesheet" type="text/css" href="./static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./static/css/twitter-bootstrap/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="./static/css/layout.css" type="text/css" media="screen">
@@ -56,15 +56,17 @@
                             <!--Ticker Information on iSAR goes here-->
                             <ul id="js-news" type="none" class="js-hidden">
                                 <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What is iSAR?</li>
-                                <li class="news-item">&raquo;&nbsp;A project that seeks to create a centralized data-driven system that keeps the <a href="http://en.wikipedia.org/wiki/Specific_absorption_rate" style="text-decoration: underline; color: inherit !important;" target="_blank">Specific Absorption Rate</a> (SAR) values of wireless mobile devices</li>
-                                <li class="news-item">&raquo;&nbsp;especially mobile handsets irrespective of a particular device brand such as Samsung&reg; and Nokia&reg;.</li>
-                                <li class="news-item">&raquo;&nbsp;This is essential because not all wireless devices' (mobile handsets) users are privy to this technical information which relates to their health.</li>
+                                <li class="news-item">&raquo;&nbsp;A project that seeks to create a centralized data-driven system that keeps the <a href="http://en.wikipedia.org/wiki/Specific_absorption_rate" style="text-decoration: underline; color: inherit !important;" target="_blank">Specific Absorption Rate</a> (SAR) values of</li>
+                                <li class="news-item">&raquo;&nbsp;wireless mobile devices especially mobile handsets irrespective of a particular device brand such as Samsung&reg; and Nokia&reg;.</li>
+                                <li class="news-item">&raquo;&nbsp;This is essential because not all wireless devices' (mobile handsets) users are privy to this technical information which relates to</li>
+																<li class="news-item">&raquo;&nbsp;their health.</li>
                                 <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What does iSAR need?</li>
-                                <li class="news-item">&raquo;&nbsp;The user of the electronic device humbly needs to provide the model information which can be located at the back or inside the battery compart&ndash;</li>
-                                <li class="news-item">&raquo;&nbsp;ment of the device. Example of model information is International Mobile Equipment Identity (IMEI) number. Dial *#06# to see this unique number.</li>
+                                <li class="news-item">&raquo;&nbsp;The user of the electronic device humbly needs to provide the model information which can be located at the back or inside the battery</li>
+                                <li class="news-item">&raquo;&nbsp;compartment of the device. Example of model information is International Mobile Equipment Identity (IMEI) number.</li>
+																<li class="news-item">&raquo;&nbsp;Dial <em>*#06#</em> to see this unique number.</li>
                                 <li class="news-item">&raquo;&raquo;&raquo;&nbsp;What would iSAR do with this information?</li>
-                                <li class="news-item">&raquo;&nbsp;The model information of the device is indexed and mapped to its SAR level such that the moment the user provides the requisite information,</li>
-                                <li class="news-item">&raquo;&nbsp;the SAR level of the device and provided recommendations would be output to the user.</li>
+                                <li class="news-item">&raquo;&nbsp;The model information of the device is indexed and mapped to its SAR value such that the moment the user provides the requisite</li>
+                                <li class="news-item">&raquo;&nbsp;information, the SAR value of the device and provided recommendations would be output to the user.</li>
                             </ul>
                         </div>
                     </div>
@@ -99,7 +101,7 @@
                 <div id="nav-area" class="i-pos">
                     <div id="features" class="nav">
                         <div>
-                            <a href="./sar/features.php" title="Click to see featured brands!!!" target="_self">
+                            <a href="#" title="Click to see featured brands!!!" target="_self">
                                 <span>
                                     featured apps&raquo;
                                 </span>
@@ -165,7 +167,7 @@
             </div>
             <div id="lower-body">
                 <div>
-                    <div class="copyright">
+                    <div id="copyright">
                         <span>&copy;<?=date("Y");?></span>&nbsp;
                         <span>The iSAR Project</span>
                     </div>
@@ -194,13 +196,13 @@
                             fadeInSpeed: 300,
                             fadeOutSpeed: 300,
 							controls: false,
-							speed: 0.08,
+							speed: 0.08
                         	}
                     );
                     $("#slider").nivoSlider(
                         {
                             startSlide: 2,
-                            pauseTime: 3500,                
+                            pauseTime: 3500                
                         }
                     );
                 }

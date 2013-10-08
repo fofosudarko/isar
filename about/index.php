@@ -5,7 +5,7 @@
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>About this site - iSAR!</title>
+        <title>About this site - iSAR</title>
         <link rel="stylesheet" type="text/css" href="./static/css/about-layout.css" media="screen">
         <link rel="stylesheet" type="text/css" href="./static/css/about-styles.css" media="screen">
         <link rel="stylesheet" type="text/css" href="./static/css/about-content.css" media="screen">
@@ -15,6 +15,14 @@
 		<noscript>
 			<meta http-equiv="Refresh" content="0; url='./../noscript.html'">
 		</noscript>
+	<style type="text/css">
+	.a-reg {
+	text-decoration: none;
+	color: inherit !important;
+}
+</style>
+
+
     </head>
     <body dir="ltr">
         <div id="body">
@@ -95,17 +103,9 @@
                                         as per the radio frequency (RF) exposure guidelines stipulated by independent international scientific organizations
                                         e.g <strong>International Commission on Non-Ionizing Radiation Protection (ICNIRP)</strong>.
                                     </div>
-									<div class="a-pos ov-left">
-<style type="text/css">
-	.f-span:hover {
-		text-decoration: underline;
-}
-	.a-reg {
-	text-decoration: none;
-	color: inherit !important;
-}
-</style>
-                                        There are the <b><a href="http://www.fcc.gov/" target="_blank" title="" class="a-reg"><span class="f-span">Federal Communications Commission (FCC)</span></a></b> of the United States of America, <b><a href="http://www.cenelec.eu/" target="_blank" class="a-reg"><span class="f-span">CENELEC</span></a></b> of the European Union, the <b><a href="http://www.nca.org.gh/" target="_blank" class="a-reg"><span class="f-span">National Communications Authority (NCA)</span></a></b> of the Republic of Ghana et al.
+                      
+																				<div class="a-pos ov-left">
+																				There are the <a class="a-reg" href="http://www.fcc.gov/" target="_blank" title="Federal Communications Commission"><span><b>Federal Communications Commission (FCC)</b></span></a> of the United States of America, <a class="a-reg" href="http://www.cenelec.eu/" target="_blank" title="European Committee for Electrotechnical Standardization"><span><b>European Committee for Electrotechnical Standardization (CENELEC)</b></span></a> of the European Union, the <a class="a-reg" href="http://www.nca.org.gh/" target="_blank" title="National Communications Authority"><span><b>National Communications Authority (NCA)</b></span></a> of the Republic of Ghana et al.
                                         These are telecommunications regulatory bodies which are mandated by their jurisdictions to enforce the electromagnetic (EM) energy exposure guidelines.
                                     </div>
                                 </div>
@@ -125,8 +125,8 @@
                                         devices marketed by all wireless devices manufacturers e.g <b>Samsung<sup>&reg;</sup></b>, <b>Sony Ericsson<sup>&reg;</sup></b> et al.<br><br></li>
                                         <li>Be approved and accredited by international scientific organisations e.g <b>ICNIRP</b> and telecommunications regulatory bodies
                                         e.g. <b>Federal Communications Commission (FCC)</b> of <b>the United States of America</b>.<br><br></li>
-                                        <li>To develop a mobile application that computes the dynamic <strong>SAR</strong> values of users' wireless devices
-                                        as mobility of wireless devices vary.<br><br></li>
+                                        <li>To develop a mobile application that computes the <strong>SAR</strong> values of users' wireless devices
+                                        as rate of mobility of wireless devices vary.<br><br></li>
                                         <li>To be the number one in providing authentic <b>Specific Absorption Rate (SAR)</b> information to&nbsp;users.<br><br></li>
                                     </ol>
                                 </div>
