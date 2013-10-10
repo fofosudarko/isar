@@ -62,10 +62,10 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
         <meta charset="utf-8">
         <meta name="keywords" content="">
         <title><?="&nbsp;$model&nbsp;&ndash;&nbsp;$brandName&reg;&nbsp;&ndash;&nbsp;SAR&nbsp;Result&nbsp;&ndash;&nbsp;iSAR";?></title>
-        <link rel="stylesheet" media="screen" href="./static/css/sar-layout.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="./static/css/sar-styles.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="./static/css/sar-content.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="./static/css/ticker-style.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/sar-layout.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/sar-styles.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/sar-content.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/direct-ticker-style.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
     <noscript>
@@ -284,8 +284,8 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
                             </a>
                         </div>
                         <div class="partners" id="part-6">
-                            <a href="http://www.knust.edu.gh/" title="Go to KNUST site" target="_blank">
-                                <img alt="KNUST logo" src="./../static/img/logos/partners/worldhost.jpeg" title="KNUST logo" height="40" width="120">
+                            <a href="http://www.000webhost.com/" title="Go to 000webhost site" target="_blank">
+                                <img alt="000webhost logo" src="./../static/img/logos/partners/webhost-scaled.png" title="000webhost logo" height="40" width="120">
                             </a>
                         </div>
                     </div>

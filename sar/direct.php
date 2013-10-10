@@ -12,11 +12,11 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
         <meta charset="utf-8">
         <meta name="" content="">
         <title>Welcome&nbsp;to&nbsp;iSAR&nbsp;Direct&nbsp;&ndash;&nbsp;iSAR</title>
-        <link rel="stylesheet" href="./static/css/direct-layout.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./static/css/direct-styles.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./static/css/direct-content.css" type="text/css" media="screen">
-        <link rel="stylesheet" media="screen" type="text/css" href="./static/css/ticker-style.css">
-        <link rel="stylesheet" href="./static/css/app.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./../static/css/direct-layout.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./../static/css/direct-styles.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./../static/css/direct-content.css" type="text/css" media="screen">
+        <link rel="stylesheet" media="screen" type="text/css" href="./../static/css/direct-ticker-style.css">
+        <link rel="stylesheet" href="./../static/css/app.css" type="text/css" media="screen">
         <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
 		<noscript>
@@ -117,8 +117,8 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
                             </a>
                         </div>
                         <div class="partners" id="part-6">
-                            <a href="http://www.knust.edu.gh/" title="Go to KNUST site" target="_blank">
-                                <img alt="Free Web Hosting" src="./../static/img/logos/partners/worldhost.jpeg" title="Free Web Hosting" height="40" width="120">
+                            <a href="http://www.000webhost.com/" title="Go to 000webhost.com" title="Free Web Hosting" target="_blank">
+                                <img alt="000webhost logo" src="./../static/img/logos/partners/webhost-scaled.png" title="000webhost logo" height="40" width="120">
                             </a>
                         </div>
                     </div>

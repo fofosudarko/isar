@@ -6,10 +6,10 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <title>Device&nbsp;Safety&nbsp;Information&nbsp;&ndash;&nbsp;iSAR</title>
-        <link rel="stylesheet" href="./static/css/info-layout.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./static/css/info-styles.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./static/css/info-content.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./static/css/ticker-style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./../static/css/info-layout.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./../static/css/info-styles.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./../static/css/info-content.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./../static/css/ticker-style.css" type="text/css" media="screen">
         <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
         <noscript>
@@ -183,7 +183,7 @@
                         <div id="part-3" class="partners">
                             <div>
                                 <a href="http://www.mysql.com/" title="Go to MySQL&reg; site" target="_blank">
-                                    <img src="./../static/img/logos/partners/mysql.png" alt="MySQL&reg; logo" title="" height="40" width="120">
+                                    <img src="./../static/img/logos/partners/mysql.png" alt="MySQL&reg; logo" title="MySQL&reg;&nbsp;logo" height="40" width="120">
                                 </a>
                             </div>
                         </div>
@@ -203,8 +203,8 @@
                         </div>
                         <div id="part-6" class="partners">
                             <div>
-                                <a href="http://www.worldhost.co.za/" target="_blank" title="Go to worldhost.co.za">
-                                    <img src="./../static/img/logos/partners/worldhost.jpeg" alt="Web Hosting" width="120" height="40" border="0" />
+                                <a href="http://www.000webhost.com/" target="_blank" title="Go to 000webhost site">
+                                    <img src="./../static/img/logos/partners/webhost-scaled.png" alt="000webhost logo" title="000webhost&reg;&nbsp;logo" width="120" height="40" border="0">
                                 </a>
                             </div>
                         </div>

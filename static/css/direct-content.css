@@ -1,0 +1,288 @@
+/* Internal Styling */
+
+/* Nav CSS */
+
+#nav {
+    position: relative;
+    top: 1px;
+    height: 20px;
+    width: 1280px;
+}
+
+#nav-features {
+    position: relative;
+    height: 20px;
+    width: 700px;
+}
+
+.nav-features {
+    position: relative;
+    height: 20px;
+    width: 90px;
+    float: left;
+    text-align: center;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+
+.sony {
+    width: 120px;
+}
+
+.nav-features > a {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+.nav-features > a:hover {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.nav-features > a span {
+    position: relative;
+    top: 7px;
+}
+
+#act-nav {
+    position: absolute;
+    height: 30px;
+    width: 324px;
+    left: 950px;
+    top: 0px;
+}
+
+.act-nav {
+    position: relative;
+    height: 30px;
+    width: 108px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.90em;
+}
+
+.act-nav > a {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+.act-nav > a:hover {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.act-home > a span {
+    position: relative;
+    top: 5px;
+}
+
+.act-sar > a span {
+    position: relative;
+    top: 5px;
+}
+
+.act-about > a span {
+    position: relative;
+    top: 5px;
+}
+
+/* Logo CSS */
+
+#app-logo {
+    position: absolute;
+    top: 15px;
+    left: 500px;
+    height: 130px;
+    width: 300px;
+		background-color: #ff0404;
+    border-radius: 10px;
+    box-shadow: #000000 0px 1px 3px 0px;
+}
+
+img[title="iSAR logo" ] {
+    position: relative;
+    top: 5px;
+}
+
+img[title="Direct logo"] {
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
+
+#b-ticker {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    height: 40px;
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+#sel-brd > div {
+    position: relative;
+    top: 4px;
+    height: 60px;
+    width: 800px;
+    left: 150px;    
+}
+
+#sel-brd > div span {
+    position: relative;
+    color: #161616;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+    left: 220px;
+    text-shadow: 1px 1px 1px #000000;
+    filter: progid:DXImageTransform.Microsoft.DropShadow(color="#4a4a4a", offX = 2, offY = 2, offZ = 3);        
+    letter-spacing: -2px;
+}
+
+#brd {
+    position: absolute;
+    height: 450px;
+    width: 1000px;
+    top: 25px;
+    left: 120px;
+}
+
+.fieldset {
+    position: relative;
+    height: 400px;
+    width: 800px;
+    top: 15px;
+    left: 125px;
+    border-radius: 10px;
+    border: solid #d0d0d0 0px;
+    background-color: #eaeaea;
+	box-shadow: 0 1px 2px 0 #000000;
+}
+
+#dd-fm > form input[name="submit"] {
+    position: relative;
+    height: 110px;
+    width: 600px;
+    left: 340px;
+    top: 2px;
+    color: #fff;
+    font-size: 35px;
+    text-shadow: 0px 1px 2px #000000;
+    background-color: #727272;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px #000000;
+    border: 2px solid #fff;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;  
+}
+
+#dd-fm > form input[name="submit"]:hover {
+    background-color: #ababab;
+    border: solid #9a9a9a 2px;
+} 
+
+#partners {
+    position: relative;
+    height: 40px;
+    width: 820px;
+    left: 215px;
+    top: 0;
+}
+
+.partners {
+    height: 40px;
+    width: 120px;
+}
+
+#part-1 {
+    position: absolute;
+    left: 0;
+}
+
+#part-2 {
+    position: absolute;
+    left: 140px; 
+}
+
+#part-3 {
+    position: absolute;
+    left: 280px;
+}
+
+#part-4 {
+    position: absolute;
+    left: 420px;
+}
+
+#part-5 {
+    position: absolute;
+    left: 560px;
+}
+
+#part-6 {
+    position: absolute;
+    left: 700px;
+    text-align: center;
+}
+
+/*img[alt="PHP&reg; logo"] {
+    top: 10px;
+    position: relative;
+}*/
+
+/* Footer CSS */ 
+
+.copyright {
+    position: relative;
+    top: 12px;
+    font-size: 12px;
+}
+
+#site-map {
+    margin: 0 auto;
+    position: relative;
+    top: -12px;
+    height: 30px;
+    width: 600px;
+    float: right;
+    font-size: 12px;
+}
+
+.site-map {
+    height: 30px;
+    width: 100px;
+    position: relative;
+    float: left;
+}
+
+.site-map > a {
+    position: relative;
+    top: 4px;
+    left: 30px;
+    color: inherit !important;
+    text-decoration: none; 
+}
+
+.site-map > a:hover {
+    color: #038bfd !important;
+}
+
+.home {
+    left: 200px;
+}
+
+.sar {
+    left: 200px;
+}
+
+.about {
+    left: 200px;
+}
+
+.help {
+    left: 200px;
+}

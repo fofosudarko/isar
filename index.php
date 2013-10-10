@@ -157,8 +157,8 @@
                         </div>
                         <div id="part-6" class="partners">
                             <div>
-                                <a href="http://www.nivacity.com/" target="_blank" title="Go to nivacity.com">
-                                    <img src="./static/img/logos/partners/worldhost.jpeg" alt="Web Hosting" width="120" height="40" border="0" />
+                                <a href="http://www.000webhost.com/" target="_blank" title="Go to 000webhost.com">
+                                    <img src="./static/img/logos/partners/webhost-scaled.png" title="000webhost logo" alt="Web Hosting" width="120" height="40" border="0" />
                                 </a>
                             </div>
                         </div>

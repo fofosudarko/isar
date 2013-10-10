@@ -6,9 +6,9 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <title>About this site - iSAR</title>
-        <link rel="stylesheet" type="text/css" href="./static/css/about-layout.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="./static/css/about-styles.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="./static/css/about-content.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="./../static/css/about-layout.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="./../static/css/about-styles.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="./../static/css/about-content.css" media="screen">
         <link rel="stylesheet" type="text/css" href="./../static/css/ticker-style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
@@ -233,8 +233,8 @@
                         </div>
                         <div id="part-6" class="partners">
                             <div>
-                                <a href="http://www.worldhost.co.za/" title="Go to worldhost&reg; site" target="_blank">
-                                    <img src="./../static/img/logos/partners/worldhost.jpeg" alt="WorldHost&reg; logo" title="WorldHost&reg; logo" height="40" width="120">
+                                <a href="http://www.000webhost.com/" title="Go to 000webhost&reg; site" target="_blank">
+                                    <img src="./../static/img/logos/partners/webhost-scaled.png" alt="000webhost&reg; logo" title="000webhost&reg; logo" height="40" width="120">
                                 </a>
                             </div>
                         </div>

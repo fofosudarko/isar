@@ -111,11 +111,11 @@ if (isset ($brandName)) {
         <meta name="description" content="">
         <meta name="author" content="">
         <title><?="$brandName&reg;&nbsp;&ndash;&nbsp;Models&nbsp;Page&nbsp;&ndash;&nbsp;iSAR";?></title>
-        <link rel="stylesheet" media="screen" href="./static/css/models-layout.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="./static/css/models-styles.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="./static/css/models-content.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="./static/css/ticker-style.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="./static/css/app.css" type="text/css">        
+        <link rel="stylesheet" media="screen" href="./../static/css/models-layout.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/models-styles.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/models-content.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/direct-ticker-style.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/app.css" type="text/css">        
         <?=$style."\n";?>
         <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
@@ -273,8 +273,8 @@ if (isset ($brandName)) {
                             </a>
                         </div>
                         <div class="partners" id="part-6">
-                            <a href="http://www.nivacity.com/" title="Go to KNUST site" target="_blank">
-                                <img alt="KNUST logo" src="./../static/img/logos/partners/worldhost.jpeg" title="KNUST logo" height="40" width="120">
+                            <a href="http://www.000webhost.com/" title="Go to 000webhost site" target="_blank">
+                                <img alt="000webhost logo" src="./../static/img/logos/partners/webhost-scaled.png" title="000webhost logo" height="40" width="120">
                             </a>
                         </div>
                     </div>
@@ -299,9 +299,9 @@ if (isset ($brandName)) {
         </div>
         <!-- js: for faster webpage loading -->
         <script language="javascript" type="text/javascript" src="./../static/js/jquery/jquery-1.7.1.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.core.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.widget.min.js"></script>
-        <script language="javascript" type="text/javascript" src="./static/js/jquery.ui/jquery.ui.accordion.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./../static/js/jquery.ui/jquery.ui.core.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./../static/js/jquery.ui/jquery.ui.widget.min.js"></script>
+        <script language="javascript" type="text/javascript" src="./../static/js/jquery.ui/jquery.ui.accordion.min.js"></script>
         <script language="javascript" type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js"></script>
         <script language="javascript" type="text/javascript">
             $(
