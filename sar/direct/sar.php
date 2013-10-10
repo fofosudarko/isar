@@ -2,7 +2,7 @@
 // session_start();
 // Create sar results page
 // Get hidden field value from input field
-$brandName = $_POST["brand-name"];
+$brandName = $_GET["brand-name"];
 ?>
 
 <?php

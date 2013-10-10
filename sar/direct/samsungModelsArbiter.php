@@ -5,78 +5,78 @@ function samsungModelsArbiter($brandName)
 
 include_once ("/home/fod/www/projects/isar/sar/direct/results.php");
 
-    if (isset($_POST["submit-BCE-model"])) {
-        $encryptedCategoryID = $_POST["select-BCE-model"];
+    if (isset($_GET["submit-BCE-model"])) {
+        $encryptedCategoryID = $_GET["select-BCE-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-GTBC-model"])) {
-        $encryptedCategoryID = $_POST["select-GTBC-model"];
+    } else if (isset($_GET["submit-GTBC-model"])) {
+        $encryptedCategoryID = $_GET["select-GTBC-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-GTEI-model"])) {
-        $encryptedCategoryID = $_POST["select-GTEI-model"];
+    } else if (isset($_GET["submit-GTEI-model"])) {
+        $encryptedCategoryID = $_GET["select-GTEI-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-GTMPS-model"])) {
-        $encryptedCategoryID = $_POST["select-GTMPS-model"];
+    } else if (isset($_GET["submit-GTMPS-model"])) {
+        $encryptedCategoryID = $_GET["select-GTMPS-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-IJMS-model"])) {
-        $encryptedCategoryID = $_POST["select-IJMS-model"];
+    } else if (isset($_GET["submit-IJMS-model"])) {
+        $encryptedCategoryID = $_GET["select-IJMS-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-SABC-model"])) {
-        $encryptedCategoryID = $_POST["select-SGH-ABC-model"];
+    } else if (isset($_GET["submit-SABC-model"])) {
+        $encryptedCategoryID = $_GET["select-SGH-ABC-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-SD-model"])) {
-        $encryptedCategoryID = $_POST["select-SGH-D-model"];
+    } else if (isset($_GET["submit-SD-model"])) {
+        $encryptedCategoryID = $_GET["select-SGH-D-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-SE-model"])) {
-        $encryptedCategoryID = $_POST["select-SGH-E-model"];
+    } else if (isset($_GET["submit-SE-model"])) {
+        $encryptedCategoryID = $_GET["select-SGH-E-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-SFG-model"])) {
-        $encryptedCategoryID = $_POST["select-SGH-FG-model"];
+    } else if (isset($_GET["submit-SFG-model"])) {
+        $encryptedCategoryID = $_GET["select-SGH-FG-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-SIJ-model"])) {
-        $encryptedCategoryID = $_POST["select-SGH-IJ-model"];
+    } else if (isset($_GET["submit-SIJ-model"])) {
+        $encryptedCategoryID = $_GET["select-SGH-IJ-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-SLM-model"])) {
-        $encryptedCategoryID = $_POST["select-SGH-LM-model"];
+    } else if (isset($_GET["submit-SLM-model"])) {
+        $encryptedCategoryID = $_GET["select-SGH-LM-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-SPSUV-model"])) {
-        $encryptedCategoryID = $_POST["select-SGH-PSUV-model"];
+    } else if (isset($_GET["submit-SPSUV-model"])) {
+        $encryptedCategoryID = $_GET["select-SGH-PSUV-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-SX-model"])) {
-        $encryptedCategoryID = $_POST["select-SGH-X-model"];
+    } else if (isset($_GET["submit-SX-model"])) {
+        $encryptedCategoryID = $_GET["select-SGH-X-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-SZ-model"])) {
-        $encryptedCategoryID = $_POST["select-SGH-Z-model"];
+    } else if (isset($_GET["submit-SZ-model"])) {
+        $encryptedCategoryID = $_GET["select-SGH-Z-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;
-    } else if (isset($_POST["submit-Ultra-model"])) {
-        $encryptedCategoryID = $_POST["select-Ultra-model"];
+    } else if (isset($_GET["submit-Ultra-model"])) {
+        $encryptedCategoryID = $_GET["select-Ultra-model"];
         $cid = base64_decode($encryptedCategoryID);
         $getResults = results($brandName, $cid);
         return $getResults;

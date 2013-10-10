@@ -97,7 +97,7 @@ if (isset ($brandName)) {
         	} else if (preg_match ("/(HTC)|(LG)|(Sony Ericsson)/", $brandName)) {
             	$style = appHeightAlter2 ();
         	} else {
-            	$style = null;
+            	$style = '';
         }
 	}
 }
@@ -197,17 +197,15 @@ if (isset ($brandName)) {
                             ?>                                
                             </div>
                         </div>
-                        <form method="post" action="./sar.php">
+                        <form method="get" action="./sar.php">
                             <?php
                                 // get exclusive brand names
                                 // PHP code goes here
                                 
-                                if (($brandName === "Samsung") || ($brandName === "Nokia"))
-                                {
+                                if (($brandName === "Samsung") || ($brandName === "Nokia")) {
                                     print '<div id="md-area" style="overflow-y: scroll; overflow-x: hidden;">';
                                 }
-                                else
-                                {
+                                else {
                                     print '<div id="md-area" style="">';
                                 }
                                 
