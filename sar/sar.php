@@ -65,7 +65,7 @@ $model = concatModelName($brandName, $modelName, $modelCategory);
         <link rel="stylesheet" media="screen" href="./../static/css/sar-layout.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./../static/css/sar-styles.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./../static/css/sar-content.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="./../static/css/direct-ticker-style.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/ticker-style.css" type="text/css">
         <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">
     <noscript>

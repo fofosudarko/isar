@@ -15,7 +15,7 @@ include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
         <link rel="stylesheet" href="./../static/css/direct-layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/direct-styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/direct-content.css" type="text/css" media="screen">
-        <link rel="stylesheet" media="screen" type="text/css" href="./../static/css/direct-ticker-style.css">
+        <link rel="stylesheet" media="screen" type="text/css" href="./../static/css/ticker-style.css">
         <link rel="stylesheet" href="./../static/css/app.css" type="text/css" media="screen">
         <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="./../static/css/twitter-bootstrap/bootstrap-responsive.min.css">

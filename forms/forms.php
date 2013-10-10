@@ -24,10 +24,8 @@
         <link rel="stylesheet" href="./../static/css/layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./../static/css/content.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./static/css/forms.css" media="screen">
-        <link rel="stylesheet" href="./../sar/static/css/ticker-style.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./../static/css/default/default.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./../static/css/nivo-slider.css" type="text/css" media="screen">       
+        <link rel="stylesheet" href="./../static/css/forms.css" media="screen">
+        <link rel="stylesheet" href="./../sar/static/css/ticker-style.css" type="text/css" media="screen">   
         <noscript>
             <meta http-equiv="Refresh" content="0; url='./../noscript.html'">
 		</noscript>
@@ -173,7 +171,6 @@
         <!-- js: for faster webpage loading -->
         <script language="javascript" src="./../static/js/jquery/jquery-1.7.1.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="./../static/js/js.plugins/jquery.ticker.js" language="javascript"></script>
-        <script type="text/javascript" src="./../static/js/js.plugins/jquery.nivo.slider.pack.js" language="javascript"></script>
         <script type="text/javascript" language="javascript">
             $(
                 function ()

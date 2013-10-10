@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="./static/css/layout.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/styles.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/content.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="./sar/static/css/ticker-style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="./static/css/ticker-style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/default/default.css" type="text/css" media="screen">
         <link rel="stylesheet" href="./static/css/nivo-slider.css" type="text/css" media="screen">        
         <noscript>

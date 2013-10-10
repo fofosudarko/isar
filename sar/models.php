@@ -114,7 +114,7 @@ if (isset ($brandName)) {
         <link rel="stylesheet" media="screen" href="./../static/css/models-layout.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./../static/css/models-styles.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./../static/css/models-content.css" type="text/css">
-        <link rel="stylesheet" media="screen" href="./../static/css/direct-ticker-style.css" type="text/css">
+        <link rel="stylesheet" media="screen" href="./../static/css/ticker-style.css" type="text/css">
         <link rel="stylesheet" media="screen" href="./../static/css/app.css" type="text/css">        
         <?=$style."\n";?>
         <link rel="stylesheet" type="text/css" href="./../static/css/twitter-bootstrap/bootstrap.min.css">
