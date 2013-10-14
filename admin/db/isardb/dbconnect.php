@@ -2,10 +2,10 @@
 
 // Create user-defined constants
 
-$mysql_host = "mysql10.000webhost.com";
-$mysql_user = "a2021051_root";
-$mysql_password = "qwASzxopKLnm1290";
-$mysql_database = "a2021051_isar";
+$mysql_host = "localhost";
+$mysql_user = "root";
+$mysql_password = "daCODEr1";
+$mysql_database = "isar";
 
 
 // Make a database connection
