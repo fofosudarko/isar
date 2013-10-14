@@ -4,7 +4,7 @@
 
 $mysql_host = "localhost";
 $mysql_user = "root";
-$mysql_password = "daCODEr1";
+$mysql_password = "12qwaszxnmklop90";
 $mysql_database = "isar";
 
 
