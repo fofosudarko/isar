@@ -17,7 +17,7 @@
 
 function models_db($brand_name, $bid) {
 	// Include database connection file path
-	include ("/home/a2021051/public_html/admin/db/isardb/dbconnect.php");
+	include ("/home/fod/www/projects/isar/admin/db/isardb/dbconnect.php");
 
 	// Remove whitespaces from both sides of $brand_name
 	$brand_name = trim($brand_name);

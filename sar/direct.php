@@ -1,8 +1,8 @@
 <?php
 // Include paths to iSARDirect web application
 
-include_once ("/home/a2021051/public_html/sar/direct/globalvars.php");
-include_once ("/home/a2021051/public_html/sar/direct/brandsForm.php");
+include_once ("/home/fod/www/projects/isar/sar/direct/globalvars.php");
+include_once ("/home/fod/www/projects/isar/sar/direct/brandsForm.php");
 
 ?>
 

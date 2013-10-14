@@ -3,7 +3,7 @@
 
 function brandIDlocater($brandName="") {
 	// Creating path to database connection
-	include_once ("/home/a2021051/public_html/admin/db/isardb/dbconnect.php");
+	include_once ("/home/fod/www/projects/isar/admin/db/isardb/dbconnect.php");
 
 	// trimming whitespaces from both sides of parameter
 	$brandName = trim($brandName);

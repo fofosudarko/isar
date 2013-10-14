@@ -4,12 +4,12 @@
 // This form carries the <option/> value to models and the models category page
 // which would therefore spit out the SAR value and the possible additional info
 
-include ("/home/a2021051/public_html/sar/direct/globalvars.php");
+include ("/home/fod/www/projects/isar/sar/direct/globalvars.php");
 
 function brandsDropDownMenu() {
 	// Going to need the brands Array created by the brandsDB page
 
-	include_once ("/home/a2021051/public_html/sar/direct/brandsDB.php");
+	include_once ("/home/fod/www/projects/isar/sar/direct/brandsDB.php");
 	$brandsDB = brandsDB();
 
 	$brandsDBid = $brandsDB["brandsDBid"]; // redundant

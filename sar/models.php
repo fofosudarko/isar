@@ -2,11 +2,11 @@
 session_start();
 
 
-include_once ("/home/a2021051/public_html/sar/direct/globalvars.php");
-include_once ("/home/a2021051/public_html/sar/direct/brandIDlocater.php");
-include_once ("/home/a2021051/public_html/sar/direct/modelsDB.php");
-include_once ("/home/a2021051/public_html/sar/direct/modelsDropDownMenu.php");
-include_once ("/home/a2021051/public_html/sar/direct/submitButton.php");
+include_once ("/home/fod/www/projects/isar/sar/direct/globalvars.php");
+include_once ("/home/fod/www/projects/isar/sar/direct/brandIDlocater.php");
+include_once ("/home/fod/www/projects/isar/sar/direct/modelsDB.php");
+include_once ("/home/fod/www/projects/isar/sar/direct/modelsDropDownMenu.php");
+include_once ("/home/fod/www/projects/isar/sar/direct/submitButton.php");
 
 // Get option from brands page;
 

@@ -4,7 +4,7 @@
 
 function results($brandName="", $cid) {
     // Including database connection file path
-    include ("/home/a2021051/public_html/admin/db/isardb/dbconnect.php");
+    include ("/home/fod/www/projects/isar/admin/db/isardb/dbconnect.php");
     
     $brandName = trim($brandName);
     $brandName = strtolower($brandName);

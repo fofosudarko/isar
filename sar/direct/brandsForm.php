@@ -5,9 +5,9 @@
 function brandsForm ()
 {
 	// Including the brandsDropDownMenu
-	include_once ("/home/a2021051/public_html/sar/direct/brandsDropDownMenu.php");
-	include_once ("/home/a2021051/public_html/sar/direct/globalvars.php");
-	include_once ("/home/a2021051/public_html/sar/direct/submitButton.php");
+	include_once ("/home/fod/www/projects/isar/sar/direct/brandsDropDownMenu.php");
+	include_once ("/home/fod/www/projects/isar/sar/direct/globalvars.php");
+	include_once ("/home/fod/www/projects/isar/sar/direct/submitButton.php");
 	// Creating brands Form
 
 	global $submit;

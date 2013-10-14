@@ -2,7 +2,7 @@
 
 function sonyericssonModelsArbiter($brandName) {
 
-include_once ("/home/a2021051/public_html/sar/direct/results.php");
+include_once ("/home/fod/www/projects/isar/sar/direct/results.php");
 
     if (isset($_GET["submit-ACE-model"])) {
         $encryptedCategoryID = $_GET["select-ACE-model"];
