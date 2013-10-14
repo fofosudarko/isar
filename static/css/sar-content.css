@@ -128,11 +128,12 @@ img[title="Direct logo"] {
     width: 300px;
     border-radius: 5px;
     text-align: center;
-    color: #fff;
-    text-shadow: #000000 0px 1px 1px;
-    background-color: #727272;
+    color: #161616;
+		font-weight: bold;
+    text-shadow: #161616 0 0 1px;
+    /*background-color: #727272;
     border: solid #727272 1px;
-    box-shadow: 0 0px 4px 0px #000000;
+    box-shadow: 0 0px 4px 0px #000000;*/
 }
 
 .fcc {
