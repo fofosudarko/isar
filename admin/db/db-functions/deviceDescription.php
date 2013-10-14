@@ -1,11 +1,11 @@
 <?php
-include_once ("/home/fod/www/projects/isar/sar/direct/globalvars.php");
+include_once ("/home/a2021051/public_html/sar/direct/globalvars.php");
 
 function show_device_description ($did)
 {
     // Including path to database connection
     $doc_root = $_SERVER["DOCUMENT_ROOT"];
-    include ("/home/fod/www/projects/isar/admin/db/isardb/dbconnect.php");
+    include ("/home/a2021051/public_html/admin/db/isardb/dbconnect.php");
 
     $query = "SELECT device_description FROM device_description WHERE device_id=$did";
 

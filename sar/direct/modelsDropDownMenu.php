@@ -20,47 +20,47 @@ function modelsDropDownMenu($brandName, $modelsDB)
 
 	switch ($brandName) {
 	    case "Apple":
-	        include_once ("/home/fod/www/projects/isar/sar/direct/appleModelsDropDownMenu.php");
+	        include_once ("/home/a2021051/public_html/sar/direct/appleModelsDropDownMenu.php");
 	        list($appleModels, $appleModelsID, $getAppleModelsKeys) = appleModelsDropDownMenu($brandName, $modelsDB);
 	        showAppleDropDownMenu($appleModels, $appleModelsID, $getAppleModelsKeys);
 	        break;
 	    case "Doro":
-	        include_once ("/home/fod/www/projects/isar/sar/direct/doroModelsDropDownMenu.php");
+	        include_once ("/home/a2021051/public_html/sar/direct/doroModelsDropDownMenu.php");
 	        list($doroModels, $doroModelsID, $getDoroModelsKeys) = doroModelsDropDownMenu($brandName, $modelsDB);
 	        showDoroDropDownMenu($doroModels, $doroModelsID, $getDoroModelsKeys);
 	        break;
 	    case "HTC":
-	        include_once ("/home/fod/www/projects/isar/sar/direct/htcModelsDropDownMenu.php");
+	        include_once ("/home/a2021051/public_html/sar/direct/htcModelsDropDownMenu.php");
 	        list($htcModels, $htcModelsID, $getHTCModelsKeys) = htcModelsDropDownMenu($brandName, $modelsDB);
 	        showHTCDropDownMenu($htcModels, $htcModelsID, $getHTCModelsKeys);
 	        break;
 	    case "LG":
-	        include_once ("/home/fod/www/projects/isar/sar/direct/lgModelsDropDownMenu.php");
+	        include_once ("/home/a2021051/public_html/sar/direct/lgModelsDropDownMenu.php");
 	        list($lgModels, $lgModelsID, $getLGModelsKeys) = lgModelsDropDownMenu($brandName, $modelsDB);
 	        showLGDropDownMenu($lgModels, $lgModelsID, $getLGModelsKeys);
 	        break;
 	    case "Motorola":
-	        include_once ("/home/fod/www/projects/isar/sar/direct/motorolaModelsDropDownMenu.php");
+	        include_once ("/home/a2021051/public_html/sar/direct/motorolaModelsDropDownMenu.php");
 	        list($motorolaModels, $motorolaModelsID, $getMotorolaModelsKeys) = motorolaModelsDropDownMenu($brandName, $modelsDB);
 	        showMotorolaDropDownMenu($motorolaModels, $motorolaModelsID, $getMotorolaModelsKeys);
 	        break;
 	    case "Nokia":
-	        include_once ("/home/fod/www/projects/isar/sar/direct/nokiaModelsDropDownMenu.php");
+	        include_once ("/home/a2021051/public_html/sar/direct/nokiaModelsDropDownMenu.php");
 	        list($nokiaModels, $nokiaModelsID, $getNokiaModelsKeys) = nokiaModelsDropDownMenu($brandName, $modelsDB);
 	        showNokiaDropDownMenu($nokiaModels, $nokiaModelsID, $getNokiaModelsKeys);
 	        break;
 	    case "Samsung":
-	        include_once ("/home/fod/www/projects/isar/sar/direct/samsungModelsDropDownMenu.php");
+	        include_once ("/home/a2021051/public_html/sar/direct/samsungModelsDropDownMenu.php");
 	        list($samsungModels, $samsungModelsID, $getSamsungModelsKeys) = samsungModelsDropDownMenu($brandName, $modelsDB);
 	        showSamsungDropDownMenu($samsungModels, $samsungModelsID, $getSamsungModelsKeys);
 	        break;
 	    case "Sony Ericsson":
-	        include_once ("/home/fod/www/projects/isar/sar/direct/sonyericssonModelsDropDownMenu.php");
+	        include_once ("/home/a2021051/public_html/sar/direct/sonyericssonModelsDropDownMenu.php");
 	        list($sonyericssonModels, $sonyericssonModelsID, $getSonyEricssonModelsKeys) = sonyericssonModelsDropDownMenu($brandName, $modelsDB);
 	        showSonyEricssonDropDownMenu($sonyericssonModels, $sonyericssonModelsID, $getSonyEricssonModelsKeys);
 	        break;
 	    default:
-	        include_once ("/home/fod/www/projects/isar/sar/direct/otherModelsDropDownMenu.php");
+	        include_once ("/home/a2021051/public_html/sar/direct/otherModelsDropDownMenu.php");
 	        return otherModelsDropDownMenu($brandName, $modelsDB);
 	}
 }

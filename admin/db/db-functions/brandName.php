@@ -6,7 +6,7 @@ function brandName($bid)
     // no positional parameters
     // Function namespace
 	$doc_root = $_SERVER["DOCUMENT_ROOT"];
-	include ("/home/fod/www/projects/isar/admin/db/isardb/dbconnect.php");
+	include ("/home/a2021051/public_html/admin/db/isardb/dbconnect.php");
 
     $query = "SELECT brand_name FROM brand WHERE brand_id=$bid";
     $queryResult = mysqli_query($dbLink, $query) or die(mysqli_error());

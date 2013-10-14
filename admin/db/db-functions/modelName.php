@@ -12,7 +12,7 @@ function modelName($brandName, $bid, $mid)
     $doc_root = $_SERVER['DOCUMENT_ROOT'];
     
     // Including database connection file path    
-    include ("/home/fod/www/projects/isar/admin/db/isardb/dbconnect.php");
+    include ("/home/a2021051/public_html/admin/db/isardb/dbconnect.php");
     
     if ($brandName == "blackberry")
     {

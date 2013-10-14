@@ -4,7 +4,7 @@ function brandsDB() {
     // Primarily going to return array of brand names
     // Creating database connection to isar
 
-    include("/home/fod/www/projects/isar/admin/db/isardb/dbconnect.php");
+    include("/home/a2021051/public_html/admin/db/isardb/dbconnect.php");
 
     $query = "select * from brand";
 

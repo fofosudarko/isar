@@ -10,39 +10,39 @@ $brandName = strval ($_REQUEST["brand-name"]);
 if ($brandName != "") {
 	switch ($brandName) {
     	case "Apple":
-        	include_once ("/home/fod/www/projects/isar/sar/direct/appleModelsArbiter.php");
+        	include_once ("/home/a2021051/public_html/sar/direct/appleModelsArbiter.php");
         	$results_arr = appleModelsArbiter($brandName);
         	break;
     	case "Doro":
-        	include_once ("/home/fod/www/projects/isar/sar/direct/doroModelsArbiter.php");
+        	include_once ("/home/a2021051/public_html/sar/direct/doroModelsArbiter.php");
         	$results_arr = doroModelsArbiter($brandName);
         	break;
     	case "HTC":
-        	include_once ("/home/fod/www/projects/isar/sar/direct/htcModelsArbiter.php");
+        	include_once ("/home/a2021051/public_html/sar/direct/htcModelsArbiter.php");
         	$results_arr = htcModelsArbiter($brandName);
         	break;
     	case "LG":
-        	include_once ("/home/fod/www/projects/isar/sar/direct/lgModelsArbiter.php");
+        	include_once ("/home/a2021051/public_html/sar/direct/lgModelsArbiter.php");
         	$results_arr = lgModelsArbiter($brandName);
         	break;
     	case "Motorola":
-        	include_once ("/home/fod/www/projects/isar/sar/direct/motorolaModelsArbiter.php");
+        	include_once ("/home/a2021051/public_html/sar/direct/motorolaModelsArbiter.php");
         	$results_arr = motorolaModelsArbiter($brandName);
         	break;
     	case "Nokia":
-        	include_once ("/home/fod/www/projects/isar/sar/direct/nokiaModelsArbiter.php");
+        	include_once ("/home/a2021051/public_html/sar/direct/nokiaModelsArbiter.php");
         	$results_arr = nokiaModelsArbiter($brandName);
         	break;
     	case "Samsung":
-        	include_once ("/home/fod/www/projects/isar/sar/direct/samsungModelsArbiter.php");
+        	include_once ("/home/a2021051/public_html/sar/direct/samsungModelsArbiter.php");
         	$results_arr = samsungModelsArbiter($brandName);
         	break;
     	case "Sony Ericsson": 
-        	include_once ("/home/fod/www/projects/isar/sar/direct/sonyericssonModelsArbiter.php");                           
+        	include_once ("/home/a2021051/public_html/sar/direct/sonyericssonModelsArbiter.php");                           
         	$results_arr = sonyericssonModelsArbiter($brandName);
         	break;
     	default:
-        	include_once ("/home/fod/www/projects/isar/sar/direct/otherModelsArbiter.php");
+        	include_once ("/home/a2021051/public_html/sar/direct/otherModelsArbiter.php");
     	    $results_arr = otherModelsArbiter($brandName);   
 	}
 } else {
@@ -51,7 +51,7 @@ if ($brandName != "") {
 
 list ($modelName, $modelCategory, $sar, $addInfo) = $results_arr;
 
-include_once ("/home/fod/www/projects/isar/sar/direct/concatModelName.php");
+include_once ("/home/a2021051/public_html/sar/direct/concatModelName.php");
 
 $model = concatModelName($brandName, $modelName, $modelCategory);
 
