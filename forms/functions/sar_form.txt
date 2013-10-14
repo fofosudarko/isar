@@ -1,4 +1,0 @@
-POST name of brand
-POST model of device 
-POST type of device
-POST SAR of device if possible
